@@ -1,0 +1,859 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.1 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a -G -R
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    5.016756680052147
+    Node 3    1.8269090724737223
+    Node 4    1.2062881439359228
+    Node 5    -2.7810463952488744
+    Node 6    -3.802204376228708
+    Node 7    3.0276234451791626
+    Node 8    -4.748542012769236
+    Node 9    -4.974148945957063
+    Node 10    -6.511885419909238
+    Node 11    2.9091095631327817
+    Node 12    3.682253846509057
+    Node 13    -3.1368099699393857
+    Node 14    -5.225059578578481
+    Node 15    -3.669907574481773
+    Node 16    -4.0207945376692775
+    Node 17    -3.9798436634197647
+    Node 18    -5.646510320029575
+    Node 19    0.024100388314257058
+    Node 20    -1.015299256719067
+    Node 21    5.977908015862758
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.9916369075917063
+    Node 3    5.218224115121833
+    Node 4    3.7653924620370005
+    Node 5    -0.806808134059644
+    Node 6    -6.2299773124901385
+    Node 7    -7.030067712131447
+    Node 8    0.36971938834877605
+    Node 9    7.383603697292337
+    Node 10    -1.6130230121967946
+    Node 11    6.74058453316413
+    Node 12    -6.624724373702045
+    Node 13    6.194495184478581
+    Node 14    -5.176028342737146
+    Node 15    5.696594463992789
+    Node 16    -2.7186385058099627
+    Node 17    5.248666328505807
+    Node 18    -4.490193793204829
+    Node 19    -5.317928390614594
+    Node 20    -2.517753647457318
+    Node 21    -0.08392155076126182
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -5.812277433935755
+    Node 3    -6.347537475373512
+    Node 4    -5.350461428170251
+    Node 5    2.34628927565443
+    Node 6    8.44512938619887
+    Node 7    5.089055707630125
+    Node 8    2.5584978155719735
+    Node 9    -3.9816365799630886
+    Node 10    4.502747737097804
+    Node 11    -7.294709318103652
+    Node 12    4.510275908312525
+    Node 13    -3.5443796603357343
+    Node 14    6.701897665242165
+    Node 15    -3.4468429118037776
+    Node 16    5.257711490874907
+    Node 17    -4.324021136221714
+    Node 18    6.884531798208722
+    Node 19    4.237132138993831
+    Node 20    2.0898777491564218
+    Node 21    -3.4145591318584643
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.3885251708335323
+    Attrib Years_Since_Grad    -1.4573451670409743
+    Attrib Professional_Status=Currently seeking a job    -0.33136018634088904
+    Attrib Professional_Status=Employed    0.09550903945961821
+    Attrib Professional_Status=Founder / Entrepreneur    1.4730123761859337
+    Attrib Professional_Status=Higher studies    -0.325137554855228
+    Attrib Professional_Status=Not currently seeking    0.08559177380202666
+    Attrib Univ_Studies_Effect    -1.34411860449866
+    Attrib Help_Lecture    -0.11670016537194544
+    Attrib Help_Lab    -1.4365931031401975
+    Attrib Help_Thesis    1.071113215139062
+    Attrib Help_Club    1.0552829050035735
+    Attrib Help_Alumni    -0.7482480881850464
+    Attrib Club_Count    -3.4734846146562726
+    Attrib Internship_Exp    2.26726591100015
+    Attrib Projects_Built    0.8508680444213128
+    Attrib GitHub_Habit    -0.3377296269070515
+    Attrib Contest_Involvement    1.0786642429711848
+    Attrib Problem_Solving    0.5297474241485398
+    Attrib Current_Domain=Academia    0.25923528239919363
+    Attrib Current_Domain=Cybersecurity    3.2634480539713104
+    Attrib Current_Domain=Data Science / ML / AI    1.3754797511288712
+    Attrib Current_Domain=Database Administration    0.2999748247683837
+    Attrib Current_Domain=Entrepreneurship    -0.5743577815306562
+    Attrib Current_Domain=Government Service    -0.3532886461396899
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.20595150627309253
+    Attrib Current_Domain=Not Applicable    0.5413476715100042
+    Attrib Current_Domain=Software Engineer    -0.9057316375285341
+    Attrib Current_Domain=Web Developer    -1.1234208763328437
+    Attrib Domain_Switched    2.890264948286503
+    Attrib Domain_Shift_Intent    -2.3170752067953853
+    Attrib AI_Usage_Freq    -1.7110274366743259
+    Attrib AI_Concerns_Opinion=Concerned    2.873943938664031
+    Attrib AI_Concerns_Opinion=Neutral    -2.316766439989908
+    Attrib AI_Concerns_Opinion=Positive    -0.1503675918177641
+    Attrib AI_Reliance    -0.04750792353416075
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.7695952115276615
+    Attrib Years_Since_Grad    0.6992525801549795
+    Attrib Professional_Status=Currently seeking a job    -0.6359843772518867
+    Attrib Professional_Status=Employed    1.2409422028435668
+    Attrib Professional_Status=Founder / Entrepreneur    -0.5340262108725702
+    Attrib Professional_Status=Higher studies    1.855487069137814
+    Attrib Professional_Status=Not currently seeking    0.5558816743164785
+    Attrib Univ_Studies_Effect    0.09629350578559683
+    Attrib Help_Lecture    1.7946634776737787
+    Attrib Help_Lab    -0.06811641046210448
+    Attrib Help_Thesis    0.9467751250729913
+    Attrib Help_Club    -0.8872047661927143
+    Attrib Help_Alumni    0.9194350319918416
+    Attrib Club_Count    -1.6905539971928503
+    Attrib Internship_Exp    0.26708952349723564
+    Attrib Projects_Built    -0.7993427163522709
+    Attrib GitHub_Habit    -0.06519540464466739
+    Attrib Contest_Involvement    1.3312763082449377
+    Attrib Problem_Solving    -1.265468900191741
+    Attrib Current_Domain=Academia    0.3669751186755577
+    Attrib Current_Domain=Cybersecurity    0.19004924978017748
+    Attrib Current_Domain=Data Science / ML / AI    -0.6347096314604551
+    Attrib Current_Domain=Database Administration    1.1790601042730897
+    Attrib Current_Domain=Entrepreneurship    1.972944812792736
+    Attrib Current_Domain=Government Service    1.6728511874754635
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.9444552390515213
+    Attrib Current_Domain=Not Applicable    0.6262397051230829
+    Attrib Current_Domain=Software Engineer    1.1749082600999685
+    Attrib Current_Domain=Web Developer    -0.9890292948586863
+    Attrib Domain_Switched    -1.4475242509760562
+    Attrib Domain_Shift_Intent    2.438722073146055
+    Attrib AI_Usage_Freq    1.2536480031589254
+    Attrib AI_Concerns_Opinion=Concerned    -0.7100886485431742
+    Attrib AI_Concerns_Opinion=Neutral    1.5558258540962537
+    Attrib AI_Concerns_Opinion=Positive    -0.09533329205224847
+    Attrib AI_Reliance    1.6068281680993606
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.25910477801440585
+    Attrib Years_Since_Grad    0.634990723097463
+    Attrib Professional_Status=Currently seeking a job    0.1143942443690696
+    Attrib Professional_Status=Employed    -0.4848280803780824
+    Attrib Professional_Status=Founder / Entrepreneur    1.0114744750592
+    Attrib Professional_Status=Higher studies    0.18159510613602803
+    Attrib Professional_Status=Not currently seeking    0.03336986354353
+    Attrib Univ_Studies_Effect    -0.5490678639635566
+    Attrib Help_Lecture    -1.4769435095414865
+    Attrib Help_Lab    -0.5619689876710432
+    Attrib Help_Thesis    -1.0199344266567838
+    Attrib Help_Club    -0.6514327133310669
+    Attrib Help_Alumni    0.5113123385821788
+    Attrib Club_Count    0.9607165044482323
+    Attrib Internship_Exp    -0.1773507504565119
+    Attrib Projects_Built    -0.6857009292481154
+    Attrib GitHub_Habit    1.300913086958881
+    Attrib Contest_Involvement    0.4817576928397512
+    Attrib Problem_Solving    -0.6625593204409709
+    Attrib Current_Domain=Academia    0.17074728149414972
+    Attrib Current_Domain=Cybersecurity    1.0746775641272663
+    Attrib Current_Domain=Data Science / ML / AI    -0.0011610724750139028
+    Attrib Current_Domain=Database Administration    0.3479326165410792
+    Attrib Current_Domain=Entrepreneurship    0.37236568349058474
+    Attrib Current_Domain=Government Service    1.7230395406635672
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.4529197170228962
+    Attrib Current_Domain=Not Applicable    -0.5354018841079112
+    Attrib Current_Domain=Software Engineer    -1.2106546768206066
+    Attrib Current_Domain=Web Developer    -0.018605046056118086
+    Attrib Domain_Switched    -1.3769244402107046
+    Attrib Domain_Shift_Intent    0.9438687146898395
+    Attrib AI_Usage_Freq    0.8711816528590737
+    Attrib AI_Concerns_Opinion=Concerned    -0.3739983045578663
+    Attrib AI_Concerns_Opinion=Neutral    0.36399516765289763
+    Attrib AI_Concerns_Opinion=Positive    0.3458300292535427
+    Attrib AI_Reliance    0.05648105716178734
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.5310890000418891
+    Attrib Years_Since_Grad    -0.16826395926736706
+    Attrib Professional_Status=Currently seeking a job    -4.136300353288046
+    Attrib Professional_Status=Employed    3.0295032407767235
+    Attrib Professional_Status=Founder / Entrepreneur    0.6452206860718284
+    Attrib Professional_Status=Higher studies    1.3100565244317013
+    Attrib Professional_Status=Not currently seeking    0.6654198710328173
+    Attrib Univ_Studies_Effect    2.2995569981365653
+    Attrib Help_Lecture    -2.5524801103124055
+    Attrib Help_Lab    0.38095688045322074
+    Attrib Help_Thesis    0.4129762477809358
+    Attrib Help_Club    1.7503227252226627
+    Attrib Help_Alumni    0.26025526041888675
+    Attrib Club_Count    -1.3467734820310984
+    Attrib Internship_Exp    -3.356254412260844
+    Attrib Projects_Built    2.6161810416561364
+    Attrib GitHub_Habit    -1.013780735859455
+    Attrib Contest_Involvement    -1.6836852284449373
+    Attrib Problem_Solving    0.32152604684488906
+    Attrib Current_Domain=Academia    -1.2517898281423605
+    Attrib Current_Domain=Cybersecurity    3.9055117687494336
+    Attrib Current_Domain=Data Science / ML / AI    -0.5016968759775966
+    Attrib Current_Domain=Database Administration    -1.8330168756243863
+    Attrib Current_Domain=Entrepreneurship    1.9035358606006603
+    Attrib Current_Domain=Government Service    -0.6052336100200146
+    Attrib Current_Domain=Networking / DevOps / Cloud    -2.9026520138391634
+    Attrib Current_Domain=Not Applicable    0.5359700079263474
+    Attrib Current_Domain=Software Engineer    3.687707716985724
+    Attrib Current_Domain=Web Developer    1.348715925647238
+    Attrib Domain_Switched    1.0918417743021052
+    Attrib Domain_Shift_Intent    0.11969124936410523
+    Attrib AI_Usage_Freq    1.5114290298189248
+    Attrib AI_Concerns_Opinion=Concerned    1.7202411978305576
+    Attrib AI_Concerns_Opinion=Neutral    -2.626242817180577
+    Attrib AI_Concerns_Opinion=Positive    1.5163755727355877
+    Attrib AI_Reliance    2.0227983753362975
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.09583586268439631
+    Attrib Years_Since_Grad    1.2037227457485422
+    Attrib Professional_Status=Currently seeking a job    -2.5031499080913777
+    Attrib Professional_Status=Employed    2.416006565136585
+    Attrib Professional_Status=Founder / Entrepreneur    -0.20691035823362874
+    Attrib Professional_Status=Higher studies    -0.34114620980379873
+    Attrib Professional_Status=Not currently seeking    0.4298299445582784
+    Attrib Univ_Studies_Effect    -3.6678600671025046
+    Attrib Help_Lecture    -1.1874684936724345
+    Attrib Help_Lab    5.658748074345862
+    Attrib Help_Thesis    1.8835986175778627
+    Attrib Help_Club    0.867799165069746
+    Attrib Help_Alumni    -1.0361048799682473
+    Attrib Club_Count    0.5395555227171623
+    Attrib Internship_Exp    0.23311613482650978
+    Attrib Projects_Built    2.383459106297239
+    Attrib GitHub_Habit    -0.293387164884467
+    Attrib Contest_Involvement    -0.5747633319428953
+    Attrib Problem_Solving    2.1750659161198063
+    Attrib Current_Domain=Academia    -0.822692758947378
+    Attrib Current_Domain=Cybersecurity    1.3931022040302687
+    Attrib Current_Domain=Data Science / ML / AI    2.070101456739871
+    Attrib Current_Domain=Database Administration    -2.3359086869139243
+    Attrib Current_Domain=Entrepreneurship    -1.2693592989973583
+    Attrib Current_Domain=Government Service    -0.7378572700939646
+    Attrib Current_Domain=Networking / DevOps / Cloud    -2.5838142678490024
+    Attrib Current_Domain=Not Applicable    -0.09583504067028709
+    Attrib Current_Domain=Software Engineer    1.1803556977454486
+    Attrib Current_Domain=Web Developer    2.9004841821934155
+    Attrib Domain_Switched    -2.0346264087782107
+    Attrib Domain_Shift_Intent    0.5952465776622251
+    Attrib AI_Usage_Freq    0.5588582134512435
+    Attrib AI_Concerns_Opinion=Concerned    1.3772089864092025
+    Attrib AI_Concerns_Opinion=Neutral    0.027070542072502438
+    Attrib AI_Concerns_Opinion=Positive    -1.4515048170716822
+    Attrib AI_Reliance    -3.7117379238168553
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.3884796990992445
+    Attrib Years_Since_Grad    -0.49242166896593986
+    Attrib Professional_Status=Currently seeking a job    0.09960151932424793
+    Attrib Professional_Status=Employed    -1.0355712358265088
+    Attrib Professional_Status=Founder / Entrepreneur    2.6436864518621808
+    Attrib Professional_Status=Higher studies    0.1406956067458047
+    Attrib Professional_Status=Not currently seeking    -0.7215786453906383
+    Attrib Univ_Studies_Effect    0.1540374453416269
+    Attrib Help_Lecture    0.8823733623687422
+    Attrib Help_Lab    -0.3115434004725744
+    Attrib Help_Thesis    -1.5726838986665304
+    Attrib Help_Club    1.140383482711985
+    Attrib Help_Alumni    -0.6807176398085453
+    Attrib Club_Count    2.028251700323022
+    Attrib Internship_Exp    -0.21661590168328676
+    Attrib Projects_Built    0.182638287220562
+    Attrib GitHub_Habit    -1.0719421252769388
+    Attrib Contest_Involvement    0.7465903313164471
+    Attrib Problem_Solving    -0.3443002998614867
+    Attrib Current_Domain=Academia    0.3296277853232327
+    Attrib Current_Domain=Cybersecurity    -0.005004561231600614
+    Attrib Current_Domain=Data Science / ML / AI    1.115299458446594
+    Attrib Current_Domain=Database Administration    0.6316026045711377
+    Attrib Current_Domain=Entrepreneurship    -0.7350684396760581
+    Attrib Current_Domain=Government Service    0.8371352062817679
+    Attrib Current_Domain=Networking / DevOps / Cloud    1.2732373604715024
+    Attrib Current_Domain=Not Applicable    -0.6734549734225577
+    Attrib Current_Domain=Software Engineer    0.31170877045527645
+    Attrib Current_Domain=Web Developer    -0.20701100145206655
+    Attrib Domain_Switched    -2.420761879475756
+    Attrib Domain_Shift_Intent    1.063768388370343
+    Attrib AI_Usage_Freq    2.314673124846752
+    Attrib AI_Concerns_Opinion=Concerned    -0.21461853972741482
+    Attrib AI_Concerns_Opinion=Neutral    1.0694572748585165
+    Attrib AI_Concerns_Opinion=Positive    -0.4569544945008477
+    Attrib AI_Reliance    -0.4957446508277407
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.25216523837031724
+    Attrib Years_Since_Grad    0.20386728660308817
+    Attrib Professional_Status=Currently seeking a job    -0.15010544952459953
+    Attrib Professional_Status=Employed    0.8911975763803719
+    Attrib Professional_Status=Founder / Entrepreneur    0.1186308935979787
+    Attrib Professional_Status=Higher studies    0.7215556031853445
+    Attrib Professional_Status=Not currently seeking    -2.2836926665959334
+    Attrib Univ_Studies_Effect    2.0235509709543757
+    Attrib Help_Lecture    3.2308518858798734
+    Attrib Help_Lab    -1.1573195515327908
+    Attrib Help_Thesis    1.7472148624228816
+    Attrib Help_Club    0.11016819507859738
+    Attrib Help_Alumni    -0.816936370393959
+    Attrib Club_Count    0.5100442178453861
+    Attrib Internship_Exp    -0.9291395014796971
+    Attrib Projects_Built    -0.01126607779418367
+    Attrib GitHub_Habit    1.6156986108584495
+    Attrib Contest_Involvement    0.011185322948071492
+    Attrib Problem_Solving    -1.9109407116188368
+    Attrib Current_Domain=Academia    0.16371842084547325
+    Attrib Current_Domain=Cybersecurity    1.16955954098317
+    Attrib Current_Domain=Data Science / ML / AI    -0.03457353794646925
+    Attrib Current_Domain=Database Administration    0.7769221183568743
+    Attrib Current_Domain=Entrepreneurship    -3.8555577748215257
+    Attrib Current_Domain=Government Service    1.4797129761971768
+    Attrib Current_Domain=Networking / DevOps / Cloud    -0.3435965756189873
+    Attrib Current_Domain=Not Applicable    -0.9519742340966015
+    Attrib Current_Domain=Software Engineer    1.0204139968403925
+    Attrib Current_Domain=Web Developer    -1.3652395864215208
+    Attrib Domain_Switched    1.3800586431977115
+    Attrib Domain_Shift_Intent    -0.3524154385388146
+    Attrib AI_Usage_Freq    -1.78404860658523
+    Attrib AI_Concerns_Opinion=Concerned    -1.8812275624710963
+    Attrib AI_Concerns_Opinion=Neutral    -0.11026134242767882
+    Attrib AI_Concerns_Opinion=Positive    1.680598737414099
+    Attrib AI_Reliance    -2.7019363030818555
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.8189259553838893
+    Attrib Years_Since_Grad    0.6080742169612147
+    Attrib Professional_Status=Currently seeking a job    -1.425814242069478
+    Attrib Professional_Status=Employed    2.732100553195313
+    Attrib Professional_Status=Founder / Entrepreneur    -0.29245384041229583
+    Attrib Professional_Status=Higher studies    0.0041099862229013
+    Attrib Professional_Status=Not currently seeking    1.3653978800646582
+    Attrib Univ_Studies_Effect    -1.9982657301401243
+    Attrib Help_Lecture    1.6233243452197916
+    Attrib Help_Lab    0.1957373555626668
+    Attrib Help_Thesis    0.8601952425536548
+    Attrib Help_Club    1.883098541103262
+    Attrib Help_Alumni    0.25894532004554643
+    Attrib Club_Count    -0.42830937793187146
+    Attrib Internship_Exp    -0.19991811813321544
+    Attrib Projects_Built    -0.12766377080677357
+    Attrib GitHub_Habit    0.8242569279415707
+    Attrib Contest_Involvement    0.011922618538894062
+    Attrib Problem_Solving    -1.4726489312043438
+    Attrib Current_Domain=Academia    3.030543122585574
+    Attrib Current_Domain=Cybersecurity    0.14369055942280573
+    Attrib Current_Domain=Data Science / ML / AI    1.1177354494440408
+    Attrib Current_Domain=Database Administration    0.8034305342249274
+    Attrib Current_Domain=Entrepreneurship    0.5673794020517434
+    Attrib Current_Domain=Government Service    0.9029626254573581
+    Attrib Current_Domain=Networking / DevOps / Cloud    -0.6615155385658077
+    Attrib Current_Domain=Not Applicable    0.6117832188290753
+    Attrib Current_Domain=Software Engineer    3.115088879770017
+    Attrib Current_Domain=Web Developer    -3.16495545071386
+    Attrib Domain_Switched    -0.14119881175302965
+    Attrib Domain_Shift_Intent    -3.249430617881111
+    Attrib AI_Usage_Freq    -0.010043712746834889
+    Attrib AI_Concerns_Opinion=Concerned    0.8515511957092633
+    Attrib AI_Concerns_Opinion=Neutral    -1.5190679562296774
+    Attrib AI_Concerns_Opinion=Positive    1.4096555811017666
+    Attrib AI_Reliance    -0.7966773397767778
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.8071625648886424
+    Attrib Years_Since_Grad    -0.8374240985922209
+    Attrib Professional_Status=Currently seeking a job    -0.3302404058556281
+    Attrib Professional_Status=Employed    1.4666225348873858
+    Attrib Professional_Status=Founder / Entrepreneur    -2.048780780719273
+    Attrib Professional_Status=Higher studies    3.686604721071027
+    Attrib Professional_Status=Not currently seeking    -0.4543859709163744
+    Attrib Univ_Studies_Effect    -2.9019165443885506
+    Attrib Help_Lecture    2.031587710931913
+    Attrib Help_Lab    0.5027851361593794
+    Attrib Help_Thesis    2.54941326308549
+    Attrib Help_Club    2.39507519742506
+    Attrib Help_Alumni    2.8384110448408264
+    Attrib Club_Count    1.4982321069823297
+    Attrib Internship_Exp    -2.873680668682784
+    Attrib Projects_Built    -2.2159997440941175
+    Attrib GitHub_Habit    -0.5058471340726849
+    Attrib Contest_Involvement    -0.20632945941050523
+    Attrib Problem_Solving    -1.2327319162501673
+    Attrib Current_Domain=Academia    1.3015239383530957
+    Attrib Current_Domain=Cybersecurity    1.0376403802197198
+    Attrib Current_Domain=Data Science / ML / AI    0.3714221334049663
+    Attrib Current_Domain=Database Administration    0.6788092271457955
+    Attrib Current_Domain=Entrepreneurship    0.36652298275454004
+    Attrib Current_Domain=Government Service    0.6209228721145259
+    Attrib Current_Domain=Networking / DevOps / Cloud    -1.3919574961905552
+    Attrib Current_Domain=Not Applicable    0.9780269600092122
+    Attrib Current_Domain=Software Engineer    1.537273095898901
+    Attrib Current_Domain=Web Developer    0.6326010732211721
+    Attrib Domain_Switched    0.26027320460507053
+    Attrib Domain_Shift_Intent    0.9088250343191102
+    Attrib AI_Usage_Freq    1.9026528786644676
+    Attrib AI_Concerns_Opinion=Concerned    0.017601835929201937
+    Attrib AI_Concerns_Opinion=Neutral    -0.4428633133168216
+    Attrib AI_Concerns_Opinion=Positive    1.1245007425510438
+    Attrib AI_Reliance    2.6492584642106554
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.4441716909777123
+    Attrib Years_Since_Grad    0.7899829538321351
+    Attrib Professional_Status=Currently seeking a job    1.5938125992037762
+    Attrib Professional_Status=Employed    -0.2158172252285472
+    Attrib Professional_Status=Founder / Entrepreneur    -0.09556408706257112
+    Attrib Professional_Status=Higher studies    0.4165640613396654
+    Attrib Professional_Status=Not currently seeking    -0.3466931198140622
+    Attrib Univ_Studies_Effect    0.6802591987757298
+    Attrib Help_Lecture    2.9518657219595217
+    Attrib Help_Lab    0.667230429794839
+    Attrib Help_Thesis    1.9638079185669122
+    Attrib Help_Club    0.7949872648490756
+    Attrib Help_Alumni    -0.19870082331607886
+    Attrib Club_Count    1.715120837811307
+    Attrib Internship_Exp    2.7087533673631383
+    Attrib Projects_Built    0.8598383305988936
+    Attrib GitHub_Habit    1.476941793996609
+    Attrib Contest_Involvement    2.278566222557909
+    Attrib Problem_Solving    -0.7791832818152394
+    Attrib Current_Domain=Academia    0.32881285393145376
+    Attrib Current_Domain=Cybersecurity    1.0560526632927807
+    Attrib Current_Domain=Data Science / ML / AI    2.0995171097542586
+    Attrib Current_Domain=Database Administration    1.0048261923780495
+    Attrib Current_Domain=Entrepreneurship    -0.11857295286689613
+    Attrib Current_Domain=Government Service    1.8200389498553873
+    Attrib Current_Domain=Networking / DevOps / Cloud    -1.1313801749272079
+    Attrib Current_Domain=Not Applicable    0.22374396797352808
+    Attrib Current_Domain=Software Engineer    -1.4808736434248684
+    Attrib Current_Domain=Web Developer    -0.3447241078401552
+    Attrib Domain_Switched    -1.2027496386097303
+    Attrib Domain_Shift_Intent    -1.4687905962767394
+    Attrib AI_Usage_Freq    0.11569267096576678
+    Attrib AI_Concerns_Opinion=Concerned    -0.09492442220895088
+    Attrib AI_Concerns_Opinion=Neutral    0.17355469949535648
+    Attrib AI_Concerns_Opinion=Positive    0.4086677860530716
+    Attrib AI_Reliance    -2.3964344880358714
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.23891572533253583
+    Attrib Years_Since_Grad    -0.06396651956269754
+    Attrib Professional_Status=Currently seeking a job    -1.7082465152874418
+    Attrib Professional_Status=Employed    0.7300119352067178
+    Attrib Professional_Status=Founder / Entrepreneur    2.392312497070398
+    Attrib Professional_Status=Higher studies    -1.487265678129992
+    Attrib Professional_Status=Not currently seeking    0.6194663618495954
+    Attrib Univ_Studies_Effect    -0.520958949671424
+    Attrib Help_Lecture    -2.532239561181586
+    Attrib Help_Lab    3.597668294083692
+    Attrib Help_Thesis    1.1110411509174656
+    Attrib Help_Club    -1.6666527779960432
+    Attrib Help_Alumni    -1.7709343566419076
+    Attrib Club_Count    1.0044499174158263
+    Attrib Internship_Exp    -0.2993234493450055
+    Attrib Projects_Built    2.203232004778673
+    Attrib GitHub_Habit    -0.7958105510109935
+    Attrib Contest_Involvement    -1.206257950743645
+    Attrib Problem_Solving    -0.8000575554486009
+    Attrib Current_Domain=Academia    -0.2526270256466404
+    Attrib Current_Domain=Cybersecurity    2.0411575263347532
+    Attrib Current_Domain=Data Science / ML / AI    2.1364361927056486
+    Attrib Current_Domain=Database Administration    -0.37111395968541494
+    Attrib Current_Domain=Entrepreneurship    0.7429677120638056
+    Attrib Current_Domain=Government Service    0.5639682291854079
+    Attrib Current_Domain=Networking / DevOps / Cloud    -1.3317224997729584
+    Attrib Current_Domain=Not Applicable    0.6566547272236772
+    Attrib Current_Domain=Software Engineer    -1.33638566436926
+    Attrib Current_Domain=Web Developer    -1.3546389761162163
+    Attrib Domain_Switched    0.4212148477471877
+    Attrib Domain_Shift_Intent    0.9466178877916845
+    Attrib AI_Usage_Freq    -0.08464135268034564
+    Attrib AI_Concerns_Opinion=Concerned    0.7297224260974927
+    Attrib AI_Concerns_Opinion=Neutral    -0.5284183879396618
+    Attrib AI_Concerns_Opinion=Positive    -0.032619834305328194
+    Attrib AI_Reliance    -2.2514184959645234
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.14442987647211575
+    Attrib Years_Since_Grad    -1.8883764852984926
+    Attrib Professional_Status=Currently seeking a job    0.8394065790253827
+    Attrib Professional_Status=Employed    -0.3047301503255578
+    Attrib Professional_Status=Founder / Entrepreneur    -1.2613891946004347
+    Attrib Professional_Status=Higher studies    1.676759420970371
+    Attrib Professional_Status=Not currently seeking    -0.6136455903711032
+    Attrib Univ_Studies_Effect    -4.240855482186899
+    Attrib Help_Lecture    0.7098992998218558
+    Attrib Help_Lab    1.4587058062801594
+    Attrib Help_Thesis    1.9338298758131167
+    Attrib Help_Club    2.788823152081905
+    Attrib Help_Alumni    0.2943858331959932
+    Attrib Club_Count    1.535702778874926
+    Attrib Internship_Exp    0.7774726391204424
+    Attrib Projects_Built    -2.3101136344835953
+    Attrib GitHub_Habit    2.373473866941202
+    Attrib Contest_Involvement    -3.4434286457684458
+    Attrib Problem_Solving    -0.18693520703115604
+    Attrib Current_Domain=Academia    0.39775627006974923
+    Attrib Current_Domain=Cybersecurity    1.6009865401154317
+    Attrib Current_Domain=Data Science / ML / AI    1.7784666919086045
+    Attrib Current_Domain=Database Administration    -1.1622432597986045
+    Attrib Current_Domain=Entrepreneurship    2.0555848972640307
+    Attrib Current_Domain=Government Service    -0.7254523155794012
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.26377780668504924
+    Attrib Current_Domain=Not Applicable    -0.17708690880457298
+    Attrib Current_Domain=Software Engineer    -1.958296418722356
+    Attrib Current_Domain=Web Developer    -0.931444978219853
+    Attrib Domain_Switched    1.5387877791827596
+    Attrib Domain_Shift_Intent    -1.894145056674015
+    Attrib AI_Usage_Freq    -0.7267431953856253
+    Attrib AI_Concerns_Opinion=Concerned    0.19465700466470373
+    Attrib AI_Concerns_Opinion=Neutral    0.42157550244397174
+    Attrib AI_Concerns_Opinion=Positive    -0.4739934511176032
+    Attrib AI_Reliance    -1.6595140587436912
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.4070003774037608
+    Attrib Years_Since_Grad    0.7601649934296998
+    Attrib Professional_Status=Currently seeking a job    -1.1455240615637046
+    Attrib Professional_Status=Employed    0.23892909897971196
+    Attrib Professional_Status=Founder / Entrepreneur    -0.4519247374691925
+    Attrib Professional_Status=Higher studies    2.43452990063815
+    Attrib Professional_Status=Not currently seeking    0.2549585096645513
+    Attrib Univ_Studies_Effect    -0.5683942206732355
+    Attrib Help_Lecture    2.808147832970392
+    Attrib Help_Lab    1.4759267201855986
+    Attrib Help_Thesis    -2.519935542872365
+    Attrib Help_Club    1.4881672171577645
+    Attrib Help_Alumni    1.3359907402596014
+    Attrib Club_Count    -1.82657322149358
+    Attrib Internship_Exp    1.2030272070793588
+    Attrib Projects_Built    -1.4925688448781111
+    Attrib GitHub_Habit    -0.7399215798739366
+    Attrib Contest_Involvement    2.9974374521600824
+    Attrib Problem_Solving    1.0543762518366147
+    Attrib Current_Domain=Academia    -1.2390303550032433
+    Attrib Current_Domain=Cybersecurity    1.6287326769632164
+    Attrib Current_Domain=Data Science / ML / AI    -0.9960994647244348
+    Attrib Current_Domain=Database Administration    0.8074425105353564
+    Attrib Current_Domain=Entrepreneurship    0.10132597541295076
+    Attrib Current_Domain=Government Service    0.4880517675805434
+    Attrib Current_Domain=Networking / DevOps / Cloud    2.7069259618676473
+    Attrib Current_Domain=Not Applicable    0.6566403469720454
+    Attrib Current_Domain=Software Engineer    -0.19185860622550324
+    Attrib Current_Domain=Web Developer    -0.8524849135450988
+    Attrib Domain_Switched    1.2531029567115202
+    Attrib Domain_Shift_Intent    1.625467911442893
+    Attrib AI_Usage_Freq    1.4171366682577284
+    Attrib AI_Concerns_Opinion=Concerned    -0.42705765823062025
+    Attrib AI_Concerns_Opinion=Neutral    1.6564886032346997
+    Attrib AI_Concerns_Opinion=Positive    -0.8577825259205223
+    Attrib AI_Reliance    0.02444408788086244
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.5336644849613387
+    Attrib Years_Since_Grad    -0.3476499354550855
+    Attrib Professional_Status=Currently seeking a job    0.658058824653178
+    Attrib Professional_Status=Employed    0.4974144495781073
+    Attrib Professional_Status=Founder / Entrepreneur    1.9298140411899667
+    Attrib Professional_Status=Higher studies    -2.1097686365783375
+    Attrib Professional_Status=Not currently seeking    0.6879012760783194
+    Attrib Univ_Studies_Effect    1.0290814062734202
+    Attrib Help_Lecture    -0.5239821350488962
+    Attrib Help_Lab    0.9073530358951186
+    Attrib Help_Thesis    1.0971918789206028
+    Attrib Help_Club    -3.4223365005640107
+    Attrib Help_Alumni    1.2491295787870924
+    Attrib Club_Count    -0.8466302680819585
+    Attrib Internship_Exp    -1.893473520457647
+    Attrib Projects_Built    -2.462638682018958
+    Attrib GitHub_Habit    -1.753251366218487
+    Attrib Contest_Involvement    2.7736931565224414
+    Attrib Problem_Solving    -1.5323298256280113
+    Attrib Current_Domain=Academia    0.659007252523076
+    Attrib Current_Domain=Cybersecurity    0.20599164083882168
+    Attrib Current_Domain=Data Science / ML / AI    -0.5150950616749926
+    Attrib Current_Domain=Database Administration    0.20713627553240216
+    Attrib Current_Domain=Entrepreneurship    -0.9816263689214885
+    Attrib Current_Domain=Government Service    1.4846768692717716
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.4425216056160345
+    Attrib Current_Domain=Not Applicable    0.16631703704098402
+    Attrib Current_Domain=Software Engineer    0.7103061207055058
+    Attrib Current_Domain=Web Developer    2.252003192892932
+    Attrib Domain_Switched    -0.9098818705179073
+    Attrib Domain_Shift_Intent    -0.039684500755012064
+    Attrib AI_Usage_Freq    1.468166425165992
+    Attrib AI_Concerns_Opinion=Concerned    -2.2552161699601267
+    Attrib AI_Concerns_Opinion=Neutral    0.7386907798743112
+    Attrib AI_Concerns_Opinion=Positive    2.114365087946107
+    Attrib AI_Reliance    -0.21566692857604347
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -0.10738363071824994
+    Attrib Years_Since_Grad    0.8542578149276295
+    Attrib Professional_Status=Currently seeking a job    -0.8257627046810287
+    Attrib Professional_Status=Employed    -1.9293320107230405
+    Attrib Professional_Status=Founder / Entrepreneur    1.1713324318607232
+    Attrib Professional_Status=Higher studies    2.031078613264203
+    Attrib Professional_Status=Not currently seeking    -0.09280172293789693
+    Attrib Univ_Studies_Effect    -2.2120124631498435
+    Attrib Help_Lecture    -1.4162387114386106
+    Attrib Help_Lab    0.7661282382177506
+    Attrib Help_Thesis    -1.738781728730349
+    Attrib Help_Club    -0.7631965478844009
+    Attrib Help_Alumni    1.457855688484253
+    Attrib Club_Count    1.1373994188891128
+    Attrib Internship_Exp    0.03117713152423315
+    Attrib Projects_Built    1.4562349627851086
+    Attrib GitHub_Habit    -0.58564489311093
+    Attrib Contest_Involvement    -1.2381990505033493
+    Attrib Problem_Solving    -0.1272594047386232
+    Attrib Current_Domain=Academia    -1.5716234966672706
+    Attrib Current_Domain=Cybersecurity    0.3807599121743948
+    Attrib Current_Domain=Data Science / ML / AI    1.7800353753899836
+    Attrib Current_Domain=Database Administration    -0.5213766130552082
+    Attrib Current_Domain=Entrepreneurship    0.22332829512922547
+    Attrib Current_Domain=Government Service    -1.1499134231684878
+    Attrib Current_Domain=Networking / DevOps / Cloud    -1.7533322032042824
+    Attrib Current_Domain=Not Applicable    -0.2722909634932865
+    Attrib Current_Domain=Software Engineer    0.168866535952713
+    Attrib Current_Domain=Web Developer    3.5413422606013003
+    Attrib Domain_Switched    -3.5318650344779297
+    Attrib Domain_Shift_Intent    -0.13239939113163912
+    Attrib AI_Usage_Freq    -0.6469974179524569
+    Attrib AI_Concerns_Opinion=Concerned    1.4983116256847144
+    Attrib AI_Concerns_Opinion=Neutral    -1.9033153351253844
+    Attrib AI_Concerns_Opinion=Positive    0.4780334220690892
+    Attrib AI_Reliance    -2.714636860494501
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -0.4809997564700109
+    Attrib Years_Since_Grad    1.9762271555218132
+    Attrib Professional_Status=Currently seeking a job    -2.2249709072889585
+    Attrib Professional_Status=Employed    0.13634909381260343
+    Attrib Professional_Status=Founder / Entrepreneur    1.277223202309602
+    Attrib Professional_Status=Higher studies    2.352591388230734
+    Attrib Professional_Status=Not currently seeking    -0.2341824235627624
+    Attrib Univ_Studies_Effect    0.04047272380623088
+    Attrib Help_Lecture    3.3745260685785357
+    Attrib Help_Lab    1.0654096444790335
+    Attrib Help_Thesis    1.6609060164055962
+    Attrib Help_Club    -2.1044311568732152
+    Attrib Help_Alumni    0.392871076231613
+    Attrib Club_Count    3.7091984013134884
+    Attrib Internship_Exp    0.6787893540223671
+    Attrib Projects_Built    1.508379007603215
+    Attrib GitHub_Habit    -1.1482536605971352
+    Attrib Contest_Involvement    -1.5119121015219559
+    Attrib Problem_Solving    1.2400550843362093
+    Attrib Current_Domain=Academia    1.3972616497366954
+    Attrib Current_Domain=Cybersecurity    0.8623321782171528
+    Attrib Current_Domain=Data Science / ML / AI    2.8501160399881136
+    Attrib Current_Domain=Database Administration    1.5275257783516405
+    Attrib Current_Domain=Entrepreneurship    1.2504523227044124
+    Attrib Current_Domain=Government Service    -1.8402576402743975
+    Attrib Current_Domain=Networking / DevOps / Cloud    -0.6561749578049882
+    Attrib Current_Domain=Not Applicable    0.7742312918364824
+    Attrib Current_Domain=Software Engineer    0.11359256372300605
+    Attrib Current_Domain=Web Developer    -2.4999704861140666
+    Attrib Domain_Switched    1.6266113166143323
+    Attrib Domain_Shift_Intent    0.5125365618950218
+    Attrib AI_Usage_Freq    -0.3920548362487825
+    Attrib AI_Concerns_Opinion=Concerned    1.7020746632718702
+    Attrib AI_Concerns_Opinion=Neutral    0.4894001315628347
+    Attrib AI_Concerns_Opinion=Positive    -1.6546768687710804
+    Attrib AI_Reliance    2.096892162894666
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -0.029286762026563815
+    Attrib Years_Since_Grad    0.21333305523435653
+    Attrib Professional_Status=Currently seeking a job    1.5967775749144517
+    Attrib Professional_Status=Employed    -1.3533840711743412
+    Attrib Professional_Status=Founder / Entrepreneur    0.8306975180288555
+    Attrib Professional_Status=Higher studies    -0.9819453676231391
+    Attrib Professional_Status=Not currently seeking    0.009737569702014793
+    Attrib Univ_Studies_Effect    -0.8841763373420982
+    Attrib Help_Lecture    0.1978736035286222
+    Attrib Help_Lab    1.3820070211387772
+    Attrib Help_Thesis    0.40755162176453347
+    Attrib Help_Club    0.4375488390406382
+    Attrib Help_Alumni    0.8997940268885868
+    Attrib Club_Count    -1.1114072910134933
+    Attrib Internship_Exp    -1.546560793259479
+    Attrib Projects_Built    -1.6691486502105846
+    Attrib GitHub_Habit    -0.822040393980685
+    Attrib Contest_Involvement    2.5679971627277998
+    Attrib Problem_Solving    0.1308220653250389
+    Attrib Current_Domain=Academia    1.8850521008858125
+    Attrib Current_Domain=Cybersecurity    0.25988672318091743
+    Attrib Current_Domain=Data Science / ML / AI    0.12663889209393303
+    Attrib Current_Domain=Database Administration    0.025818058815523293
+    Attrib Current_Domain=Entrepreneurship    -0.5658335595196823
+    Attrib Current_Domain=Government Service    0.46850705651137825
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.3931770035762396
+    Attrib Current_Domain=Not Applicable    0.4318897981229547
+    Attrib Current_Domain=Software Engineer    -0.9744948762846117
+    Attrib Current_Domain=Web Developer    -1.6237076818030174
+    Attrib Domain_Switched    0.9096118019773453
+    Attrib Domain_Shift_Intent    0.6802038390732623
+    Attrib AI_Usage_Freq    -0.11187694345668332
+    Attrib AI_Concerns_Opinion=Concerned    -0.29660366866540644
+    Attrib AI_Concerns_Opinion=Neutral    -1.6450933694622227
+    Attrib AI_Concerns_Opinion=Positive    1.9477833662197024
+    Attrib AI_Reliance    -0.9882952202042707
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    0.013407001206538094
+    Attrib Years_Since_Grad    -0.23813628926564986
+    Attrib Professional_Status=Currently seeking a job    -0.22081794854543646
+    Attrib Professional_Status=Employed    -0.5607018384920659
+    Attrib Professional_Status=Founder / Entrepreneur    1.0818741684679543
+    Attrib Professional_Status=Higher studies    -0.19987848087728605
+    Attrib Professional_Status=Not currently seeking    0.018221287431824593
+    Attrib Univ_Studies_Effect    0.21680648932747315
+    Attrib Help_Lecture    -0.3301270349738419
+    Attrib Help_Lab    -1.0714244891846438
+    Attrib Help_Thesis    -0.2508599140516392
+    Attrib Help_Club    -0.3201769737400165
+    Attrib Help_Alumni    1.1243813171342327
+    Attrib Club_Count    0.6969638646908275
+    Attrib Internship_Exp    0.10601062053237754
+    Attrib Projects_Built    -0.31999273278633056
+    Attrib GitHub_Habit    0.4896892458927685
+    Attrib Contest_Involvement    -0.8543721321575708
+    Attrib Problem_Solving    -0.44199033695469386
+    Attrib Current_Domain=Academia    -0.21641328045643982
+    Attrib Current_Domain=Cybersecurity    0.9769634168969275
+    Attrib Current_Domain=Data Science / ML / AI    -0.1207654046516212
+    Attrib Current_Domain=Database Administration    -0.13687401612649222
+    Attrib Current_Domain=Entrepreneurship    0.7960622946328181
+    Attrib Current_Domain=Government Service    1.1396036838123018
+    Attrib Current_Domain=Networking / DevOps / Cloud    0.14647957708632625
+    Attrib Current_Domain=Not Applicable    -0.4902667319778668
+    Attrib Current_Domain=Software Engineer    -1.788621858207174
+    Attrib Current_Domain=Web Developer    -0.1673607026644461
+    Attrib Domain_Switched    0.023165994094208196
+    Attrib Domain_Shift_Intent    1.2391811923496296
+    Attrib AI_Usage_Freq    -0.18497198986437546
+    Attrib AI_Concerns_Opinion=Concerned    0.3601884615935115
+    Attrib AI_Concerns_Opinion=Neutral    0.22290594692798915
+    Attrib AI_Concerns_Opinion=Positive    -0.4623462442603111
+    Attrib AI_Reliance    -0.5431306613449174
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -0.3218838750554501
+    Attrib Years_Since_Grad    -0.346272774923748
+    Attrib Professional_Status=Currently seeking a job    0.9631177444780552
+    Attrib Professional_Status=Employed    0.44368839067633675
+    Attrib Professional_Status=Founder / Entrepreneur    0.6154702426766068
+    Attrib Professional_Status=Higher studies    -0.792429038745859
+    Attrib Professional_Status=Not currently seeking    -0.2847037056432366
+    Attrib Univ_Studies_Effect    -0.36605758682780415
+    Attrib Help_Lecture    2.3423994012329974
+    Attrib Help_Lab    0.3081631745859797
+    Attrib Help_Thesis    -0.9883311888868292
+    Attrib Help_Club    0.0715898809137912
+    Attrib Help_Alumni    -1.6564082019928656
+    Attrib Club_Count    0.4958481338428108
+    Attrib Internship_Exp    -0.8173598175877382
+    Attrib Projects_Built    0.3432705277369182
+    Attrib GitHub_Habit    -2.665059061444327
+    Attrib Contest_Involvement    -0.849807870234111
+    Attrib Problem_Solving    1.0606646938392812
+    Attrib Current_Domain=Academia    0.26865569574037235
+    Attrib Current_Domain=Cybersecurity    0.7331369472638628
+    Attrib Current_Domain=Data Science / ML / AI    -0.22232164453720343
+    Attrib Current_Domain=Database Administration    -0.583771627733227
+    Attrib Current_Domain=Entrepreneurship    0.9422564118403967
+    Attrib Current_Domain=Government Service    2.0321494901413777
+    Attrib Current_Domain=Networking / DevOps / Cloud    1.6058845323658664
+    Attrib Current_Domain=Not Applicable    0.15352223036530696
+    Attrib Current_Domain=Software Engineer    0.4700674296108575
+    Attrib Current_Domain=Web Developer    -2.620324888358607
+    Attrib Domain_Switched    1.832369320477798
+    Attrib Domain_Shift_Intent    1.2691616711898612
+    Attrib AI_Usage_Freq    -0.23164266632200498
+    Attrib AI_Concerns_Opinion=Concerned    0.002123517579351052
+    Attrib AI_Concerns_Opinion=Neutral    -1.2507495162179922
+    Attrib AI_Concerns_Opinion=Positive    1.5184790627451308
+    Attrib AI_Reliance    0.02354029822200121
+Class Low
+    Input
+    Node 0
+Class Medium
+    Input
+    Node 1
+Class High
+    Input
+    Node 2
+
+
+Time taken to build model: 32.31 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         306               62.1951 %
+Incorrectly Classified Instances       186               37.8049 %
+Kappa statistic                          0.0539
+Mean absolute error                      0.3846
+Root mean squared error                  0.4762
+Relative absolute error                115.4239 %
+Root relative squared error            116.8139 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.060    0.016    0.300      0.060    0.100      0.095    0.584     0.162     Low
+                 0.144    0.102    0.309      0.144    0.197      0.058    0.522     0.275     Medium
+                 0.883    0.839    0.670      0.883    0.762      0.061    0.549     0.695     High
+Weighted Avg.    0.622    0.579    0.546      0.622    0.559      0.063    0.546     0.540     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   3   5  42 |   a = Low
+   2  17  99 |   b = Medium
+   5  33 286 |   c = High
+

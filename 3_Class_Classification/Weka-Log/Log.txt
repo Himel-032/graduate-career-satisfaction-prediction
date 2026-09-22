@@ -1,0 +1,94 @@
+14:48:55: Weka Explorer
+14:48:55: (c) 1999-2022 The University of Waikato, Hamilton, New Zealand
+14:48:55: web: https://www.cs.waikato.ac.nz/~ml/weka/
+14:48:55: Started on Saturday, 5 September 2026
+14:54:39: Base relation is now career_satisfaction_3class_classification (492 instances)
+14:57:37: Command: weka.filters.unsupervised.attribute.Standardize -unset-class-temporarily
+14:57:37: Base relation is now career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily (492 instances)
+14:59:31: Started weka.classifiers.functions.Logistic
+14:59:31: Command: weka.classifiers.functions.Logistic -R 1.0E-8 -M 1000 -num-decimal-places 4
+14:59:31: Finished weka.classifiers.functions.Logistic
+15:00:25: Saved model (14:59:31 - functions.Logistic) to file 'Logistic_regression.model'
+15:02:14: Started weka.classifiers.functions.Logistic
+15:02:14: Command: weka.classifiers.functions.Logistic -R 1.0 -M 1000 -num-decimal-places 4
+15:02:15: Finished weka.classifiers.functions.Logistic
+15:02:46: Saved model (15:02:14 - functions.Logistic) to file 'Ridge_Classifier.model'
+15:04:46: Started weka.classifiers.functions.SMO
+15:04:46: Command: weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -M -V -1 -W 1 -K "weka.classifiers.functions.supportVector.RBFKernel -C 250007 -G 0.01" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+15:04:46: Finished weka.classifiers.functions.SMO
+15:05:14: Saved model (15:04:46 - functions.SMO) to file 'Support_Vector_Machine_RBF_Kernel.model'
+15:08:41: Started weka.classifiers.lazy.IBk
+15:08:41: Command: weka.classifiers.lazy.IBk -K 5 -W 0 -I -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+15:08:41: Finished weka.classifiers.lazy.IBk
+15:09:53: Saved model (15:08:41 - lazy.IBk) to file 'KNN_IBk.model'
+15:11:09: Started weka.classifiers.bayes.NaiveBayes
+15:11:09: Command: weka.classifiers.bayes.NaiveBayes 
+15:11:09: Finished weka.classifiers.bayes.NaiveBayes
+15:11:56: Saved model (15:11:09 - bayes.NaiveBayes) to file 'Naive_Bayes_Gaussian.model'
+15:13:37: Started weka.classifiers.functions.MultilayerPerceptron
+15:13:37: Command: weka.classifiers.functions.MultilayerPerceptron -L 0.1 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a -G -R
+15:16:40: Finished weka.classifiers.functions.MultilayerPerceptron
+15:17:28: Saved model (15:13:37 - functions.MultilayerPerceptron) to file 'Multi_Layer_Perceptron.model'
+15:18:22: Started weka.classifiers.trees.J48
+15:18:22: Command: weka.classifiers.trees.J48 -C 0.25 -M 5
+15:18:22: Finished weka.classifiers.trees.J48
+15:18:47: Saved model (15:18:22 - trees.J48) to file 'Decision_Tree_J48.model'
+15:19:02: Loaded model from file 'Decision_Tree_J48.model'
+15:19:06: Started weka.classifiers.trees.J48
+15:19:06: Command: weka.classifiers.trees.J48 -C 0.25 -M 5
+15:19:06: Finished weka.classifiers.trees.J48
+15:19:38: Started weka.classifiers.trees.J48
+15:19:38: Command: weka.classifiers.trees.J48 -C 0.25 -M 5
+15:19:38: Finished weka.classifiers.trees.J48
+15:20:01: Saved model (15:19:38 - trees.J48) to file 'Decision_Tree_J48.model'
+15:21:22: Started weka.classifiers.trees.RandomForest
+15:21:22: Command: weka.classifiers.trees.RandomForest -P 100 -I 150 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+15:21:22: Finished weka.classifiers.trees.RandomForest
+15:21:42: Started weka.classifiers.trees.RandomForest
+15:21:42: Command: weka.classifiers.trees.RandomForest -P 100 -I 150 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 5
+15:21:42: Finished weka.classifiers.trees.RandomForest
+15:22:06: Saved model (15:21:42 - trees.RandomForest) to file 'Random_Forest.model'
+15:23:27: Started weka.classifiers.meta.LogitBoost
+15:23:27: Command: weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 0.08 -Z 3.0 -O 1 -E 1 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump
+15:23:28: Finished weka.classifiers.meta.LogitBoost
+15:23:58: Saved model (15:23:27 - meta.LogitBoost) to file 'Gradient_Boosting_LogitBosst.model'
+15:27:31: Started weka.classifiers.meta.Vote
+15:27:31: Command: weka.classifiers.meta.Vote -S 1 -B "weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1" -B "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" -B "weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -M -V -1 -W 1 -K \"weka.classifiers.functions.supportVector.RBFKernel -C 250007 -G 0.01\" -calibrator \"weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\"" -B "weka.classifiers.lazy.IBk -K 5 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"" -R AVG
+15:27:32: Finished weka.classifiers.meta.Vote
+15:28:21: Saved model (15:27:31 - meta.Vote) to file 'Soft_Voting_Ensemble.model'
+15:31:19: Started weka.classifiers.functions.Logistic
+15:31:19: Command: weka.classifiers.functions.Logistic -R 1.0E-8 -M 1000 -num-decimal-places 4
+15:31:19: Finished weka.classifiers.functions.Logistic
+15:32:00: Saved model (15:31:19 - functions.Logistic) to file 'Logistic_Regression.model'
+15:33:04: Started weka.classifiers.functions.Logistic
+15:33:04: Command: weka.classifiers.functions.Logistic -R 1.0 -M 1000 -num-decimal-places 4
+15:33:04: Finished weka.classifiers.functions.Logistic
+15:33:26: Saved model (15:33:04 - functions.Logistic) to file 'Ridge_Classifier.model'
+15:34:21: Started weka.classifiers.functions.SMO
+15:34:21: Command: weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -M -V -1 -W 1 -K "weka.classifiers.functions.supportVector.RBFKernel -C 250007 -G 0.01" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+15:34:22: Finished weka.classifiers.functions.SMO
+15:34:45: Saved model (15:34:21 - functions.SMO) to file 'Support_Vector_Machine_RBF_Kernel.model'
+15:35:34: Started weka.classifiers.lazy.IBk
+15:35:34: Command: weka.classifiers.lazy.IBk -K 5 -W 0 -I -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+15:35:34: Finished weka.classifiers.lazy.IBk
+15:35:53: Saved model (15:35:34 - lazy.IBk) to file 'KNN_IBk.model'
+15:36:33: Started weka.classifiers.bayes.NaiveBayes
+15:36:33: Command: weka.classifiers.bayes.NaiveBayes 
+15:36:33: Finished weka.classifiers.bayes.NaiveBayes
+15:36:50: Saved model (15:36:33 - bayes.NaiveBayes) to file 'Naive_Bayes_Gaussian.model'
+15:37:46: Started weka.classifiers.functions.MultilayerPerceptron
+15:37:46: Command: weka.classifiers.functions.MultilayerPerceptron -L 0.1 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+15:37:49: Finished weka.classifiers.functions.MultilayerPerceptron
+15:38:09: Saved model (15:37:46 - functions.MultilayerPerceptron) to file 'Multi_Layer_Perceptron.model'
+15:38:46: Started weka.classifiers.trees.J48
+15:38:46: Command: weka.classifiers.trees.J48 -C 0.25 -M 5
+15:38:46: Finished weka.classifiers.trees.J48
+15:39:18: Saved model (15:38:46 - trees.J48) to file 'Decision_Tree_J48.model'
+15:41:46: Started weka.classifiers.trees.RandomForest
+15:41:46: Command: weka.classifiers.trees.RandomForest -P 100 -I 150 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 5
+15:41:46: Finished weka.classifiers.trees.RandomForest
+15:41:59: Saved model (15:41:46 - trees.RandomForest) to file 'Random_Forest.model'
+15:43:06: Started weka.classifiers.meta.LogitBoost
+15:43:06: Command: weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 0.08 -Z 3.0 -O 1 -E 1 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump
+15:43:06: Finished weka.classifiers.meta.LogitBoost
+15:43:30: Saved model (15:43:06 - meta.LogitBoost) to file 'Gradient_Boosting_LogitBoost.model'

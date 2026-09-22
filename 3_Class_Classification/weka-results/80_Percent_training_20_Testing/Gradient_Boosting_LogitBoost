@@ -1,0 +1,3467 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 0.08 -Z 3.0 -O 1 -E 1 -S 1 -I 100 -W weka.classifiers.trees.DecisionStump
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+LogitBoost: Base classifiers and their weights: 
+
+Iteration 1
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 1.8503717077086116E-16
+Professional_Status != Currently seeking a job : -1.1554054054054015
+Professional_Status is missing : -1.042682926829266
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.12000000000000018
+AI_Reliance > -0.8641461841186405 : -0.5586734693877515
+AI_Reliance is missing : -0.4207317073170683
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 1.6778350515463774
+Domain_Shift_Intent > 1.0814326910180327 : 0.6634615384615331
+Domain_Shift_Intent is missing : 1.4634146341463283
+
+
+Iteration 2
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.021118192031301348
+Professional_Status != Currently seeking a job : -1.09530774869812
+Professional_Status is missing : -0.9839029819738156
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.1290408010849066
+AI_Reliance > -0.8641461841186405 : -0.5207486078732808
+AI_Reliance is missing : -0.3878111900353423
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 1.4869680634027578
+Domain_Shift_Intent > 1.0814326910180327 : 0.576895014303881
+Domain_Shift_Intent is missing : 1.2970519086216843
+
+
+Iteration 3
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.03982619608455372
+Professional_Status != Currently seeking a job : -1.0404871738875363
+Professional_Status is missing : -0.930068686518642
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : 0.41115782596102285
+AI_Usage_Freq > -1.3932414650814362 : -0.4399718660319185
+AI_Usage_Freq is missing : -0.35590574684267673
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 1.3306786060938578
+Domain_Shift_Intent > 1.0814326910180327 : 0.5017320126160013
+Domain_Shift_Intent is missing : 1.159075235702795
+
+
+Iteration 4
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.05564656992372818
+Professional_Status != Currently seeking a job : -0.9898601730661509
+Professional_Status is missing : -0.8802935152562449
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.16284447281319978
+AI_Reliance > -0.8641461841186405 : -0.45241208823344425
+AI_Reliance is missing : -0.32524056912294336
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.06528137471931
+Professional_Status != Currently seeking a job : 1.1452342988076434
+Professional_Status is missing : 1.0423581234868537
+
+
+Iteration 5
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.04622372153262864
+Professional_Status != Currently seeking a job : -0.9411208331697221
+Professional_Status is missing : -0.8345027075897294
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.2935678232206773
+Problem_Solving > -0.9345321008543608 : -0.4003951034508967
+Problem_Solving is missing : -0.29561479646701566
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 1.195073000301899
+Domain_Shift_Intent > -0.15019898486361566 : 0.5729756432795957
+Domain_Shift_Intent is missing : 0.9419320587114764
+
+
+Iteration 6
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.06038387109312797
+Professional_Status != Currently seeking a job : -0.8973386859942913
+Professional_Status is missing : -0.7912569096540404
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : -0.17526384858492533
+Help_Club > 1.3467751381570463 : -0.9324835178581453
+Help_Club is missing : -0.26762860690566026
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 1.0018226011308664
+Domain_Shift_Intent > 1.0814326910180327 : 0.28944196929212823
+Domain_Shift_Intent is missing : 0.8542965382641922
+
+
+Iteration 7
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.07170623985165636
+Professional_Status != Currently seeking a job : -0.8561136168324203
+Professional_Status is missing : -0.7505755489769201
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.23315310234333667
+AI_Reliance > -0.8641461841186405 : -0.36685244266685213
+AI_Reliance is missing : -0.24121794511456696
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : 0.46317944566732855
+Club_Count > -0.3055074337245099 : 1.0166444507987369
+Club_Count is missing : 0.7773185968794835
+
+
+Iteration 8
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.08626190901265743
+Professional_Status != Currently seeking a job : -0.8173165549723096
+Professional_Status is missing : -0.7119259353511794
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : -0.1277872495833399
+Help_Club > 1.3467751381570463 : -0.8693083853035782
+Help_Club is missing : -0.21661143746483572
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.9350289418353334
+Domain_Shift_Intent > -0.15019898486361566 : 0.38027536486938945
+Domain_Shift_Intent is missing : 0.7086253464988379
+
+
+Iteration 9
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.09380473818333265
+Professional_Status != Currently seeking a job : -0.7803419093684658
+Professional_Status is missing : -0.6756768988646504
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.3753281150818496
+Problem_Solving > -0.9345321008543608 : -0.296380971544939
+Problem_Solving is missing : -0.19334138151736494
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : 0.8367716700319107
+Professional_Status != Employed : 0.2761231400929823
+Professional_Status is missing : 0.6473577587251994
+
+
+Iteration 10
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.09453357197449551
+Professional_Status != Currently seeking a job : -0.7445300578039308
+Professional_Status is missing : -0.6413612448555769
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : 0.5305996335833373
+AI_Usage_Freq > -1.3932414650814362 : -0.25222613284551904
+AI_Usage_Freq is missing : -0.17151244326328424
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.7263950192657468
+Domain_Shift_Intent > 1.0814326910180327 : 0.08754412430186928
+Domain_Shift_Intent is missing : 0.5920057335764929
+
+
+Iteration 11
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.09933639271250046
+Professional_Status != Currently seeking a job : -0.7110160028480275
+Professional_Status is missing : -0.6088508278750772
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : -0.06596218000806991
+Help_Club > 1.3467751381570463 : -0.7957747240709839
+Help_Club is missing : -0.1514274928562436
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : 0.2485269901824083
+Club_Count > -0.3055074337245099 : 0.7669030257975042
+Club_Count is missing : 0.5422721059819826
+
+
+Iteration 12
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.1083603621753606
+Professional_Status != Currently seeking a job : -0.6791608265934174
+Professional_Status is missing : -0.5775106547633132
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.31726486674053106
+AI_Reliance > -0.8641461841186405 : -0.25517044491193475
+AI_Reliance is missing : -0.1329671679270295
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.7067201048170655
+Domain_Shift_Intent > -0.15019898486361566 : 0.1972403447728677
+Domain_Shift_Intent is missing : 0.4967379857548906
+
+
+Iteration 13
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.11088371290476491
+Professional_Status != Currently seeking a job : -0.648585645574889
+Professional_Status is missing : -0.5481964245824672
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : -0.2867977047626854
+Professional_Status != Employed : 0.20768167943120952
+Professional_Status is missing : -0.11586512200505182
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : 0.17622046768173324
+Club_Count > -0.3055074337245099 : 0.6703445801505881
+Club_Count is missing : 0.45559428844691846
+
+
+Iteration 14
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.12421601280387577
+Professional_Status != Currently seeking a job : -0.6198113807276958
+Professional_Status is missing : -0.5194148844893107
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.4422996929272038
+Problem_Solving > -0.9345321008543608 : -0.2006385560933667
+Problem_Solving is missing : -0.10011491872516347
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.6198520777278822
+Domain_Shift_Intent > -0.15019898486361566 : 0.13183331768115816
+Domain_Shift_Intent is missing : 0.41747945931419206
+
+
+Iteration 15
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.1254864379963276
+Professional_Status != Currently seeking a job : -0.5918283444006969
+Professional_Status is missing : -0.4928570256226241
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : -0.003447356533970552
+Help_Club > 1.3467751381570463 : -0.7225281042002998
+Help_Club is missing : -0.08561129170819345
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : 0.11572807513586758
+Club_Count > -0.3055074337245099 : 0.5898279079587749
+Club_Count is missing : 0.3830201200920866
+
+
+Iteration 16
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.12970512130441667
+Professional_Status != Currently seeking a job : -0.5650742882657649
+Professional_Status is missing : -0.4672025115288576
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.36194201621249905
+AI_Reliance > -0.8641461841186405 : -0.1925947116918197
+AI_Reliance is missing : -0.07262677615130587
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.474219102256047
+Domain_Shift_Intent > 1.0814326910180327 : -0.09311436315280774
+Domain_Shift_Intent is missing : 0.3513377197156395
+
+
+Iteration 17
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.12845013207553854
+Professional_Status != Currently seeking a job : -0.5393359254851261
+Professional_Status is missing : -0.44326893770384834
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : -0.22780467444761449
+Professional_Status != Employed : 0.2516918081965333
+Professional_Status is missing : -0.06071599976454504
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : 0.48932586763045127
+Professional_Status != Employed : 0.002453115759414935
+Professional_Status is missing : 0.32257550655658596
+
+
+Iteration 18
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.12630149283276604
+Professional_Status != Currently seeking a job : -0.5141113607637674
+Professional_Status is missing : -0.4201099638518096
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= 0.13226556415804183 : 0.1422353935814002
+Problem_Solving > 0.13226556415804183 : -0.311782894598281
+Problem_Solving is missing : -0.04959518272359626
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7280137179574883
+Current_Domain != Networking / DevOps / Cloud : 0.3482086993293799
+Current_Domain is missing : 0.29570408390136405
+
+
+Iteration 19
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.1296045858400136
+Professional_Status != Currently seeking a job : -0.4906917908176935
+Professional_Status is missing : -0.39801673146042416
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.039251440207681364
+Help_Club > 1.3467751381570463 : -0.6691058902018214
+Help_Club is missing : -0.0399430756966342
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : 0.09057613323033892
+Help_Lab > 0.4310591976126138 : 0.5602675634718578
+Help_Lab is missing : 0.27109169509580056
+
+
+Iteration 20
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.1287398076948742
+Professional_Status != Currently seeking a job : -0.4679806540547588
+Professional_Status is missing : -0.3771850407868082
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.4770978616499874
+Problem_Solving > -0.9345321008543608 : -0.12747590708019665
+Problem_Solving is missing : -0.03120120320257221
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.008735060454855333
+Club_Count > -0.3055074337245099 : 0.45027137146648394
+Club_Count is missing : 0.2485694668848514
+
+
+Iteration 21
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.13047740913350875
+Professional_Status != Currently seeking a job : -0.4464947170577441
+Professional_Status is missing : -0.3572377668317103
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.3893044933755339
+AI_Reliance > -0.8641461841186405 : -0.13940107464052234
+AI_Reliance is missing : -0.023487427514086955
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.4213425039388622
+Domain_Shift_Intent > -0.15019898486361566 : -0.0373095673477315
+Domain_Shift_Intent is missing : 0.22792684340734026
+
+
+Iteration 22
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.352031245580294
+Professional_Status != Not currently seeking : -0.36354528279571025
+Professional_Status is missing : -0.3388872906666452
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.059190852325021144
+Help_Club > 1.3467751381570463 : -0.6297899650147536
+Help_Club is missing : -0.016446448009091407
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7716509584708361
+Current_Domain != Networking / DevOps / Cloud : 0.2601330069502742
+Current_Domain is missing : 0.20916989382474566
+
+
+Iteration 23
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.1519945337084496
+Professional_Status != Currently seeking a job : -0.4089978769893962
+Professional_Status is missing : -0.31992182314049505
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : 0.6028594468379784
+AI_Usage_Freq > -1.3932414650814362 : -0.08517688837088164
+AI_Usage_Freq is missing : -0.010593792809967174
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : 0.017311636015059365
+Help_Lab > 0.4310591976126138 : 0.47231602087295843
+Help_Lab is missing : 0.1914533283508512
+
+
+Iteration 24
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.1451230681829876
+AI_Reliance > -1.7195987446545984 : -0.2529213985209999
+AI_Reliance is missing : -0.30318673572356025
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : -0.16408858634369475
+Professional_Status != Employed : 0.28669467650818053
+Professional_Status is missing : -0.00515001072202037
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.29355454224238337
+Domain_Shift_Intent > 1.0814326910180327 : -0.2361136854559832
+Domain_Shift_Intent is missing : 0.17556977535936144
+
+
+Iteration 25
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.1357221360293421
+AI_Reliance > -1.7195987446545984 : -0.23752857055904092
+AI_Reliance is missing : -0.2861835355488979
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= 0.13226556415804183 : 0.1792638445816536
+Problem_Solving > 0.13226556415804183 : -0.24951181309490628
+Problem_Solving is missing : -3.575890007481872E-4
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.08520408030717999
+Club_Count > -0.3055074337245099 : 0.3553575138363521
+Club_Count is missing : 0.1605750275585889
+
+
+Iteration 26
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : 0.6076882263593342
+Years_Since_Grad > -1.3816016639443767 : -0.317077666578321
+Years_Since_Grad is missing : -0.27010306191717154
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.07603582560913585
+Help_Club > 1.3467751381570463 : -0.5972755048207479
+Help_Club is missing : 0.00342949794072587
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7862783591941642
+Current_Domain != Networking / DevOps / Cloud : 0.19617418797626085
+Current_Domain is missing : 0.1470229774083583
+
+
+Iteration 27
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.1248390650697324
+AI_Reliance > -1.7195987446545984 : -0.20781272890013575
+AI_Reliance is missing : -0.25534376588929025
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.47788251710426427
+Problem_Solving > -0.9345321008543608 : -0.08405720731428543
+Problem_Solving is missing : 0.006924737631037539
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.03319393418252735
+Help_Lab > 0.4310591976126138 : 0.4071987323026675
+Help_Lab is missing : 0.1346753383737542
+
+
+Iteration 28
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.21422943820725174
+Professional_Status != Currently seeking a job : -0.3321831063608764
+Professional_Status is missing : -0.24109577601079674
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 1.2580184095490903
+Current_Domain != Database Administration : -0.024101874174367315
+Current_Domain is missing : 0.009852238184832262
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.30779435514903214
+Domain_Shift_Intent > -0.15019898486361566 : -0.12485615312231844
+Domain_Shift_Intent is missing : 0.1232999165510767
+
+
+Iteration 29
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.3928516821153447
+Professional_Status != Not currently seeking : -0.25442573449135136
+Professional_Status is missing : -0.228813785545941
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.39565727523723104
+AI_Reliance > -0.8641461841186405 : -0.09665467512587188
+AI_Reliance is missing : 0.012902814358254126
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.12267835424553514
+Club_Count > -0.3055074337245099 : 0.30106945888051595
+Club_Count is missing : 0.11298978467969116
+
+
+Iteration 30
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.1133535586590952
+AI_Reliance > -1.7195987446545984 : -0.1696588983336294
+AI_Reliance is missing : -0.21585485742126237
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : -0.13693871851749226
+Professional_Status != Employed : 0.2898396024218927
+Professional_Status is missing : 0.014775939358645277
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : -0.9617532451621903
+Years_Since_Grad > -1.3816016639443767 : 0.1442237538795483
+Years_Since_Grad is missing : 0.10353464328302486
+
+
+Iteration 31
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 2.9792517035657 : -0.21664559517982918
+Years_Since_Grad > 2.9792517035657 : 3.000000000000209
+Years_Since_Grad is missing : -0.20379786594260557
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.08645470235388501
+Help_Club > 1.3467751381570463 : -0.5695616271330379
+Help_Club is missing : 0.01689913868128854
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7972304214834808
+Current_Domain != Networking / DevOps / Cloud : 0.14204128682226183
+Current_Domain is missing : 0.09451918044642808
+
+
+Iteration 32
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : -0.09545767374199166
+Years_Since_Grad > 0.7988250198106618 : -0.6233020936131665
+Years_Since_Grad is missing : -0.1925177196052299
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.34375007757265197
+Projects_Built > 0.03116951385350089 : -0.10456865236950175
+Projects_Built is missing : 0.0183125959059228
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.0747133646884948
+Help_Lab > 0.4310591976126138 : 0.3504543686420817
+Help_Lab is missing : 0.08663186850630998
+
+
+Iteration 33
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.103368036558452
+AI_Reliance > -1.7195987446545984 : -0.13676915133466597
+AI_Reliance is missing : -0.18164964939622832
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 1.2136150669298382
+Current_Domain != Database Administration : -0.013197933345524158
+Current_Domain is missing : 0.01958403613473786
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.18896272360763808
+Domain_Shift_Intent > 1.0814326910180327 : -0.29586743221715084
+Domain_Shift_Intent is missing : 0.079194062691186
+
+
+Iteration 34
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= -0.8817451577171693 : 0.1638093780914382
+Help_Club > -0.8817451577171693 : -0.2915568018033639
+Help_Club is missing : -0.17177481960373514
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.464755016939767
+Problem_Solving > -0.9345321008543608 : -0.06616548940967316
+Problem_Solving is missing : 0.02061439565808313
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.15222796639845676
+Club_Count > -0.3055074337245099 : 0.2532556675531448
+Club_Count is missing : 0.07257839734211054
+
+
+Iteration 35
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.27599926586487356
+Professional_Status != Currently seeking a job : -0.25452441279847876
+Professional_Status is missing : -0.16211592836617117
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.08797891051894814
+Help_Club > 1.3467751381570463 : -0.5507408742062684
+Help_Club is missing : 0.021184179984281962
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.08820825995239427
+Help_Lab > 0.4310591976126138 : 0.32103738191731696
+Help_Lab is missing : 0.0665649217871145
+
+
+Iteration 36
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : -0.05881638194825664
+Years_Since_Grad > 0.7988250198106618 : -0.5847374368567678
+Years_Since_Grad is missing : -0.1538324811359711
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.3816631552585555
+AI_Reliance > -0.8641461841186405 : -0.08230782123216414
+AI_Reliance is missing : 0.0219105889911067
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.788590756128671
+Current_Domain != Networking / DevOps / Cloud : 0.10682714798489865
+Current_Domain is missing : 0.06113175500109526
+
+
+Iteration 37
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0944431150404674
+AI_Reliance > -1.7195987446545984 : -0.10202695084219342
+AI_Reliance is missing : -0.145248667218553
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : -0.12263983571067404
+Professional_Status != Employed : 0.28118660518287014
+Professional_Status is missing : 0.022015176821522785
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : 0.20212081074052834
+Professional_Status != Employed : -0.212571493855345
+Professional_Status is missing : 0.056199515521333024
+
+
+Iteration 38
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 2.9792517035657 : -0.14998056490731904
+Years_Since_Grad > 2.9792517035657 : 2.9999999999999365
+Years_Since_Grad is missing : -0.13700431823088807
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= 0.13226556415804183 : 0.18310122126860703
+Problem_Solving > 0.13226556415804183 : -0.2042145614097242
+Problem_Solving is missing : 0.02240708912230108
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.22205260285669343
+Domain_Shift_Intent > -0.15019898486361566 : -0.1749101381735819
+Domain_Shift_Intent is missing : 0.05129051136728107
+
+
+Iteration 39
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.4023586986053165
+Professional_Status != Not currently seeking : -0.1560137609695528
+Professional_Status is missing : -0.12989544499389327
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 1.1584603895551158
+Current_Domain != Database Administration : -0.008975637559834005
+Current_Domain is missing : 0.02258771295762169
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : -0.9329578528435699
+Years_Since_Grad > -1.3816016639443767 : 0.0851414579215986
+Years_Since_Grad is missing : 0.047179052829597154
+
+
+Iteration 40
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.087271055508068
+AI_Reliance > -1.7195987446545984 : -0.08153740468442221
+AI_Reliance is missing : -0.1230044429107311
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.08682122858188744
+Help_Club > 1.3467751381570463 : -0.5340858801039046
+Help_Club is missing : 0.022798305603469512
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.17075588710546874
+Club_Count > -0.3055074337245099 : 0.2163265393514998
+Club_Count is missing : 0.04319196501828603
+
+
+Iteration 41
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Univ_Studies_Effect <= -1.1374201305063518 : 0.3512916758859355
+Univ_Studies_Effect > -1.1374201305063518 : -0.2012011852736274
+Univ_Studies_Effect is missing : -0.11598598428545649
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : 0.18514334132186866
+Help_Thesis > 0.25303385480896495 : -0.1958887076652644
+Help_Thesis is missing : 0.022347165486691092
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.10969015994645155
+Help_Lab > 0.4310591976126138 : 0.2867025616927506
+Help_Lab is missing : 0.03974993193755445
+
+
+Iteration 42
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : -0.01637990615616464
+Years_Since_Grad > 0.7988250198106618 : -0.5439249355846505
+Years_Since_Grad is missing : -0.10966483471516067
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.32519494307683655
+Projects_Built > 0.03116951385350089 : -0.09301178182317155
+Projects_Built is missing : 0.02232764521019449
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7751325928883293
+Current_Domain != Networking / DevOps / Cloud : 0.08039384928711461
+Current_Domain is missing : 0.03635097687016226
+
+
+Iteration 43
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= -0.8817451577171693 : 0.22973546848388182
+Help_Club > -0.8817451577171693 : -0.22391156666798553
+Help_Club is missing : -0.1033048449028044
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : 0.5446403066814814
+AI_Usage_Freq > -1.3932414650814362 : -0.043910318560282796
+AI_Usage_Freq is missing : 0.0219365925553624
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : -0.5167953466867262
+AI_Usage_Freq > -1.3932414650814362 : 0.09596505866153188
+AI_Usage_Freq is missing : 0.03327166039210631
+
+
+Iteration 44
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 2.9792517035657 : -0.10988523595064002
+Years_Since_Grad > 2.9792517035657 : 3.0000000000003433
+Years_Since_Grad is missing : -0.0970311933710893
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : 0.826035605624466
+Current_Domain != Cybersecurity : -0.021188612876057954
+Current_Domain is missing : 0.020962075899411323
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.13207591764555673
+Domain_Shift_Intent > 1.0814326910180327 : -0.31131146460381304
+Domain_Shift_Intent is missing : 0.030770463062900752
+
+
+Iteration 45
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.00869362358268258 : -0.3404145587391345
+AI_Reliance > -0.00869362358268258 : 0.06880320295192961
+AI_Reliance is missing : -0.092116125944941
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.3087921869446981
+Projects_Built > -2.8442181391319807 : 0.046430128879836566
+Projects_Built is missing : 0.020843522350643733
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -1.0315692522177726 : -0.3315983834773821
+Help_Lab > -1.0315692522177726 : 0.12313558346934787
+Help_Lab is missing : 0.028259230590990714
+
+
+Iteration 46
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0801654630237254
+AI_Reliance > -1.7195987446545984 : -0.04708172768672683
+AI_Reliance is missing : -0.08706658232675248
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Higher studies : 0.44734523110646757
+Professional_Status != Higher studies : -0.05924954779110637
+Professional_Status is missing : 0.020369734619054062
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : -0.9072919887140523
+Years_Since_Grad > -1.3816016639443767 : 0.062343190685903625
+Years_Since_Grad is missing : 0.025991709841479523
+
+
+Iteration 47
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.007523034008388005
+Years_Since_Grad > 0.7988250198106618 : -0.5131617581378822
+Years_Since_Grad is missing : -0.08282479775824107
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 1.1176827187598017
+Current_Domain != Database Administration : -0.010478329260694691
+Current_Domain is missing : 0.02009510215953936
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.17649566936567548
+Club_Count > -0.3055074337245099 : 0.18725638527632568
+Club_Count is missing : 0.02397300516030668
+
+
+Iteration 48
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= -0.8817451577171693 : 0.24477970806476929
+Help_Club > -0.8817451577171693 : -0.196298979702211
+Help_Club is missing : -0.07805913180892755
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 1.5164278073962034 : -0.031702803596600056
+Club_Count > 1.5164278073962034 : 0.6710417383093205
+Club_Count is missing : 0.019378941683803313
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7496376122892942
+Current_Domain != Networking / DevOps / Cloud : 0.0642883132714363
+Current_Domain is missing : 0.02209916126063031
+
+
+Iteration 49
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0756472087514952
+AI_Reliance > -1.7195987446545984 : -0.03563253617406758
+AI_Reliance is missing : -0.07379062890214733
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.0803647424632495
+Help_Club > 1.3467751381570463 : -0.5228416055558512
+Help_Club is missing : 0.01896943949431705
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.11885447261871018
+Help_Lab > 0.4310591976126138 : 0.25164890126939204
+Help_Lab is missing : 0.020234418288237882
+
+
+Iteration 50
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.3704764642274583
+Professional_Status != Not currently seeking : -0.09570520675405657
+Professional_Status is missing : -0.06968964789757298
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : 0.17396083518896896
+Help_Thesis > 0.25303385480896495 : -0.19178757542414343
+Help_Thesis is missing : 0.01828767904250048
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : 0.15088236812069
+Professional_Status != Employed : -0.2216042099219363
+Professional_Status is missing : 0.01869587366982947
+
+
+Iteration 51
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 2.9792517035657 : -0.07852858300736684
+Years_Since_Grad > 2.9792517035657 : 2.9007451058632334
+Years_Since_Grad is missing : -0.06593042104229566
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 1.8890383616881812 : -0.029091244419257926
+Years_Since_Grad > 1.8890383616881812 : 0.7138094774362923
+Years_Since_Grad is missing : 0.017988130108452516
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.17202956580226292
+Domain_Shift_Intent > -0.15019898486361566 : -0.18573949963082537
+Domain_Shift_Intent is missing : 0.01702485655995772
+
+
+Iteration 52
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.02442933044956737
+Years_Since_Grad > 0.7988250198106618 : -0.48756343262832214
+Years_Since_Grad is missing : -0.06288191314792153
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.30557597235513784
+Projects_Built > 0.03116951385350089 : -0.09272746455821053
+Projects_Built is missing : 0.017504642068515344
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.17583955839386783
+Club_Count > -0.3055074337245099 : 0.17269079535373558
+Club_Count is missing : 0.015875599520198992
+
+
+Iteration 53
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Univ_Studies_Effect <= -1.1374201305063518 : 0.3898872542249448
+Univ_Studies_Effect > -1.1374201305063518 : -0.14248503127698864
+Univ_Studies_Effect is missing : -0.05914525983527394
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.2909025840126447
+Projects_Built > -2.8442181391319807 : 0.04112748796310144
+Projects_Built is missing : 0.01676201420226667
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -1.0315692522177726 : -0.3220837683508436
+Help_Lab > -1.0315692522177726 : 0.10393182084559895
+Help_Lab is missing : 0.014607432792599536
+
+
+Iteration 54
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.071669713429974
+AI_Reliance > -1.7195987446545984 : -0.019674464764372734
+AI_Reliance is missing : -0.05622756347106984
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.4150898247204245
+Problem_Solving > -0.9345321008543608 : -0.06303853134145232
+Problem_Solving is missing : 0.016322312519700607
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : -0.858923526230473
+Years_Since_Grad > -1.3816016639443767 : 0.047590974825432036
+Years_Since_Grad is missing : 0.013499627242437202
+
+
+Iteration 55
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= -0.2934526438588391 : 0.16573145942316864
+Help_Alumni > -0.2934526438588391 : -0.21872210300347425
+Help_Alumni is missing : -0.05353229379323015
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : 0.7886768589900354
+Current_Domain != Cybersecurity : -0.024638438686810624
+Current_Domain is missing : 0.015862262491637306
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Neutral : -0.24084496838142808
+AI_Concerns_Opinion != Neutral : 0.12876055456984947
+AI_Concerns_Opinion is missing : 0.012521616587181464
+
+
+Iteration 56
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.00869362358268258 : -0.2890242334242823
+AI_Reliance > -0.00869362358268258 : 0.10023536518965803
+AI_Reliance is missing : -0.050172371860438804
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 1.5164278073962034 : -0.03421518169817182
+Club_Count > 1.5164278073962034 : 0.6432713726650542
+Club_Count is missing : 0.01514726724861475
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.7195322339554718
+Current_Domain != Networking / DevOps / Cloud : 0.05172072276092905
+Current_Domain is missing : 0.011445845934964819
+
+
+Iteration 57
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= -0.8817451577171693 : 0.2638746743341643
+Help_Club > -0.8817451577171693 : -0.162703161170442
+Help_Club is missing : -0.04727152962569742
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 1.0704440586037431
+Current_Domain != Database Administration : -0.0150790540532442
+Current_Domain is missing : 0.014547085042200238
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : -0.4952416191190696
+AI_Usage_Freq > -1.3932414650814362 : 0.06900295529906654
+AI_Usage_Freq is missing : 0.01050184228069828
+
+
+Iteration 58
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0672766107116811
+AI_Reliance > -1.7195987446545984 : -0.009174239143707146
+AI_Reliance is missing : -0.04397615512508672
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Higher studies : 0.41969385931077713
+Professional_Status != Higher studies : -0.06302951374605631
+Professional_Status is missing : 0.013506505904668268
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.10262110177177008
+Domain_Shift_Intent > 1.0814326910180327 : -0.3016168888294852
+Domain_Shift_Intent is missing : 0.009751728512078898
+
+
+Iteration 59
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.04202542649708829
+Years_Since_Grad > 0.7988250198106618 : -0.4589114087595267
+Years_Since_Grad is missing : -0.04195586081974681
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.07158065789901875
+Help_Club > 1.3467751381570463 : -0.511771446551159
+Help_Club is missing : 0.013044246451319694
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : -0.13759133812687516
+Help_Thesis > 0.25303385480896495 : 0.20378214399561484
+Help_Thesis is missing : 0.009131898417109643
+
+
+Iteration 60
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Positive : -0.23995408409774685
+AI_Concerns_Opinion != Positive : 0.13282735136113738
+AI_Concerns_Opinion is missing : -0.03963008104974633
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Univ_Studies_Effect <= -1.1374201305063518 : -0.4067399119349554
+Univ_Studies_Effect > -1.1374201305063518 : 0.08371269968066936
+Univ_Studies_Effect is missing : 0.012470078117951398
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.12307216724645384
+Help_Lab > 0.4310591976126138 : 0.22845085746032032
+Help_Lab is missing : 0.008471353547213203
+
+
+Iteration 61
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.3144323744454935
+Professional_Status != Not currently seeking : -0.06311099133506885
+Professional_Status is missing : -0.03763105004996127
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.2695362730180557
+Projects_Built > -2.8442181391319807 : 0.03486077023298354
+Projects_Built is missing : 0.012026533464958772
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.17667546418304916
+Club_Count > -0.3055074337245099 : 0.15923637071181876
+Club_Count is missing : 0.007859749294278245
+
+
+Iteration 62
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= -0.2934526438588391 : 0.17677570108223448
+Help_Alumni > -0.2934526438588391 : -0.19690453517299594
+Help_Alumni is missing : -0.03542253643170495
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.28991036249475916
+Projects_Built > 0.03116951385350089 : -0.09514433181111992
+Projects_Built is missing : 0.011431836041788707
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : 0.12912702460080144
+Professional_Status != Employed : -0.21237817133260203
+Professional_Status is missing : 0.007277681637724283
+
+
+Iteration 63
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= 0.8467589369532754 : -0.13352799939107604
+AI_Reliance > 0.8467589369532754 : 0.3101825788105278
+AI_Reliance is missing : -0.0336353092755459
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 1.8890383616881812 : -0.03330069364508611
+Years_Since_Grad > 1.8890383616881812 : 0.6609070627433071
+Years_Since_Grad is missing : 0.01108589936990437
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.6901579802754367
+Current_Domain != Networking / DevOps / Cloud : 0.04531476431642766
+Current_Domain is missing : 0.006694775386531383
+
+
+Iteration 64
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 2.9792517035657 : -0.04417227135393893
+Years_Since_Grad > 2.9792517035657 : 2.741155195960505
+Years_Since_Grad is missing : -0.03172610839244799
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 1.5164278073962034 : -0.03742968853768356
+Club_Count > 1.5164278073962034 : 0.6141550968564352
+Club_Count is missing : 0.010430007163304425
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : -0.13554242999439753
+Help_Thesis > 0.25303385480896495 : 0.19502931419249855
+Help_Thesis is missing : 0.006316491475895906
+
+
+Iteration 65
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Internship_Exp <= 0.089699385803227 : -0.20489995992391646
+Internship_Exp > 0.089699385803227 : 0.16858637264693027
+Internship_Exp is missing : -0.030252079404193836
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : 0.7491085952308475
+Current_Domain != Cybersecurity : -0.02877613431706418
+Current_Domain is missing : 0.010203361104083836
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : -0.472176097864554
+AI_Usage_Freq > -1.3932414650814362 : 0.061421432106779326
+AI_Usage_Freq is missing : 0.005788445345022784
+
+
+Iteration 66
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0638350414477247
+AI_Reliance > -1.7195987446545984 : 0.00598125819783639
+AI_Reliance is missing : -0.027527944736839734
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 1.02002345627045
+Current_Domain != Database Administration : -0.019209782532018115
+Current_Domain is missing : 0.009287975803396794
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.14880757085658736
+Domain_Shift_Intent > -0.15019898486361566 : -0.1812688995883085
+Domain_Shift_Intent is missing : 0.005244265830539004
+
+
+Iteration 67
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.05522888988287722
+Years_Since_Grad > 0.7988250198106618 : -0.4380453085721435
+Years_Since_Grad is missing : -0.026292613489596505
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.0646792728395831
+Help_Club > 1.3467751381570463 : -0.49880364252143006
+Help_Club is missing : 0.00893554316473562
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.1201768126915057
+Help_Lab > 0.4310591976126138 : 0.21496932217548395
+Help_Lab is missing : 0.004938723819124073
+
+
+Iteration 68
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0607712959838067
+AI_Reliance > -1.7195987446545984 : 0.0068421996629492625
+AI_Reliance is missing : -0.024880758028274864
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Univ_Studies_Effect <= -1.1374201305063518 : -0.3980410378716903
+Univ_Studies_Effect > -1.1374201305063518 : 0.0773124670378873
+Univ_Studies_Effect is missing : 0.008463862779488943
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.17191195054034136
+Club_Count > -0.3055074337245099 : 0.14996512561070632
+Club_Count is missing : 0.004654976493208417
+
+
+Iteration 69
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= -0.2934526438588391 : 0.18345788087070036
+Help_Alumni > -0.2934526438588391 : -0.18193653591232614
+Help_Alumni is missing : -0.023518430850430476
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.38252226340430046
+Problem_Solving > -0.9345321008543608 : -0.0672251808373389
+Problem_Solving is missing : 0.007924895781702813
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -1.0315692522177726 : -0.30664335222488065
+Help_Lab > -1.0315692522177726 : 0.08747545517782053
+Help_Lab is missing : 0.004450369550992918
+
+
+Iteration 70
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Internship_Exp <= 0.089699385803227 : -0.1923998089144293
+Internship_Exp > 0.089699385803227 : 0.16976049273601368
+Internship_Exp is missing : -0.022269731669278942
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Higher studies : 0.390253955097982
+Professional_Status != Higher studies : -0.06514536595156385
+Professional_Status is missing : 0.007538529858930326
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : -0.8081355829777547
+Years_Since_Grad > -1.3816016639443767 : 0.03598053309604619
+Years_Since_Grad is missing : 0.004176621503409105
+
+
+Iteration 71
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Positive : -0.21743971946734772
+AI_Concerns_Opinion != Positive : 0.14542628462371915
+AI_Concerns_Opinion is missing : -0.021530327258260432
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.2546473979866681
+Projects_Built > -2.8442181391319807 : 0.0291582219277197
+Projects_Built is missing : 0.007446770836342496
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Neutral : -0.22829367810881965
+AI_Concerns_Opinion != Neutral : 0.11129359871808739
+AI_Concerns_Opinion is missing : 0.0038949343767236792
+
+
+Iteration 72
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.00869362358268258 : -0.2504744120968799
+AI_Reliance > -0.00869362358268258 : 0.12147757173362198
+AI_Reliance is missing : -0.020152952661600398
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 1.5164278073962034 : -0.039445089922136904
+Club_Count > 1.5164278073962034 : 0.5912893793012783
+Club_Count is missing : 0.00703553136643558
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.08996979036097848
+Domain_Shift_Intent > 1.0814326910180327 : -0.2852541741721717
+Domain_Shift_Intent is missing : 0.0035833629766791704
+
+
+Iteration 73
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= -0.8817451577171693 : 0.27290566118252657
+Help_Club > -0.8817451577171693 : -0.12926048148602345
+Help_Club is missing : -0.019334937415309627
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.3082005543543872
+AI_Reliance > -0.8641461841186405 : -0.08295623178847014
+AI_Reliance is missing : 0.006851515935791775
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : -0.13243601582107745
+Help_Thesis > 0.25303385480896495 : 0.18478895433064677
+Help_Thesis is missing : 0.0033423219957528032
+
+
+Iteration 74
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.2584026923424547
+Professional_Status != Not currently seeking : -0.0435244000806661
+Professional_Status is missing : -0.018687508980092693
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.2702339587718869
+Projects_Built > 0.03116951385350089 : -0.09470271392861282
+Projects_Built is missing : 0.006531636101130821
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.6563111154560513
+Current_Domain != Networking / DevOps / Cloud : 0.04003846848561761
+Current_Domain is missing : 0.0033056544739396634
+
+
+Iteration 75
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 2.42739542795656 : 0.011208608012381929
+Club_Count > 2.42739542795656 : -1.1256846443083184
+Club_Count is missing : -0.0173604610245152
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : 0.7137418165496151
+Current_Domain != Cybersecurity : -0.03144626464131083
+Current_Domain is missing : 0.006165743725125628
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.1681487488987889
+Club_Count > -0.3055074337245099 : 0.14404585976339593
+Club_Count is missing : 0.0029791634109515353
+
+
+Iteration 76
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.06215089821623234
+Years_Since_Grad > 0.7988250198106618 : -0.4182801564700007
+Years_Since_Grad is missing : -0.01617438463245427
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 0.9702095720376461
+Current_Domain != Database Administration : -0.021645618140328136
+Current_Domain is missing : 0.005843252042514015
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Data Science / ML / AI : 0.5595334389671371
+Current_Domain != Data Science / ML / AI : -0.04019295286798421
+Current_Domain is missing : 0.002684968741702505
+
+
+Iteration 77
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0576680703213872
+AI_Reliance > -1.7195987446545984 : 0.014639149991245923
+AI_Reliance is missing : -0.01521366314426439
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.058652093561540934
+Help_Club > 1.3467751381570463 : -0.48666610126383847
+Help_Club is missing : 0.005494161284402206
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.1157991666970819
+Help_Lab > 0.4310591976126138 : 0.20188679334339205
+Help_Lab is missing : 0.0025206378690252372
+
+
+Iteration 78
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= -0.2934526438588391 : 0.18593475760263178
+Help_Alumni > -0.2934526438588391 : -0.1688065986221846
+Help_Alumni is missing : -0.014372081111544083
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Univ_Studies_Effect <= -1.1374201305063518 : -0.3897699039338487
+Univ_Studies_Effect > -1.1374201305063518 : 0.07184216800551442
+Univ_Studies_Effect is missing : 0.005152905270885753
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : -0.4431471971325764
+AI_Usage_Freq > -1.3932414650814362 : 0.054785945537365606
+AI_Usage_Freq is missing : 0.0024088982840889646
+
+
+Iteration 79
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Internship_Exp <= 0.089699385803227 : -0.1792284415448875
+Internship_Exp > 0.089699385803227 : 0.17358287631686525
+Internship_Exp is missing : -0.012946312476460962
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= 0.13226556415804183 : 0.13817974156329452
+Problem_Solving > 0.13226556415804183 : -0.18875032205789197
+Problem_Solving is missing : 0.004402328644363421
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : -0.1297181118925742
+Help_Thesis > 0.25303385480896495 : 0.17934824485256493
+Help_Thesis is missing : 0.0023703405824713414
+
+
+Iteration 80
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 2.9792517035657 : -0.02411945661534221
+Years_Since_Grad > 2.9792517035657 : 2.5510485592917043
+Years_Since_Grad is missing : -0.012035579324896779
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.241392721251543
+Projects_Built > -2.8442181391319807 : 0.02474989619938577
+Projects_Built is missing : 0.004133224672715823
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= -1.3816016639443767 : -0.7639174470976046
+Years_Since_Grad > -1.3816016639443767 : 0.032125878337122105
+Years_Since_Grad is missing : 0.0021668812860473996
+
+
+Iteration 81
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= 0.8467589369532754 : -0.10718935841486342
+AI_Reliance > 0.8467589369532754 : 0.30923169344120766
+AI_Reliance is missing : -0.012140017254728382
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 1.5164278073962034 : -0.04070750106463161
+Club_Count > 1.5164278073962034 : 0.5659787142685435
+Club_Count is missing : 0.004324214448388613
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -1.0315692522177726 : -0.290920215846563
+Help_Lab > -1.0315692522177726 : 0.08054791866440048
+Help_Lab is missing : 0.0020513181168411833
+
+
+Iteration 82
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+GitHub_Habit <= 0.24281213509437186 : 0.1489900659085543
+GitHub_Habit > 0.24281213509437186 : -0.2005258910942239
+GitHub_Habit is missing : -0.011610028144913716
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Lecture <= -0.9284297528984844 : -0.2634858856378347
+Help_Lecture > -0.9284297528984844 : 0.10030058492064406
+Help_Lecture is missing : 0.004216599442909952
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= 1.094804094396438 : -0.07564209248194616
+Help_Alumni > 1.094804094396438 : 0.2934717207026397
+Help_Alumni is missing : 0.0018889948382681074
+
+
+Iteration 83
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Data Science / ML / AI : -0.7078328365441675
+Current_Domain != Data Science / ML / AI : 0.03243157298793237
+Current_Domain is missing : -0.011009629034940266
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Higher studies : 0.3689769701254964
+Professional_Status != Higher studies : -0.06571529891122613
+Professional_Status is missing : 0.004168225968390989
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : 0.08392550937125164
+Domain_Shift_Intent > 1.0814326910180327 : -0.2728863942276906
+Domain_Shift_Intent is missing : 0.001642301018079993
+
+
+Iteration 84
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 2.42739542795656 : 0.01627166253189259
+Club_Count > 2.42739542795656 : -1.1173111370836553
+Club_Count is missing : -0.010840313935093267
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 1.8890383616881812 : -0.03747164845643127
+Years_Since_Grad > 1.8890383616881812 : 0.6067422465589659
+Years_Since_Grad is missing : 0.004138093245622726
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.1617933389521918
+Club_Count > -0.3055074337245099 : 0.13668094171505504
+Club_Count is missing : 0.001585978763137064
+
+
+Iteration 85
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Internship_Exp <= 0.089699385803227 : -0.1746277080721476
+Internship_Exp > 0.089699385803227 : 0.1735085168980256
+Internship_Exp is missing : -0.010116301742922554
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.2549608192739156
+Projects_Built > 0.03116951385350089 : -0.09303931379517837
+Projects_Built is missing : 0.003753577455053366
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.6264490600478616
+Current_Domain != Networking / DevOps / Cloud : 0.0366413019040515
+Current_Domain is missing : 0.0015700678905838864
+
+
+Iteration 86
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0552608768838048
+AI_Reliance > -1.7195987446545984 : 0.01942378558670928
+AI_Reliance is missing : -0.009251213977672956
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.2277843347229
+Projects_Built > -2.8442181391319807 : 0.023206069212117653
+Projects_Built is missing : 0.0034826954885275145
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.11145504515655297
+Help_Lab > 0.4310591976126138 : 0.192005537142358
+Help_Lab is missing : 0.001390805518427441
+
+
+Iteration 87
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.06701174882347452
+Years_Since_Grad > 0.7988250198106618 : -0.4036708158560054
+Years_Since_Grad is missing : -0.00881140714543347
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 0.9277887670705172
+Current_Domain != Database Administration : -0.023241722997665817
+Current_Domain is missing : 0.0033091483084895473
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : -0.12481514028772464
+Help_Thesis > 0.25303385480896495 : 0.17085292559665555
+Help_Thesis is missing : 0.0013292896445846489
+
+
+Iteration 88
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Positive : -0.196809931660759
+AI_Concerns_Opinion != Positive : 0.14998465556432006
+AI_Concerns_Opinion is missing : -0.00832037464305513
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : 0.6749582759546622
+Current_Domain != Cybersecurity : -0.03288597842942546
+Current_Domain is missing : 0.0030999386839658284
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : -0.42391979919609507
+AI_Usage_Freq > -1.3932414650814362 : 0.051543895362751856
+AI_Usage_Freq is missing : 0.0012747506127183301
+
+
+Iteration 89
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.34182003078095263
+Professional_Status != Currently seeking a job : -0.08986296913247538
+Professional_Status is missing : -0.0069672356566767395
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.053177637280368714
+Help_Club > 1.3467751381570463 : -0.4740904295060919
+Help_Club is missing : 0.002565554176133339
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Employed : 0.11026093718617432
+Professional_Status != Employed : -0.19396001218174455
+Professional_Status is missing : 0.0010916667223832015
+
+
+Iteration 90
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.00869362358268258 : -0.22632744774868196
+AI_Reliance > -0.00869362358268258 : 0.12493428367494393
+AI_Reliance is missing : -0.0073534233147411815
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Lecture <= -0.9284297528984844 : -0.2558296101773447
+Help_Lecture > -0.9284297528984844 : 0.09512779689261784
+Help_Lecture is missing : 0.0028011222155384487
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= 1.094804094396438 : -0.07320137261936695
+Help_Alumni > 1.094804094396438 : 0.28135678420120197
+Help_Alumni is missing : 0.0010699337092559436
+
+
+Iteration 91
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Not currently seeking : 1.1884585553124556
+Professional_Status != Not currently seeking : -0.0309068870929226
+Professional_Status is missing : -0.006957953508414578
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 1.5164278073962034 : -0.041142308707236785
+Club_Count > 1.5164278073962034 : 0.5445906433126881
+Club_Count is missing : 0.0027298860726342623
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -1.0315692522177726 : -0.27692337626654123
+Help_Lab > -1.0315692522177726 : 0.0755508238039196
+Help_Lab is missing : 9.421823462128521E-4
+
+
+Iteration 92
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -1.7195987446545984 : -1.0534262984890086
+AI_Reliance > -1.7195987446545984 : 0.020528787930655126
+AI_Reliance is missing : -0.006615250790556407
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.3442027665925976
+Problem_Solving > -0.9345321008543608 : -0.0667487504633365
+Problem_Solving is missing : 0.002698061088817702
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Not Applicable : -1.3504022757527907
+Current_Domain != Not Applicable : 0.016155658223845234
+Current_Domain is missing : 8.059605726373205E-4
+
+
+Iteration 93
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Internship_Exp <= 0.089699385803227 : -0.16677599283989322
+Internship_Exp > 0.089699385803227 : 0.17177057374598562
+Internship_Exp is missing : -0.006174219829741153
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Univ_Studies_Effect <= -1.1374201305063518 : -0.37075187548470206
+Univ_Studies_Effect > -1.1374201305063518 : 0.06485185871298857
+Univ_Studies_Effect is missing : 0.002447687317441245
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Neutral : -0.2081168594575672
+AI_Concerns_Opinion != Neutral : 0.09830189802007498
+AI_Concerns_Opinion is missing : 8.116238523493523E-4
+
+
+Iteration 94
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+GitHub_Habit <= 0.24281213509437186 : 0.15025726187844834
+GitHub_Habit > 0.24281213509437186 : -0.19024726402026815
+GitHub_Habit is missing : -0.005648076899534365
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Help_Thesis <= 0.25303385480896495 : 0.12943806149820622
+Help_Thesis > 0.25303385480896495 : -0.17404426923597666
+Help_Thesis is missing : 0.0021312188132537897
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.12649339922389313
+Domain_Shift_Intent > -0.15019898486361566 : -0.16136924035938052
+Domain_Shift_Intent is missing : 8.339216029054269E-4
+
+
+Iteration 95
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Higher studies : -0.4680734697539332
+Professional_Status != Higher studies : 0.05588151049596001
+Professional_Status is missing : -0.005520945083081824
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Higher studies : 0.3436114437405809
+Professional_Status != Higher studies : -0.06373132758652625
+Professional_Status is missing : 0.0022618393092611504
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -1.2164750542848666 : -0.5267206857993704
+Club_Count > -1.2164750542848666 : 0.03956004543645985
+Club_Count is missing : 6.619644051439425E-4
+
+
+Iteration 96
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= 2.42739542795656 : 0.020375981106779833
+Club_Count > 2.42739542795656 : -1.1100429602114732
+Club_Count is missing : -0.005170805722989
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : 0.6484575938501443
+Current_Domain != Cybersecurity : -0.03290046946503327
+Current_Domain is missing : 0.0019695538476246894
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Networking / DevOps / Cloud : -0.6007123976950293
+Current_Domain != Networking / DevOps / Cloud : 0.03444557444309673
+Current_Domain is missing : 7.463426929307965E-4
+
+
+Iteration 97
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= -0.2934526438588391 : 0.18568436282174014
+Help_Alumni > -0.2934526438588391 : -0.15282987298778541
+Help_Alumni is missing : -0.004680245332889868
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Database Administration : 0.8809160060189644
+Current_Domain != Database Administration : -0.023673696991125915
+Current_Domain is missing : 0.00188531454265738
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Data Science / ML / AI : 0.5166032814304842
+Current_Domain != Data Science / ML / AI : -0.038316782518307044
+Current_Domain is missing : 5.86514227840538E-4
+
+
+Iteration 98
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Years_Since_Grad <= 0.7988250198106618 : 0.06830050391612254
+Years_Since_Grad > 0.7988250198106618 : -0.38864204535130714
+Years_Since_Grad is missing : -0.0044084456131101585
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : -1.2131886470626512
+Projects_Built > -2.8442181391319807 : 0.020263546910828024
+Projects_Built is missing : 0.0017582480623416395
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : -0.15461499859147534
+Club_Count > -0.3055074337245099 : 0.12929184207817662
+Club_Count is missing : 5.670903517889123E-4
+
+
+Iteration 99
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= 0.8467589369532754 : -0.09492660282627251
+AI_Reliance > 0.8467589369532754 : 0.2988739478548472
+AI_Reliance is missing : -0.004184458282231213
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= 0.03116951385350089 : 0.24120327376550216
+Projects_Built > 0.03116951385350089 : -0.0910643383920792
+Projects_Built is missing : 0.0015744264241099335
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= 0.4310591976126138 : -0.10695308661512967
+Help_Lab > 0.4310591976126138 : 0.18280612070031568
+Help_Lab is missing : 6.189245316630549E-4
+
+
+Iteration 100
+	Class 1 (Career_Satisfaction=Low)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Entrepreneurship : 0.5522898430421024
+Current_Domain != Entrepreneurship : -0.053454442549143576
+Current_Domain is missing : -0.003964811570770472
+
+
+	Class 2 (Career_Satisfaction=Medium)
+
+Decision Stump
+
+Classifications
+
+AI_Concerns_Opinion = Concerned : -0.28141676626657613
+AI_Concerns_Opinion != Concerned : 0.08079594652007488
+AI_Concerns_Opinion is missing : 0.0014635529298393077
+
+
+	Class 3 (Career_Satisfaction=High)
+
+Decision Stump
+
+Classifications
+
+Help_Alumni <= 1.094804094396438 : -0.07109810167372965
+Help_Alumni > 1.094804094396438 : 0.2721724843173318
+Help_Alumni is missing : 6.102926286143725E-4
+
+Number of performed iterations: 100
+
+
+Time taken to build model: 0.12 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          62               63.2653 %
+Incorrectly Classified Instances        36               36.7347 %
+Kappa statistic                          0.0455
+Mean absolute error                      0.3216
+Root mean squared error                  0.4086
+Relative absolute error                 94.0965 %
+Root relative squared error             96.9776 %
+Total Number of Instances               98     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.012    0.000      0.000    0.000      -0.041   0.611     0.342     Low
+                 0.045    0.026    0.333      0.045    0.080      0.046    0.630     0.347     Medium
+                 0.984    0.917    0.649      0.984    0.782      0.164    0.646     0.738     High
+Weighted Avg.    0.633    0.588    0.485      0.633    0.513      0.108    0.637     0.594     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  0  2 12 |  a = Low
+  0  1 21 |  b = Medium
+  1  0 61 |  c = High
+

@@ -1,0 +1,166 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 5
+Relation:     career_satisfaction_5class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Professional_Status = Currently seeking a job
+|   Help_Club <= -1.253165: Very Dissatisfied (12.0/5.0)
+|   Help_Club > -1.253165
+|   |   Help_Lab <= -0.665912: Neutral (18.0/8.0)
+|   |   Help_Lab > -0.665912: Satisfied (18.0/8.0)
+Professional_Status = Employed
+|   Domain_Shift_Intent <= 0.465617
+|   |   Current_Domain = Academia
+|   |   |   Problem_Solving <= -1.467931: Neutral (5.0/1.0)
+|   |   |   Problem_Solving > -1.467931
+|   |   |   |   AI_Concerns_Opinion = Concerned: Very Satisfied (7.0/3.0)
+|   |   |   |   AI_Concerns_Opinion = Neutral: Very Satisfied (13.0/7.0)
+|   |   |   |   AI_Concerns_Opinion = Positive
+|   |   |   |   |   Problem_Solving <= -0.401133: Satisfied (7.0/1.0)
+|   |   |   |   |   Problem_Solving > -0.401133: Very Satisfied (15.0/6.0)
+|   |   Current_Domain = Cybersecurity
+|   |   |   Club_Count <= -0.760991: Neutral (5.0/2.0)
+|   |   |   Club_Count > -0.760991: Very Satisfied (10.0/3.0)
+|   |   Current_Domain = Data Science / ML / AI
+|   |   |   Univ_Studies_Effect <= -0.112492
+|   |   |   |   Help_Club <= -0.510325: Satisfied (8.0/4.0)
+|   |   |   |   Help_Club > -0.510325: Very Satisfied (7.0/3.0)
+|   |   |   Univ_Studies_Effect > -0.112492: Satisfied (15.0/3.0)
+|   |   Current_Domain = Database Administration: Satisfied (7.0/4.0)
+|   |   Current_Domain = Entrepreneurship
+|   |   |   Years_Since_Grad <= -0.018835: Very Satisfied (5.0)
+|   |   |   Years_Since_Grad > -0.018835: Satisfied (5.0/3.0)
+|   |   Current_Domain = Government Service
+|   |   |   Univ_Studies_Effect <= -0.112492: Very Satisfied (12.0/6.0)
+|   |   |   Univ_Studies_Effect > -0.112492: Satisfied (7.0/4.0)
+|   |   Current_Domain = Networking / DevOps / Cloud: Neutral (13.0/8.0)
+|   |   Current_Domain = Not Applicable: Neutral (1.0)
+|   |   Current_Domain = Software Engineer
+|   |   |   AI_Reliance <= -1.291872: Satisfied (16.0/8.0)
+|   |   |   AI_Reliance > -1.291872
+|   |   |   |   Help_Lecture <= -1.270337
+|   |   |   |   |   Years_Since_Grad <= -0.563942: Satisfied (9.0)
+|   |   |   |   |   Years_Since_Grad > -0.563942
+|   |   |   |   |   |   Problem_Solving <= -0.401133: Satisfied (8.0/3.0)
+|   |   |   |   |   |   Problem_Solving > -0.401133: Dissatisfied (5.0/2.0)
+|   |   |   |   Help_Lecture > -1.270337
+|   |   |   |   |   Problem_Solving <= 0.665664
+|   |   |   |   |   |   Club_Count <= 0.149976
+|   |   |   |   |   |   |   AI_Reliance <= 0.419033
+|   |   |   |   |   |   |   |   Projects_Built <= -0.448062: Very Satisfied (6.0/2.0)
+|   |   |   |   |   |   |   |   Projects_Built > -0.448062
+|   |   |   |   |   |   |   |   |   Help_Lab <= -0.665912
+|   |   |   |   |   |   |   |   |   |   Help_Alumni <= -0.640517: Very Satisfied (5.0)
+|   |   |   |   |   |   |   |   |   |   Help_Alumni > -0.640517: Satisfied (6.0/3.0)
+|   |   |   |   |   |   |   |   |   Help_Lab > -0.665912: Satisfied (16.0/5.0)
+|   |   |   |   |   |   |   AI_Reliance > 0.419033: Satisfied (11.0/2.0)
+|   |   |   |   |   |   Club_Count > 0.149976: Satisfied (9.0/1.0)
+|   |   |   |   |   Problem_Solving > 0.665664: Very Satisfied (9.0/2.0)
+|   |   Current_Domain = Web Developer
+|   |   |   AI_Concerns_Opinion = Concerned: Satisfied (8.0/4.0)
+|   |   |   AI_Concerns_Opinion = Neutral: Neutral (3.0/1.0)
+|   |   |   AI_Concerns_Opinion = Positive: Very Satisfied (9.0/4.0)
+|   Domain_Shift_Intent > 0.465617
+|   |   Projects_Built <= -3.323449: Very Satisfied (6.0/1.0)
+|   |   Projects_Built > -3.323449
+|   |   |   Help_Club <= 0.232515
+|   |   |   |   GitHub_Habit <= -0.485624
+|   |   |   |   |   AI_Reliance <= -0.43642: Satisfied (7.0/3.0)
+|   |   |   |   |   AI_Reliance > -0.43642: Dissatisfied (11.0/4.0)
+|   |   |   |   GitHub_Habit > -0.485624
+|   |   |   |   |   Club_Count <= -0.760991: Satisfied (9.0/1.0)
+|   |   |   |   |   Club_Count > -0.760991
+|   |   |   |   |   |   Help_Lecture <= 0.097291: Satisfied (8.0/4.0)
+|   |   |   |   |   |   Help_Lecture > 0.097291: Neutral (5.0/2.0)
+|   |   |   Help_Club > 0.232515: Neutral (17.0/5.0)
+Professional_Status = Founder / Entrepreneur
+|   Club_Count <= -1.671959: Neutral (5.0/1.0)
+|   Club_Count > -1.671959
+|   |   Help_Lecture <= 0.781104
+|   |   |   Current_Domain = Academia: Satisfied (2.0)
+|   |   |   Current_Domain = Cybersecurity: Neutral (1.0)
+|   |   |   Current_Domain = Data Science / ML / AI: Very Satisfied (0.0)
+|   |   |   Current_Domain = Database Administration: Neutral (1.0)
+|   |   |   Current_Domain = Entrepreneurship
+|   |   |   |   Internship_Exp <= -0.913303: Very Satisfied (8.0/2.0)
+|   |   |   |   Internship_Exp > -0.913303: Satisfied (9.0/3.0)
+|   |   |   Current_Domain = Government Service: Neutral (2.0/1.0)
+|   |   |   Current_Domain = Networking / DevOps / Cloud: Very Satisfied (0.0)
+|   |   |   Current_Domain = Not Applicable: Very Satisfied (0.0)
+|   |   |   Current_Domain = Software Engineer: Very Satisfied (6.0/2.0)
+|   |   |   Current_Domain = Web Developer: Satisfied (3.0)
+|   |   Help_Lecture > 0.781104: Neutral (5.0/2.0)
+Professional_Status = Higher studies
+|   Help_Club <= 0.975355
+|   |   Club_Count <= -0.760991: Neutral (27.0/12.0)
+|   |   Club_Count > -0.760991: Satisfied (38.0/16.0)
+|   Help_Club > 0.975355: Very Satisfied (7.0/1.0)
+Professional_Status = Not currently seeking: Satisfied (5.0/2.0)
+
+Number of Leaves  : 	58
+
+Size of the tree : 	94
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         180               36.5854 %
+Incorrectly Classified Instances       312               63.4146 %
+Kappa statistic                          0.1038
+Mean absolute error                      0.27  
+Root mean squared error                  0.4159
+Relative absolute error                 94.3217 %
+Root relative squared error            110.0208 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.167    0.023    0.214      0.167    0.188      0.162    0.652     0.094     Very Dissatisfied
+                 0.094    0.059    0.100      0.094    0.097      0.036    0.457     0.081     Dissatisfied
+                 0.339    0.225    0.323      0.339    0.331      0.112    0.592     0.300     Neutral
+                 0.479    0.391    0.431      0.479    0.453      0.086    0.556     0.432     Satisfied
+                 0.324    0.199    0.383      0.324    0.351      0.131    0.589     0.335     Very Satisfied
+Weighted Avg.    0.366    0.263    0.362      0.366    0.363      0.104    0.571     0.338     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+  3  2  5  6  2 |  a = Very Dissatisfied
+  2  3  8 13  6 |  b = Dissatisfied
+  3 10 40 44 21 |  c = Neutral
+  3 11 42 90 42 |  d = Satisfied
+  3  4 29 56 44 |  e = Very Satisfied
+

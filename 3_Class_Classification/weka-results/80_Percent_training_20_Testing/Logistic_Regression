@@ -1,0 +1,147 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M 1000 -num-decimal-places 4
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                 Class
+Variable                                           Low   Medium
+===============================================================
+Years_Since_Grad                               -0.0732  -0.0078
+Professional_Status=Currently seeking a job     1.9237   0.3701
+Professional_Status=Employed                    -0.195  -0.2577
+Professional_Status=Founder / Entrepreneur     -0.8069   0.4672
+Professional_Status=Higher studies             -0.5975   1.0361
+Professional_Status=Not currently seeking       1.1934  -13.989
+Univ_Studies_Effect                             0.0706    0.157
+Help_Lecture                                    -0.124   0.1528
+Help_Lab                                       -0.2058  -0.3192
+Help_Thesis                                    -0.1481  -0.2136
+Help_Club                                       -0.093  -0.1345
+Help_Alumni                                    -0.2632  -0.0571
+Club_Count                                     -0.5085   -0.166
+Internship_Exp                                  0.4041   0.0812
+Projects_Built                                  0.1142   0.0029
+GitHub_Habit                                   -0.2511  -0.0745
+Contest_Involvement                             0.2132   0.0146
+Problem_Solving                                 0.1548  -0.2807
+Current_Domain=Academia                         0.0725  -0.6429
+Current_Domain=Cybersecurity                   -0.9449    0.848
+Current_Domain=Data Science / ML / AI          -1.1046  -0.5063
+Current_Domain=Database Administration           0.189   1.4515
+Current_Domain=Entrepreneurship                 1.1041  -0.1707
+Current_Domain=Government Service               0.2588  -0.0175
+Current_Domain=Networking / DevOps / Cloud      1.5578    1.323
+Current_Domain=Not Applicable                   1.0018   1.1071
+Current_Domain=Software Engineer               -0.3764   0.1399
+Current_Domain=Web Developer                    0.1058  -0.1475
+Domain_Switched                                -0.0554   0.0397
+Domain_Shift_Intent                             0.4124    0.413
+AI_Usage_Freq                                   -0.122  -0.3093
+AI_Concerns_Opinion=Concerned                   0.1729  -0.4201
+AI_Concerns_Opinion=Neutral                     0.3221   0.2009
+AI_Concerns_Opinion=Positive                   -0.3982   0.1176
+AI_Reliance                                     0.5491  -0.0447
+Intercept                                      -2.2677  -1.2297
+
+
+Odds Ratios...
+                                                 Class
+Variable                                           Low   Medium
+===============================================================
+Years_Since_Grad                                0.9294   0.9922
+Professional_Status=Currently seeking a job     6.8463   1.4479
+Professional_Status=Employed                    0.8228   0.7728
+Professional_Status=Founder / Entrepreneur      0.4462   1.5955
+Professional_Status=Higher studies              0.5502   2.8182
+Professional_Status=Not currently seeking       3.2982        0
+Univ_Studies_Effect                             1.0732     1.17
+Help_Lecture                                    0.8834   1.1651
+Help_Lab                                         0.814   0.7267
+Help_Thesis                                     0.8623   0.8076
+Help_Club                                       0.9112   0.8742
+Help_Alumni                                     0.7686   0.9445
+Club_Count                                      0.6014    0.847
+Internship_Exp                                   1.498   1.0846
+Projects_Built                                   1.121   1.0029
+GitHub_Habit                                     0.778   0.9282
+Contest_Involvement                             1.2376   1.0147
+Problem_Solving                                 1.1674   0.7553
+Current_Domain=Academia                         1.0752   0.5258
+Current_Domain=Cybersecurity                    0.3887   2.3349
+Current_Domain=Data Science / ML / AI           0.3314   0.6027
+Current_Domain=Database Administration          1.2081   4.2694
+Current_Domain=Entrepreneurship                 3.0165   0.8431
+Current_Domain=Government Service               1.2954   0.9826
+Current_Domain=Networking / DevOps / Cloud      4.7482   3.7548
+Current_Domain=Not Applicable                   2.7232   3.0257
+Current_Domain=Software Engineer                0.6863   1.1501
+Current_Domain=Web Developer                    1.1116   0.8628
+Domain_Switched                                 0.9461   1.0405
+Domain_Shift_Intent                             1.5105   1.5114
+AI_Usage_Freq                                   0.8851    0.734
+AI_Concerns_Opinion=Concerned                   1.1888    0.657
+AI_Concerns_Opinion=Neutral                       1.38   1.2224
+AI_Concerns_Opinion=Positive                    0.6715   1.1248
+AI_Reliance                                     1.7316   0.9563
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          63               64.2857 %
+Incorrectly Classified Instances        35               35.7143 %
+Kappa statistic                          0.2162
+Mean absolute error                      0.3073
+Root mean squared error                  0.4274
+Relative absolute error                 89.9146 %
+Root relative squared error            101.4375 %
+Total Number of Instances               98     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.286    0.024    0.667      0.286    0.400      0.382    0.619     0.382     Low
+                 0.227    0.118    0.357      0.227    0.278      0.130    0.568     0.305     Medium
+                 0.871    0.667    0.692      0.871    0.771      0.244    0.593     0.706     High
+Weighted Avg.    0.643    0.452    0.613      0.643    0.608      0.238    0.591     0.570     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  4  2  8 |  a = Low
+  1  5 16 |  b = Medium
+  1  7 54 |  c = High
+

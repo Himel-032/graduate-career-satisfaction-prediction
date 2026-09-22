@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 5 -W 0 -I -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         322               65.4472 %
+Incorrectly Classified Instances       170               34.5528 %
+Kappa statistic                          0.1591
+Mean absolute error                      0.2807
+Root mean squared error                  0.4171
+Relative absolute error                 84.2419 %
+Root relative squared error            102.3107 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.060    0.025    0.214      0.060    0.094      0.064    0.594     0.172     Low
+                 0.246    0.091    0.460      0.246    0.320      0.198    0.636     0.413     Medium
+                 0.895    0.744    0.699      0.895    0.785      0.197    0.625     0.766     High
+Weighted Avg.    0.654    0.514    0.592      0.654    0.603      0.184    0.624     0.621     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   3   5  42 |   a = Low
+   6  29  83 |   b = Medium
+   5  29 290 |   c = High
+

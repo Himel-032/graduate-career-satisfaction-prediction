@@ -1,0 +1,197 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                  Class
+Attribute                           Low  Medium    High
+                                  (0.1)  (0.24)  (0.66)
+========================================================
+Years_Since_Grad
+  mean                           -0.1744  0.0462  0.0387
+  std. dev.                       1.0195  1.1007  0.9525
+  weight sum                          50     118     324
+  precision                       0.5451  0.5451  0.5451
+
+Professional_Status
+  Currently seeking a job           17.0    14.0    20.0
+  Employed                          27.0    68.0   233.0
+  Founder / Entrepreneur             4.0    14.0    27.0
+  Higher studies                     4.0    26.0    45.0
+  Not currently seeking              3.0     1.0     4.0
+  [total]                           55.0   123.0   329.0
+
+Univ_Studies_Effect
+  mean                           -0.1093  0.1506  0.1329
+  std. dev.                       1.1132  0.8946   1.012
+  weight sum                          50     118     324
+  precision                       0.6833  0.6833  0.6833
+
+Help_Lecture
+  mean                           -0.2051 -0.0348 -0.1034
+  std. dev.                       1.0438  0.9987  0.9903
+  weight sum                          50     118     324
+  precision                       0.6838  0.6838  0.6838
+
+Help_Lab
+  mean                           -0.3072 -0.1921  0.0181
+  std. dev.                       1.0556  0.9868  0.9833
+  weight sum                          50     118     324
+  precision                       0.7313  0.7313  0.7313
+
+Help_Thesis
+  mean                              0.03  0.0127  0.1759
+  std. dev.                       0.9119  0.9763  1.0156
+  weight sum                          50     118     324
+  precision                         0.75    0.75    0.75
+
+Help_Club
+  mean                           -0.2971 -0.2896 -0.2018
+  std. dev.                        1.061   0.897  1.0227
+  weight sum                          50     118     324
+  precision                       0.7428  0.7428  0.7428
+
+Help_Alumni
+  mean                            -0.236  0.0059 -0.0471
+  std. dev.                       0.9778   0.967  1.0104
+  weight sum                          50     118     324
+  precision                       0.6941  0.6941  0.6941
+
+Club_Count
+  mean                           -0.4008 -0.2702 -0.0675
+  std. dev.                       0.8768   1.076  0.9764
+  weight sum                          50     118     324
+  precision                        0.911   0.911   0.911
+
+Internship_Exp
+  mean                            1.0832   0.884  0.8977
+  std. dev.                       0.9998  0.9959  0.9975
+  weight sum                          50     118     324
+  precision                        2.006   2.006   2.006
+
+Projects_Built
+  mean                            0.3642   0.398  0.4792
+  std. dev.                       1.1954  0.8852  1.0033
+  weight sum                          50     118     324
+  precision                       0.9585  0.9585  0.9585
+
+GitHub_Habit
+  mean                            0.3205  0.4445  0.5261
+  std. dev.                       1.0215  0.9948  0.9938
+  weight sum                          50     118     324
+  precision                       1.4569  1.4569  1.4569
+
+Contest_Involvement
+  mean                            0.2755  0.1796  0.2748
+  std. dev.                       1.0557  0.9589   1.003
+  weight sum                          50     118     324
+  precision                       1.0598  1.0598  1.0598
+
+Problem_Solving
+  mean                            0.5974  0.1718  0.4544
+  std. dev.                       1.0044  1.0483  0.9652
+  weight sum                          50     118     324
+  precision                       1.0668  1.0668  1.0668
+
+Current_Domain
+  Academia                          12.0    24.0    83.0
+  Cybersecurity                      2.0    10.0    15.0
+  Data Science / ML / AI             2.0     7.0    32.0
+  Database Administration            2.0     7.0     6.0
+  Entrepreneurship                   7.0    11.0    26.0
+  Government Service                 4.0     9.0    17.0
+  Networking / DevOps / Cloud        6.0    10.0    11.0
+  Not Applicable                     2.0     4.0     2.0
+  Software Engineer                 15.0    37.0   114.0
+  Web Developer                      8.0     9.0    28.0
+  [total]                           60.0   128.0   334.0
+
+Domain_Switched
+  mean                            0.5782  0.6596  0.6177
+  std. dev.                       0.9754  1.0157   0.996
+  weight sum                          50     118     324
+  precision                       2.2237  2.2237  2.2237
+
+Domain_Shift_Intent
+  mean                                 0 -0.2505 -0.6158
+  std. dev.                       1.0737  1.0703  0.9206
+  weight sum                          50     118     324
+  precision                       1.2316  1.2316  1.2316
+
+AI_Usage_Freq
+  mean                           -0.4123 -0.7644 -0.4772
+  std. dev.                       0.8716  1.1651  0.9376
+  weight sum                          50     118     324
+  precision                       1.2885  1.2885  1.2885
+
+AI_Concerns_Opinion
+  Concerned                         16.0    22.0    74.0
+  Neutral                           17.0    46.0    94.0
+  Positive                          20.0    53.0   159.0
+  [total]                           53.0   121.0   327.0
+
+AI_Reliance
+  mean                           -0.1027 -0.5727 -0.4119
+  std. dev.                       0.8319  1.0569  0.9888
+  weight sum                          50     118     324
+  precision                       0.8555  0.8555  0.8555
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         307               62.3984 %
+Incorrectly Classified Instances       185               37.6016 %
+Kappa statistic                          0.1299
+Mean absolute error                      0.2983
+Root mean squared error                  0.4145
+Relative absolute error                 89.5469 %
+Root relative squared error            101.6918 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.180    0.066    0.237      0.180    0.205      0.129    0.629     0.210     Low
+                 0.178    0.094    0.375      0.178    0.241      0.113    0.651     0.351     Medium
+                 0.855    0.720    0.696      0.855    0.767      0.162    0.653     0.762     High
+Weighted Avg.    0.624    0.503    0.572      0.624    0.584      0.147    0.650     0.607     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   9   8  33 |   a = Low
+   9  21  88 |   b = Medium
+  20  27 277 |   c = High
+

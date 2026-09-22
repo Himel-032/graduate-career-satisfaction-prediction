@@ -1,0 +1,493 @@
+Years_Since_Grad,Professional_Status,Univ_Studies_Effect,Help_Lecture,Help_Lab,Help_Thesis,Help_Club,Help_Alumni,Club_Count,Internship_Exp,Projects_Built,GitHub_Habit,Contest_Involvement,Problem_Solving,Current_Domain,Domain_Switched,Domain_Shift_Intent,AI_Usage_Freq,AI_Concerns_Opinion,AI_Reliance,Career_Satisfaction
+1,Higher studies,3,1,4,2,5,3,4,1,5,1,1,3,Data Science / ML / AI,0,0.0,3,Positive,2,High
+2,Employed,3,5,3,1,4,2,3,1,5,2,2,5,Software Engineer,0,2.0,3,Positive,3,High
+2,Employed,2,5,1,4,3,2,4,1,5,1,1,4,Networking / DevOps / Cloud,0,2.0,3,Neutral,3,Medium
+6,Employed,3,5,1,4,3,2,1,1,5,1,2,4,Academia,0,2.0,3,Positive,4,Low
+3,Employed,5,4,3,5,2,1,2,1,5,2,1,4,Software Engineer,0,0.0,3,Concerned,4,High
+2,Employed,3,1,2,4,5,3,1,1,5,2,2,3,Software Engineer,0,1.0,3,Positive,4,High
+7,Higher studies,4,4,3,5,1,2,2,1,5,2,1,5,Academia,0,1.0,3,Positive,4,High
+2,Employed,4,4,1,5,2,3,3,0,5,1,2,5,Software Engineer,1,1.0,3,Concerned,3,High
+2,Employed,4,1,2,5,4,3,2,0,5,2,0,2,Government Service,0,0.0,0,Positive,3,High
+3,Higher studies,4,1,5,2,4,3,1,0,5,1,2,3,Academia,0,0.0,3,Positive,3,High
+3,Employed,3,4,5,2,1,3,2,1,5,2,2,4,Data Science / ML / AI,0,1.0,3,Positive,3,Medium
+4,Employed,4,4,3,5,2,1,3,1,5,2,3,3,Software Engineer,1,1.0,3,Neutral,4,High
+3,Higher studies,4,4,2,1,3,5,1,1,5,1,1,5,Academia,0,1.0,3,Neutral,4,Medium
+7,Founder / Entrepreneur,4,5,1,4,3,2,3,0,5,1,0,4,Entrepreneurship,0,0.0,3,Positive,2,Medium
+2,Employed,3,2,5,3,1,4,2,1,5,2,2,5,Software Engineer,1,1.0,3,Neutral,2,Medium
+4,Employed,4,1,2,3,5,4,4,1,5,2,1,5,Data Science / ML / AI,1,0.0,3,Positive,1,High
+2,Employed,4,3,2,1,5,4,2,1,5,1,0,3,Networking / DevOps / Cloud,0,0.0,3,Neutral,4,Medium
+4,Employed,5,4,2,1,5,3,2,1,5,2,1,3,Web Developer,0,0.0,3,Positive,4,High
+2,Employed,4,1,5,2,4,3,1,0,5,2,0,5,Academia,0,0.0,3,Positive,5,High
+3,Higher studies,4,1,5,2,3,4,1,1,5,2,1,2,Data Science / ML / AI,0,2.0,3,Positive,3,High
+4,Founder / Entrepreneur,5,3,5,4,2,1,1,0,4,1,0,5,Entrepreneurship,0,0.0,3,Positive,1,High
+4,Employed,4,3,4,1,5,2,2,1,5,2,1,3,Data Science / ML / AI,1,1.0,3,Positive,4,High
+2,Employed,4,3,2,5,4,1,1,0,5,2,2,3,Data Science / ML / AI,1,0.0,3,Neutral,3,High
+7,Higher studies,4,1,5,3,4,2,2,1,5,2,0,3,Academia,1,2.0,3,Neutral,4,High
+3,Higher studies,3,3,5,1,2,4,2,1,5,1,1,2,Academia,0,0.0,3,Neutral,4,High
+3,Employed,4,5,4,2,1,3,3,1,5,2,2,2,Academia,0,1.0,3,Positive,3,High
+2,Currently seeking a job,4,2,3,5,1,4,2,1,5,2,0,3,Software Engineer,0,1.0,3,Neutral,2,Low
+4,Employed,5,1,2,4,3,5,3,1,5,2,2,5,Software Engineer,0,0.0,3,Neutral,5,Low
+4,Employed,3,4,1,5,3,2,4,0,5,2,2,4,Software Engineer,0,0.0,3,Positive,3,High
+2,Employed,4,2,5,4,3,1,2,1,5,2,1,5,Academia,0,2.0,3,Positive,5,High
+2,Employed,4,1,3,5,4,2,5,0,5,1,2,4,Cybersecurity,0,1.0,3,Positive,5,Medium
+2,Employed,4,3,2,4,5,1,2,1,5,1,1,3,Web Developer,0,0.0,3,Positive,4,High
+2,Employed,4,1,3,5,4,2,5,0,5,1,2,4,Cybersecurity,0,1.0,3,Positive,5,Medium
+2,Employed,4,3,2,4,5,1,2,1,5,1,1,3,Web Developer,0,0.0,3,Positive,4,High
+5,Employed,4,5,3,2,1,4,3,1,5,2,1,4,Software Engineer,0,0.0,3,Neutral,3,High
+4,Employed,4,3,2,1,5,4,1,1,5,2,1,4,Academia,0,0.0,3,Positive,2,High
+5,Higher studies,5,2,5,3,4,1,1,0,5,1,1,3,Academia,0,0.0,3,Neutral,1,Medium
+7,Founder / Entrepreneur,3,1,2,4,3,5,2,1,5,2,3,4,Entrepreneurship,0,0.0,3,Neutral,3,High
+2,Employed,5,1,5,4,2,3,4,1,5,2,1,4,Software Engineer,0,2.0,3,Positive,2,Medium
+4,Employed,5,4,1,3,5,2,2,1,5,2,3,4,Web Developer,0,1.0,3,Positive,4,Low
+3,Employed,3,2,3,5,4,1,3,0,5,2,0,4,Academia,0,0.0,3,Positive,4,High
+2,Employed,4,1,4,5,3,2,4,1,5,2,2,4,Academia,0,0.0,3,Positive,2,High
+3,Employed,4,3,5,2,4,1,3,1,5,1,1,5,Cybersecurity,0,0.0,3,Positive,4,Low
+3,Higher studies,3,2,3,1,5,4,5,1,5,2,2,4,Academia,1,0.0,3,Positive,3,High
+4,Employed,5,1,3,4,2,5,2,0,5,1,1,4,Government Service,0,2.0,0,Neutral,3,High
+6,Employed,4,2,4,5,1,3,1,1,5,1,3,3,Software Engineer,0,0.0,3,Positive,2,High
+4,Employed,4,1,5,3,4,2,2,0,5,1,0,4,Networking / DevOps / Cloud,0,0.0,3,Neutral,3,High
+2,Founder / Entrepreneur,3,1,3,4,5,2,2,0,5,1,3,4,Entrepreneurship,1,0.0,3,Positive,3,Low
+5,Higher studies,3,1,4,5,2,3,2,0,5,1,1,2,Academia,1,0.0,3,Positive,2,High
+7,Currently seeking a job,4,2,1,3,4,5,1,1,5,2,1,3,Cybersecurity,1,2.0,3,Neutral,3,Medium
+5,Higher studies,3,1,4,5,2,3,2,0,5,1,1,2,Academia,1,0.0,3,Positive,2,High
+7,Currently seeking a job,4,2,1,3,4,5,1,1,5,2,1,3,Cybersecurity,1,2.0,3,Neutral,3,Medium
+3,Employed,4,5,2,3,1,4,2,0,2,1,3,4,Networking / DevOps / Cloud,1,0.0,2,Neutral,4,Medium
+1,Not currently seeking,4,1,2,5,4,3,4,1,5,2,2,3,Networking / DevOps / Cloud,0,0.0,3,Positive,4,Low
+4,Currently seeking a job,3,3,1,2,5,4,3,0,5,2,1,3,Web Developer,0,2.0,3,Positive,2,Medium
+2,Employed,4,1,3,4,2,5,2,1,5,2,1,4,Software Engineer,1,0.0,3,Positive,1,High
+3,Higher studies,3,1,5,4,2,3,2,1,5,2,1,3,Academia,1,0.0,3,Neutral,2,High
+6,Employed,3,4,5,1,2,3,1,1,5,2,1,4,Software Engineer,1,0.0,3,Neutral,3,High
+4,Currently seeking a job,4,5,1,3,4,2,2,1,5,1,2,5,Web Developer,0,2.0,3,Positive,3,Medium
+7,Employed,2,4,3,2,1,5,2,1,5,1,1,4,Web Developer,0,0.0,3,Positive,3,High
+3,Higher studies,3,3,2,5,4,1,2,1,5,1,1,3,Academia,1,0.0,3,Positive,5,High
+2,Employed,4,1,3,4,5,2,1,1,5,2,2,3,Data Science / ML / AI,0,0.0,3,Positive,1,High
+2,Employed,3,3,5,1,2,4,2,1,5,1,0,3,Software Engineer,0,2.0,3,Neutral,1,Medium
+3,Founder / Entrepreneur,5,5,3,4,2,1,4,1,5,2,3,5,Entrepreneurship,0,0.0,3,Positive,2,Medium
+1,Not currently seeking,4,2,5,4,3,1,1,1,5,1,1,3,Academia,0,1.0,3,Neutral,3,Low
+4,Currently seeking a job,4,4,1,5,3,2,1,0,5,1,2,2,Entrepreneurship,0,2.0,3,Positive,4,Low
+4,Higher studies,4,1,5,2,4,3,2,0,5,2,2,5,Academia,1,0.0,3,Neutral,3,High
+2,Higher studies,4,3,4,2,1,5,3,1,5,1,2,2,Academia,0,1.0,3,Neutral,4,Medium
+3,Currently seeking a job,4,5,2,3,1,4,1,0,5,2,0,5,Software Engineer,1,0.0,3,Positive,5,Low
+4,Employed,4,2,1,3,5,4,1,1,5,2,0,4,Data Science / ML / AI,0,1.0,3,Concerned,1,High
+4,Employed,4,5,4,3,2,1,2,1,5,1,2,3,Web Developer,0,2.0,3,Positive,1,High
+1,Employed,4,4,1,3,2,5,1,0,5,1,3,4,Software Engineer,0,2.0,3,Positive,4,Medium
+7,Employed,4,3,4,5,2,1,3,1,5,2,1,5,Software Engineer,0,0.0,3,Positive,3,High
+3,Founder / Entrepreneur,4,5,1,3,4,2,2,1,5,1,2,3,Entrepreneurship,1,0.0,3,Positive,3,Low
+6,Employed,3,3,2,5,4,1,1,1,5,1,1,4,Web Developer,0,0.0,3,Positive,1,High
+5,Employed,4,5,3,1,2,4,2,1,5,2,2,3,Software Engineer,0,2.0,3,Neutral,2,Medium
+5,Employed,4,4,1,2,3,5,3,1,5,1,1,4,Software Engineer,0,1.0,3,Positive,2,High
+3,Employed,4,3,5,1,4,2,1,0,5,2,0,2,Software Engineer,0,0.0,3,Neutral,3,High
+4,Employed,2,3,2,4,1,5,3,1,2,2,0,5,Web Developer,0,2.0,3,Positive,4,High
+1,Higher studies,3,3,4,1,5,2,5,1,5,2,2,3,Academia,0,0.0,3,Neutral,5,High
+3,Employed,4,4,3,2,1,5,3,0,5,1,2,3,Software Engineer,0,1.0,3,Positive,3,High
+6,Employed,5,2,3,5,1,4,3,1,5,2,2,4,Networking / DevOps / Cloud,1,0.0,3,Positive,5,Medium
+1,Higher studies,4,5,3,1,4,2,3,0,5,2,2,3,Academia,1,0.0,3,Positive,4,High
+6,Employed,3,5,1,4,2,3,1,1,2,2,2,4,Data Science / ML / AI,1,0.0,3,Positive,3,High
+2,Employed,3,1,4,2,3,5,2,1,4,1,1,3,Networking / DevOps / Cloud,0,0.0,3,Positive,1,Medium
+4,Employed,4,2,5,3,4,1,3,0,4,1,1,3,Software Engineer,1,0.0,3,Positive,2,High
+5,Employed,4,5,2,4,3,1,2,0,5,2,1,4,Networking / DevOps / Cloud,0,1.0,3,Positive,2,Low
+7,Employed,4,4,2,1,3,5,3,1,5,2,3,4,Data Science / ML / AI,0,0.0,3,Neutral,4,High
+3,Employed,4,5,1,4,3,2,4,1,5,2,2,5,Data Science / ML / AI,0,0.0,3,Concerned,1,High
+2,Employed,3,5,3,2,1,4,3,0,5,2,1,3,Software Engineer,0,2.0,3,Neutral,3,High
+7,Employed,4,3,2,5,1,4,1,1,5,2,0,3,Academia,0,0.0,3,Concerned,5,High
+7,Employed,4,3,2,5,1,4,1,1,5,2,0,3,Academia,0,0.0,3,Concerned,5,High
+5,Higher studies,3,1,4,5,2,3,2,0,5,1,1,2,Academia,1,0.0,3,Positive,2,High
+1,Employed,3,1,3,4,2,5,0,0,5,2,2,3,Software Engineer,0,1.0,3,Neutral,4,High
+5,Founder / Entrepreneur,0,2,4,3,2,3,0,1,5,1,0,3,Software Engineer,1,0.0,3,Positive,5,Medium
+3,Employed,2,1,3,3,5,5,0,0,2,1,1,3,Networking / DevOps / Cloud,0,0.0,3,Positive,4,High
+2,Employed,4,3,5,4,3,3,0,1,4,2,2,4,Data Science / ML / AI,1,1.0,3,Positive,4,High
+4,Employed,3,3,5,4,4,5,0,0,3,0,3,4,Software Engineer,0,1.0,3,Positive,5,High
+1,Currently seeking a job,0,1,1,2,1,1,0,0,0,0,0,4,Entrepreneurship,0,2.0,3,Concerned,5,Low
+4,Employed,0,1,1,1,1,1,0,1,5,1,1,5,Academia,1,2.0,3,Neutral,5,Low
+3,Employed,3,4,2,5,1,3,0,0,5,0,0,4,Academia,0,0.0,2,Positive,4,High
+7,Employed,5,3,4,5,2,1,2,0,5,1,1,3,Academia,0,0.0,2,Neutral,4,High
+1,Employed,4,5,5,5,3,3,1,1,5,1,1,3,Academia,0,1.0,3,Neutral,3,High
+0,Currently seeking a job,3,1,1,1,2,2,4,0,4,2,1,3,Software Engineer,0,1.0,2,Positive,4,Medium
+0,Currently seeking a job,4,3,4,1,2,4,1,0,5,1,1,2,Data Science / ML / AI,0,2.0,3,Positive,2,Medium
+0,Currently seeking a job,1,3,2,2,1,1,1,0,4,1,2,3,Software Engineer,0,2.0,3,Concerned,4,Low
+1,Employed,5,4,4,5,1,2,2,0,5,0,1,3,Academia,0,0.0,3,Positive,5,High
+0,Employed,4,4,3,2,2,2,5,1,4,1,0,1,Academia,0,1.0,3,Positive,4,Medium
+1,Employed,5,4,4,5,1,2,2,0,5,0,1,3,Academia,0,0.0,3,Positive,5,High
+0,Employed,4,4,3,2,2,2,5,1,4,1,0,1,Academia,0,1.0,3,Positive,4,Medium
+0,Employed,3,2,3,4,4,2,3,1,5,2,1,3,Software Engineer,1,2.0,3,Concerned,3,Medium
+0,Currently seeking a job,1,2,2,3,5,3,1,1,5,2,1,3,Government Service,1,1.0,3,Concerned,5,Low
+0,Currently seeking a job,3,2,3,4,5,5,2,1,5,1,1,3,Cybersecurity,1,1.0,3,Positive,4,High
+3,Employed,4,4,4,3,2,2,1,0,5,1,1,3,Academia,0,0.0,3,Concerned,4,High
+3,Employed,3,1,4,5,3,2,1,0,5,0,2,4,Software Engineer,1,1.0,3,Concerned,4,Low
+3,Employed,2,2,4,2,3,3,1,0,5,1,1,4,Software Engineer,0,2.0,3,Positive,5,Low
+3,Employed,2,1,2,1,1,4,2,0,1,0,1,3,Database Administration,0,0.0,3,Positive,3,High
+2,Employed,3,2,4,3,3,4,1,0,5,2,1,3,Database Administration,0,0.0,3,Positive,3,High
+0,Employed,4,2,5,5,1,4,2,1,5,2,2,3,Software Engineer,0,1.0,3,Positive,3,High
+1,Employed,0,1,1,3,3,1,3,1,5,1,0,3,Academia,0,1.0,3,Positive,4,High
+4,Employed,5,4,5,4,3,3,2,0,3,1,1,4,Academia,0,0.0,3,Positive,3,High
+1,Founder / Entrepreneur,5,4,2,3,1,5,2,1,5,2,2,4,Entrepreneurship,1,1.0,3,Positive,4,High
+3,Employed,5,5,4,3,1,2,3,1,5,2,3,4,Software Engineer,1,2.0,3,Concerned,3,High
+1,Employed,0,1,1,1,1,1,3,0,3,0,0,3,Data Science / ML / AI,1,2.0,3,Positive,5,Low
+3,Employed,1,1,3,3,2,3,2,1,5,1,1,1,Software Engineer,0,1.0,3,Concerned,3,High
+2,Currently seeking a job,2,4,4,3,3,4,2,0,3,1,1,2,Academia,0,2.0,2,Concerned,4,Low
+1,Employed,5,4,3,5,2,1,1,0,5,2,1,3,Cybersecurity,1,2.0,2,Neutral,3,High
+3,Employed,5,4,4,2,2,3,4,0,3,1,1,3,Academia,0,2.0,3,Neutral,4,High
+3,Employed,5,5,4,2,1,3,1,0,5,1,1,3,Software Engineer,0,0.0,2,Neutral,3,High
+2,Employed,4,3,4,3,3,3,1,1,5,2,2,4,Software Engineer,0,2.0,3,Positive,4,High
+3,Higher studies,5,5,4,3,1,2,3,0,5,1,1,2,Academia,0,0.0,2,Concerned,2,High
+2,Higher studies,3,1,2,5,3,4,3,1,5,1,0,2,Academia,0,1.0,3,Neutral,4,High
+1,Higher studies,2,4,4,5,3,4,5,1,5,2,1,3,Academia,0,1.0,3,Positive,4,High
+1,Employed,5,3,1,4,2,5,3,0,5,1,2,5,Software Engineer,0,0.0,3,Neutral,5,High
+4,Employed,0,1,1,1,5,1,2,1,4,1,0,1,Entrepreneurship,0,0.0,3,Positive,1,High
+5,Employed,4,2,4,3,3,1,1,0,3,2,1,4,Data Science / ML / AI,1,2.0,3,Neutral,4,High
+1,Currently seeking a job,3,4,3,4,4,4,1,0,3,2,1,3,Academia,0,2.0,3,Positive,4,Medium
+0,Currently seeking a job,0,4,4,1,1,1,1,1,5,1,0,5,Networking / DevOps / Cloud,0,1.0,3,Positive,4,Low
+2,Employed,0,1,1,3,2,5,2,1,5,2,3,4,Software Engineer,0,0.0,3,Positive,4,High
+2,Currently seeking a job,2,2,2,4,2,3,2,0,3,0,1,2,Software Engineer,0,1.0,2,Neutral,3,Medium
+3,Employed,0,2,2,3,5,5,3,0,5,2,1,3,Data Science / ML / AI,0,0.0,3,Neutral,5,High
+3,Founder / Entrepreneur,3,2,4,4,1,3,3,1,5,2,3,5,Software Engineer,0,1.0,3,Positive,5,High
+2,Employed,4,4,4,4,1,1,2,0,4,0,0,4,Not Applicable,1,2.0,2,Neutral,5,High
+5,Employed,1,1,2,1,3,2,2,0,2,0,0,1,Software Engineer,0,1.0,3,Concerned,5,High
+3,Employed,2,2,1,4,5,3,1,0,5,2,3,4,Software Engineer,0,0.0,3,Neutral,4,High
+0,Currently seeking a job,1,1,2,1,1,1,2,0,2,1,0,5,Academia,1,2.0,3,Concerned,5,Low
+3,Employed,3,3,5,2,1,1,2,0,5,1,0,4,Web Developer,0,2.0,3,Neutral,3,High
+1,Employed,5,3,2,5,1,4,1,0,5,1,0,3,Cybersecurity,0,1.0,2,Neutral,3,High
+3,Employed,5,3,2,4,1,5,1,1,5,2,2,4,Software Engineer,1,0.0,1,Concerned,4,High
+3,Employed,1,1,3,2,4,1,2,0,5,0,3,3,Software Engineer,0,1.0,3,Neutral,1,High
+2,Employed,5,5,4,3,1,2,1,0,5,1,2,3,Academia,0,0.0,2,Neutral,2,High
+4,Higher studies,4,4,4,4,1,1,4,0,3,1,1,4,Academia,1,0.0,3,Neutral,3,High
+1,Employed,1,1,1,2,3,4,1,0,5,1,0,1,Not Applicable,0,1.0,3,Positive,5,Medium
+1,Currently seeking a job,1,1,1,1,1,1,1,0,2,0,3,3,Software Engineer,0,1.0,3,Concerned,1,High
+2,Currently seeking a job,0,1,1,1,1,1,3,1,5,2,3,5,Academia,1,2.0,2,Concerned,3,Low
+3,Employed,4,4,5,4,4,2,3,0,5,1,2,4,Software Engineer,0,1.0,3,Positive,3,High
+5,Employed,1,1,2,3,3,5,5,1,5,2,2,4,Software Engineer,0,0.0,3,Positive,5,High
+7,Employed,3,4,3,2,1,1,3,0,4,1,0,3,Web Developer,0,1.0,3,Neutral,2,Medium
+8,Employed,2,2,2,1,2,1,1,0,4,0,2,4,Software Engineer,0,0.0,2,Neutral,2,High
+3,Employed,4,3,4,3,5,5,1,1,2,2,1,3,Cybersecurity,0,0.0,2,Positive,4,High
+3,Employed,5,4,3,5,1,2,2,0,5,2,2,4,Data Science / ML / AI,1,0.0,2,Neutral,4,High
+3,Higher studies,3,4,3,5,3,4,2,0,3,2,1,3,Academia,0,2.0,2,Neutral,4,Medium
+1,Employed,4,4,3,4,3,5,1,1,4,2,2,4,Web Developer,1,2.0,3,Positive,5,High
+1,Higher studies,3,5,4,4,3,5,1,1,2,2,1,3,Not Applicable,1,2.0,3,Positive,4,Medium
+3,Founder / Entrepreneur,2,4,3,4,4,4,1,1,2,1,1,3,Entrepreneurship,1,0.0,2,Concerned,4,High
+1,Employed,5,5,3,4,2,1,1,0,5,0,1,3,Academia,0,0.0,2,Concerned,5,High
+2,Employed,4,3,4,2,4,5,2,1,3,2,3,3,Software Engineer,0,2.0,3,Positive,5,Medium
+6,Employed,4,3,4,5,2,3,1,1,5,2,2,4,Software Engineer,0,0.0,3,Positive,4,High
+4,Employed,4,4,5,4,2,1,4,0,4,1,1,4,Academia,1,0.0,3,Neutral,4,High
+4,Employed,4,3,2,5,4,1,1,0,5,0,0,3,Software Engineer,0,0.0,2,Concerned,4,High
+1,Employed,5,5,2,4,1,3,1,1,5,1,1,4,Software Engineer,0,2.0,2,Positive,4,Low
+2,Employed,4,3,4,4,3,2,3,0,5,1,2,3,Academia,0,0.0,3,Positive,3,High
+4,Higher studies,4,5,4,4,3,3,3,1,4,1,1,4,Academia,1,0.0,3,Positive,4,High
+3,Employed,4,3,4,4,3,3,5,1,5,2,2,4,Software Engineer,0,2.0,3,Positive,4,High
+3,Employed,4,4,5,4,2,3,3,0,5,2,1,4,Software Engineer,0,2.0,3,Positive,4,Medium
+2,Employed,4,2,4,3,2,1,1,0,5,2,1,4,Software Engineer,0,2.0,3,Positive,4,High
+4,Employed,5,5,3,4,1,2,2,1,5,2,3,5,Data Science / ML / AI,1,0.0,3,Positive,5,High
+2,Founder / Entrepreneur,3,3,4,3,2,3,1,0,3,1,1,3,Entrepreneurship,0,0.0,1,Neutral,1,High
+0,Employed,5,4,3,5,1,2,1,1,5,2,1,4,Web Developer,0,2.0,3,Neutral,5,Low
+1,Employed,5,4,4,4,2,3,1,0,5,2,1,3,Academia,0,0.0,3,Neutral,4,High
+2,Employed,4,3,2,5,4,1,1,1,5,2,3,5,Software Engineer,0,0.0,3,Neutral,4,High
+2,Employed,5,5,3,4,2,1,2,0,5,1,1,4,Software Engineer,0,1.0,2,Neutral,4,High
+2,Employed,5,4,4,4,1,2,1,0,5,2,2,3,Academia,0,1.0,3,Neutral,3,Medium
+0,Higher studies,2,1,2,3,4,5,1,0,5,1,1,3,Not Applicable,0,2.0,3,Neutral,5,Medium
+1,Employed,5,5,4,3,1,2,1,0,5,1,2,4,Software Engineer,0,1.0,2,Neutral,4,High
+4,Employed,3,3,3,3,1,1,0,1,5,1,0,4,Software Engineer,0,1.0,3,Positive,4,High
+4,Employed,3,2,5,4,2,3,0,0,3,1,1,3,Database Administration,0,2.0,3,Neutral,4,Medium
+4,Higher studies,5,5,5,5,2,3,1,0,5,1,1,4,Academia,0,0.0,3,Positive,4,High
+4,Employed,3,4,5,5,4,4,1,1,5,0,2,3,Software Engineer,0,2.0,3,Neutral,4,Medium
+1,Employed,5,4,3,5,1,2,2,0,5,2,3,5,Software Engineer,0,0.0,2,Neutral,4,High
+2,Higher studies,3,4,3,5,4,4,3,0,3,2,2,4,Academia,0,2.0,3,Concerned,4,High
+2,Employed,5,5,4,3,1,2,2,1,5,2,1,4,Software Engineer,1,1.0,2,Neutral,4,High
+2,Employed,5,5,5,4,4,3,1,0,5,1,1,4,Academia,0,0.0,1,Neutral,2,High
+2,Employed,5,2,4,3,5,1,3,0,5,2,2,5,Academia,1,0.0,3,Positive,4,High
+4,Employed,4,4,4,4,3,5,2,0,5,2,2,4,Data Science / ML / AI,1,0.0,3,Positive,4,High
+3,Higher studies,5,5,2,4,3,1,3,0,5,1,1,2,Academia,1,0.0,3,Neutral,4,Medium
+1,Employed,5,5,4,3,2,1,3,0,5,1,0,3,Software Engineer,1,0.0,3,Concerned,4,High
+2,Employed,4,3,4,5,2,1,2,1,5,2,3,5,Software Engineer,0,0.0,3,Concerned,5,High
+1,Employed,5,3,2,5,1,4,2,1,5,1,1,3,Software Engineer,0,0.0,3,Neutral,5,High
+9,Currently seeking a job,2,1,1,2,2,2,1,0,2,0,0,3,Academia,1,1.0,2,Neutral,3,Low
+1,Currently seeking a job,3,1,2,4,3,5,1,0,5,1,0,3,Not Applicable,0,2.0,2,Neutral,3,Low
+2,Employed,1,5,3,4,2,1,1,0,2,0,3,4,Software Engineer,0,2.0,3,Concerned,5,Low
+3,Employed,4,3,4,4,5,2,1,0,0,1,3,4,Software Engineer,0,2.0,3,Positive,3,High
+3,Employed,4,3,4,4,5,2,1,0,0,1,3,4,Software Engineer,0,2.0,3,Positive,3,High
+3,Employed,4,3,4,4,5,2,1,0,0,1,3,4,Software Engineer,0,2.0,3,Positive,3,High
+4,Currently seeking a job,2,4,1,2,5,3,1,0,5,1,1,3,Software Engineer,0,2.0,3,Positive,4,Medium
+5,Employed,3,3,4,3,1,1,2,0,3,1,2,3,Data Science / ML / AI,0,1.0,3,Positive,3,High
+1,Employed,5,4,5,4,1,2,1,0,5,1,1,4,Academia,0,2.0,1,Positive,1,High
+1,Employed,4,4,5,2,1,4,1,0,1,1,1,3,Software Engineer,0,2.0,3,Positive,4,Low
+5,Employed,1,2,2,2,1,1,3,1,5,0,0,4,Software Engineer,0,1.0,3,Neutral,4,High
+1,Employed,5,5,3,4,2,1,3,0,5,2,0,3,Academia,1,0.0,3,Concerned,4,High
+2,Employed,2,4,4,3,2,3,1,0,5,2,1,3,Software Engineer,0,0.0,3,Positive,5,High
+2,Employed,1,1,4,3,2,3,1,1,5,2,1,3,Software Engineer,0,0.0,3,Positive,4,High
+2,Employed,0,4,4,3,2,3,1,0,5,2,3,5,Software Engineer,0,0.0,3,Neutral,5,High
+4,Employed,0,1,2,4,4,5,1,1,5,2,1,2,Software Engineer,0,2.0,3,Positive,4,Medium
+4,Employed,0,1,1,3,4,5,2,0,5,1,0,2,Software Engineer,1,0.0,3,Positive,5,Medium
+3,Employed,2,1,2,4,4,5,2,1,5,2,1,3,Software Engineer,0,0.0,3,Positive,5,High
+4,Employed,0,2,2,2,3,5,1,0,5,2,1,4,Software Engineer,0,0.0,3,Positive,4,Medium
+5,Employed,0,1,1,3,4,4,1,1,5,2,1,3,Networking / DevOps / Cloud,1,2.0,3,Positive,4,Medium
+7,Employed,1,1,1,4,4,5,2,0,1,1,0,3,Software Engineer,0,0.0,3,Neutral,4,High
+5,Founder / Entrepreneur,0,1,2,3,4,5,1,1,5,2,3,4,Entrepreneurship,1,0.0,3,Positive,5,High
+2,Employed,0,1,1,2,1,5,1,1,5,2,2,4,Software Engineer,0,0.0,3,Positive,2,High
+5,Employed,1,1,2,3,3,5,1,1,5,2,3,4,Software Engineer,1,1.0,3,Positive,5,High
+7,Employed,0,1,1,1,2,5,2,0,5,1,0,2,Software Engineer,0,0.0,3,Neutral,5,High
+1,Employed,0,1,1,1,1,5,0,0,5,2,1,3,Academia,0,0.0,2,Positive,2,High
+6,Employed,2,5,2,3,3,5,3,0,5,2,0,2,Government Service,1,0.0,0,Neutral,1,High
+6,Employed,0,1,1,4,5,5,1,0,5,2,0,2,Networking / DevOps / Cloud,0,0.0,3,Neutral,5,High
+5,Employed,0,2,2,3,4,5,2,0,5,1,0,1,Government Service,0,0.0,0,Positive,1,High
+4,Employed,2,2,1,2,4,5,3,0,2,0,0,2,Government Service,0,0.0,1,Neutral,1,High
+3,Founder / Entrepreneur,0,1,1,2,3,5,1,0,2,0,0,2,Entrepreneurship,0,0.0,1,Positive,1,High
+1,Employed,2,1,1,4,4,5,1,0,5,1,1,3,Government Service,1,0.0,1,Neutral,1,High
+7,Employed,0,2,2,3,1,4,0,0,5,1,1,3,Software Engineer,0,0.0,3,Positive,5,High
+7,Founder / Entrepreneur,0,1,1,3,3,5,1,1,5,2,1,4,Entrepreneurship,1,0.0,2,Concerned,2,High
+6,Employed,2,1,2,3,3,5,2,0,4,1,0,3,Government Service,0,0.0,0,Neutral,1,Medium
+6,Employed,0,1,1,3,3,5,2,1,5,2,1,4,Software Engineer,0,2.0,3,Concerned,5,High
+6,Employed,1,1,1,2,4,5,3,0,5,1,2,3,Networking / DevOps / Cloud,0,2.0,3,Positive,5,High
+4,Employed,2,1,3,2,5,5,2,0,4,1,3,5,Cybersecurity,0,0.0,3,Positive,5,High
+7,Employed,2,1,1,1,3,5,0,0,5,1,1,4,Software Engineer,0,0.0,3,Neutral,5,Low
+7,Employed,0,1,3,5,4,3,0,0,5,1,0,2,Software Engineer,0,2.0,3,Positive,5,Medium
+7,Employed,4,3,3,5,2,2,0,0,5,1,0,3,Academia,0,0.0,1,Neutral,1,Medium
+2,Employed,0,1,1,3,5,5,1,0,5,1,1,3,Software Engineer,0,2.0,3,Neutral,5,Low
+5,Founder / Entrepreneur,0,1,1,1,5,3,2,0,4,1,0,2,Entrepreneurship,0,0.0,2,Neutral,3,High
+6,Employed,4,3,3,4,2,5,0,0,5,1,1,4,Academia,0,0.0,3,Positive,3,High
+4,Higher studies,2,1,1,4,4,5,1,0,5,2,0,3,Software Engineer,0,2.0,3,Concerned,5,Low
+2,Employed,2,2,3,4,2,5,0,1,5,2,1,3,Academia,0,0.0,2,Neutral,4,High
+5,Employed,0,1,1,2,4,5,1,0,5,1,1,4,Government Service,0,0.0,0,Positive,1,High
+1,Higher studies,0,2,2,2,3,5,2,1,5,2,1,3,Software Engineer,0,1.0,3,Neutral,4,Medium
+1,Not currently seeking,0,1,1,2,5,5,2,1,5,2,1,4,Software Engineer,0,2.0,3,Positive,5,High
+6,Employed,0,1,1,1,1,4,0,0,5,0,0,2,Government Service,0,0.0,0,Positive,1,High
+2,Employed,4,5,5,5,2,5,2,0,5,1,1,3,Academia,0,0.0,3,Neutral,5,High
+6,Employed,2,1,3,2,2,5,1,0,5,2,0,3,Software Engineer,0,0.0,3,Positive,5,High
+5,Employed,3,2,3,5,1,5,0,0,5,1,1,5,Software Engineer,0,0.0,3,Concerned,5,High
+5,Founder / Entrepreneur,0,1,1,1,1,3,1,0,4,0,0,3,Entrepreneurship,0,0.0,2,Positive,3,High
+2,Employed,0,1,1,3,4,5,3,1,5,2,1,5,Software Engineer,1,0.0,3,Neutral,5,High
+2,Higher studies,2,1,1,3,2,5,1,0,5,2,2,4,Academia,0,0.0,3,Concerned,4,Medium
+1,Employed,1,1,2,4,4,5,3,0,5,2,0,2,Software Engineer,1,1.0,3,Positive,5,High
+5,Employed,1,1,1,3,2,3,0,0,5,1,0,3,Government Service,0,0.0,0,Neutral,1,Medium
+1,Employed,3,2,2,3,3,1,1,0,4,1,1,4,Data Science / ML / AI,0,0.0,1,Positive,3,Medium
+1,Higher studies,4,3,2,3,1,1,1,0,5,1,1,4,Academia,0,0.0,2,Neutral,2,Medium
+1,Employed,3,3,2,2,1,1,1,0,5,1,2,4,Cybersecurity,0,0.0,2,Positive,2,Medium
+4,Higher studies,4,3,3,4,1,1,0,0,5,1,3,3,Academia,0,0.0,1,Neutral,2,Low
+3,Employed,3,2,4,2,1,1,1,0,5,2,1,3,Government Service,0,0.0,1,Neutral,5,Medium
+7,Employed,3,2,3,5,1,1,1,1,5,1,1,1,Software Engineer,0,0.0,2,Concerned,2,Medium
+3,Employed,3,1,2,5,3,4,1,0,5,2,2,4,Cybersecurity,0,0.0,1,Concerned,2,Medium
+5,Founder / Entrepreneur,3,1,2,3,1,4,1,1,5,1,1,2,Entrepreneurship,0,0.0,2,Concerned,3,Medium
+1,Employed,2,5,3,4,1,2,0,0,5,0,1,3,Software Engineer,0,0.0,3,Concerned,2,Medium
+2,Employed,4,4,5,5,3,3,2,0,5,1,1,3,Academia,0,1.0,3,Positive,2,High
+3,Employed,3,5,2,4,1,3,1,1,5,1,1,3,Software Engineer,0,0.0,2,Concerned,2,High
+1,Higher studies,4,2,4,3,3,1,2,1,5,2,0,3,Academia,1,0.0,2,Positive,2,Medium
+3,Founder / Entrepreneur,3,5,2,4,1,3,0,1,5,0,0,2,Entrepreneurship,0,0.0,0,Concerned,2,Medium
+7,Higher studies,5,4,1,5,2,3,2,0,5,2,2,3,Academia,1,0.0,2,Positive,2,High
+7,Higher studies,5,1,2,4,1,3,0,1,5,2,1,3,Academia,1,0.0,0,Neutral,2,Medium
+2,Employed,2,4,2,5,3,1,2,1,3,1,1,5,Networking / DevOps / Cloud,0,0.0,2,Neutral,2,High
+4,Employed,4,4,5,1,2,3,3,1,5,1,0,2,Government Service,0,0.0,0,Neutral,2,Low
+7,Employed,3,5,4,1,2,3,1,1,3,2,0,3,Networking / DevOps / Cloud,0,0.0,1,Concerned,1,Medium
+2,Employed,3,4,1,3,3,2,1,0,5,0,2,4,Data Science / ML / AI,0,0.0,1,Concerned,2,Medium
+5,Employed,4,2,3,4,3,1,2,1,5,2,0,2,Government Service,0,0.0,0,Neutral,1,High
+6,Employed,3,2,4,3,3,5,3,1,5,2,2,3,Networking / DevOps / Cloud,0,1.0,1,Concerned,4,Low
+4,Higher studies,5,2,4,3,1,1,1,1,5,2,2,5,Academia,1,0.0,2,Positive,4,Medium
+1,Founder / Entrepreneur,3,5,3,4,1,2,0,1,4,2,3,4,Entrepreneurship,0,0.0,1,Neutral,3,Low
+2,Employed,2,2,1,3,3,4,1,1,3,0,1,3,Data Science / ML / AI,0,0.0,2,Positive,3,Medium
+6,Higher studies,4,1,4,5,1,3,0,0,5,2,2,5,Academia,1,0.0,2,Neutral,5,High
+4,Employed,4,5,3,4,1,1,2,0,5,2,1,5,Government Service,0,0.0,3,Neutral,5,Low
+4,Founder / Entrepreneur,3,4,3,5,1,2,1,1,5,2,3,4,Entrepreneurship,1,0.0,0,Concerned,1,High
+1,Higher studies,3,2,5,3,1,4,0,1,5,1,1,3,Academia,1,0.0,2,Neutral,3,High
+5,Founder / Entrepreneur,3,4,3,5,1,1,0,0,3,2,2,3,Entrepreneurship,1,0.0,1,Neutral,2,Medium
+1,Higher studies,4,5,3,1,3,4,2,0,5,1,3,5,Academia,1,0.0,3,Positive,4,Medium
+1,Higher studies,4,1,4,2,3,5,1,1,5,1,2,3,Academia,1,0.0,2,Concerned,4,High
+6,Founder / Entrepreneur,2,3,2,4,3,5,1,0,5,1,1,2,Entrepreneurship,0,0.0,0,Neutral,3,Medium
+4,Employed,3,3,4,2,1,5,1,1,2,2,3,3,Data Science / ML / AI,0,1.0,1,Positive,3,High
+1,Higher studies,4,4,5,2,3,3,1,0,3,2,1,3,Academia,1,0.0,2,Neutral,3,Medium
+3,Employed,3,1,2,4,5,3,1,1,5,2,0,3,Networking / DevOps / Cloud,1,2.0,3,Concerned,2,High
+1,Employed,4,2,4,1,1,3,0,0,5,0,1,1,Government Service,0,0.0,2,Neutral,3,High
+2,Employed,3,1,4,3,2,2,2,0,2,2,1,4,Government Service,0,0.0,1,Positive,2,High
+4,Employed,4,4,1,2,2,5,2,0,2,0,0,1,Academia,0,0.0,2,Neutral,4,Medium
+4,Employed,3,1,3,4,1,2,1,1,4,2,1,2,Software Engineer,0,1.0,1,Concerned,2,Medium
+2,Employed,4,2,1,3,1,4,1,1,5,1,0,3,Networking / DevOps / Cloud,1,2.0,2,Concerned,4,Low
+2,Employed,5,2,1,5,4,3,1,1,5,2,0,3,Networking / DevOps / Cloud,1,2.0,3,Neutral,3,Medium
+2,Employed,5,2,1,5,4,3,1,1,5,2,0,3,Networking / DevOps / Cloud,1,2.0,3,Neutral,3,Medium
+2,Employed,3,5,1,3,2,4,2,1,5,1,1,3,Data Science / ML / AI,0,1.0,3,Positive,4,High
+2,Employed,4,2,4,5,3,1,4,0,4,1,1,4,Software Engineer,1,1.0,3,Positive,4,Medium
+1,Founder / Entrepreneur,2,4,5,3,1,1,0,1,5,0,0,2,Government Service,0,0.0,2,Positive,4,Medium
+7,Employed,3,1,4,5,3,3,2,1,4,0,1,4,Database Administration,0,0.0,0,Concerned,1,Medium
+6,Employed,0,4,3,5,1,2,0,1,5,2,1,4,Data Science / ML / AI,0,0.0,0,Concerned,2,High
+2,Employed,2,4,1,3,3,2,1,0,2,1,0,3,Web Developer,0,1.0,2,Concerned,3,High
+1,Employed,3,4,2,5,1,1,2,0,5,1,1,5,Software Engineer,0,0.0,3,Concerned,2,High
+7,Employed,3,5,3,1,1,4,1,1,5,1,3,5,Web Developer,0,2.0,1,Positive,2,Medium
+4,Employed,2,1,5,3,1,2,1,1,5,2,3,3,Data Science / ML / AI,0,0.0,0,Concerned,1,Medium
+3,Employed,5,5,3,2,1,1,1,1,5,0,1,2,Software Engineer,0,0.0,1,Concerned,2,Medium
+7,Employed,3,2,4,3,3,1,2,1,5,1,0,2,Web Developer,0,0.0,1,Neutral,2,Medium
+1,Higher studies,3,3,2,5,1,1,0,0,5,1,2,3,Academia,1,0.0,1,Neutral,2,Medium
+7,Employed,3,3,5,4,3,1,2,1,5,1,1,3,Software Engineer,1,0.0,0,Concerned,1,High
+4,Employed,3,2,5,1,3,4,3,1,5,1,1,4,Data Science / ML / AI,0,0.0,3,Neutral,3,High
+1,Employed,2,1,2,4,2,3,1,0,5,2,2,4,Software Engineer,0,0.0,2,Concerned,2,Medium
+2,Employed,3,1,4,3,2,2,2,0,3,1,1,3,Software Engineer,0,1.0,3,Concerned,4,High
+1,Higher studies,2,5,3,1,2,4,1,0,4,2,2,4,Software Engineer,0,2.0,2,Positive,2,Medium
+2,Currently seeking a job,4,3,1,5,3,4,2,1,3,2,0,3,Software Engineer,1,0.0,2,Concerned,2,Medium
+4,Founder / Entrepreneur,3,2,5,4,3,1,1,1,4,1,3,4,Software Engineer,1,0.0,2,Positive,1,High
+3,Employed,4,2,4,1,4,3,2,1,5,2,2,4,Software Engineer,0,0.0,3,Positive,3,High
+1,Employed,2,4,2,5,3,1,1,0,5,2,1,3,Software Engineer,1,0.0,3,Concerned,3,High
+1,Higher studies,4,3,2,4,3,1,3,1,5,1,2,3,Academia,1,1.0,3,Neutral,3,High
+2,Currently seeking a job,4,3,5,2,3,4,1,1,5,2,2,2,Software Engineer,1,1.0,3,Positive,2,Low
+4,Not currently seeking,2,4,1,5,1,2,2,0,5,1,3,5,Entrepreneurship,0,0.0,2,Positive,2,High
+0,Currently seeking a job,4,1,5,3,3,4,2,1,4,2,1,5,Software Engineer,1,0.0,3,Positive,4,High
+2,Employed,2,1,3,5,2,2,2,0,5,1,3,5,Software Engineer,0,0.0,3,Concerned,3,High
+3,Higher studies,3,1,4,5,2,3,3,0,4,2,1,3,Academia,1,0.0,2,Neutral,3,High
+5,Founder / Entrepreneur,4,2,1,4,3,3,2,0,2,2,3,5,Software Engineer,0,0.0,2,Concerned,4,Medium
+2,Employed,4,5,1,3,3,2,2,0,5,1,2,4,Academia,0,0.0,2,Positive,3,High
+0,Currently seeking a job,5,2,5,3,3,1,2,1,5,2,1,5,Web Developer,0,2.0,3,Positive,3,Low
+0,Currently seeking a job,2,5,3,4,3,2,2,1,5,1,2,3,Web Developer,0,2.0,3,Positive,4,High
+3,Founder / Entrepreneur,4,2,5,3,3,4,1,0,4,0,2,3,Entrepreneurship,1,0.0,2,Concerned,4,High
+5,Employed,4,5,4,1,3,2,1,1,4,2,2,2,Software Engineer,0,0.0,3,Neutral,4,Medium
+2,Employed,4,5,4,1,3,2,1,0,4,1,1,3,Cybersecurity,1,0.0,3,Concerned,5,Medium
+3,Employed,4,5,2,1,3,4,1,0,4,2,2,2,Software Engineer,0,1.0,3,Concerned,4,High
+3,Higher studies,3,2,4,3,5,1,2,1,4,0,0,2,Academia,1,0.0,3,Neutral,5,High
+4,Founder / Entrepreneur,4,3,1,5,4,2,2,1,5,0,2,3,Entrepreneurship,0,0.0,2,Concerned,3,High
+3,Employed,3,1,5,4,3,2,2,1,5,1,0,4,Academia,0,0.0,2,Positive,4,High
+1,Employed,4,4,5,3,2,1,3,1,5,2,2,4,Academia,0,0.0,2,Positive,4,High
+2,Higher studies,5,5,3,4,1,2,2,0,4,0,0,3,Software Engineer,0,2.0,2,Positive,2,Medium
+3,Employed,3,4,2,1,5,3,1,0,4,0,3,4,Software Engineer,0,0.0,3,Concerned,5,High
+1,Employed,4,4,3,5,1,2,2,0,3,2,1,3,Cybersecurity,1,0.0,3,Positive,2,High
+2,Currently seeking a job,2,3,4,5,2,1,1,0,4,1,0,2,Software Engineer,1,0.0,2,Positive,4,High
+3,Employed,3,2,4,3,5,1,2,0,4,0,1,4,Cybersecurity,1,0.0,2,Positive,3,High
+1,Employed,4,5,2,1,4,3,2,0,5,1,1,3,Software Engineer,0,0.0,2,Concerned,4,High
+1,Employed,4,4,3,5,2,1,2,0,5,0,3,4,Software Engineer,0,0.0,3,Concerned,5,High
+2,Higher studies,5,5,2,4,3,1,1,0,5,2,0,3,Academia,0,0.0,2,Concerned,4,High
+2,Employed,3,5,3,1,4,2,1,1,5,0,2,4,Software Engineer,0,0.0,3,Positive,4,High
+1,Employed,4,5,3,1,4,2,2,0,4,1,3,5,Database Administration,1,2.0,2,Concerned,4,Medium
+1,Currently seeking a job,4,5,1,2,4,3,1,0,3,1,0,2,Web Developer,0,2.0,2,Concerned,5,Medium
+1,Employed,3,5,2,4,1,3,2,0,5,0,0,3,Software Engineer,0,0.0,3,Concerned,4,High
+1,Employed,5,5,4,2,1,3,1,1,4,0,1,3,Software Engineer,0,0.0,3,Concerned,3,High
+2,Employed,3,3,1,5,2,4,2,1,5,1,2,4,Data Science / ML / AI,1,0.0,2,Neutral,2,High
+0,Currently seeking a job,2,1,4,2,5,3,3,0,3,0,0,4,Web Developer,0,1.0,3,Positive,4,High
+1,Founder / Entrepreneur,4,1,4,5,3,2,1,1,3,0,0,3,Entrepreneurship,0,0.0,2,Concerned,3,High
+3,Employed,3,4,2,5,3,1,3,1,5,1,1,3,Data Science / ML / AI,1,0.0,3,Concerned,4,High
+3,Employed,4,2,5,4,3,1,2,1,5,0,0,3,Software Engineer,0,0.0,3,Concerned,4,High
+2,Employed,4,2,1,5,4,3,2,1,5,1,3,3,Cybersecurity,1,0.0,2,Neutral,2,High
+2,Employed,4,1,3,3,2,3,1,0,3,1,1,3,Software Engineer,1,1.0,3,Positive,4,High
+2,Higher studies,5,5,2,4,1,3,3,0,4,2,1,3,Academia,1,0.0,2,Neutral,3,High
+2,Employed,4,3,2,4,5,1,2,1,5,0,2,4,Software Engineer,0,0.0,3,Concerned,4,High
+2,Employed,5,3,2,5,1,4,1,0,4,1,0,3,Software Engineer,1,0.0,2,Neutral,3,High
+1,Employed,4,5,2,1,3,4,2,0,3,2,1,4,Software Engineer,0,0.0,3,Concerned,4,High
+2,Founder / Entrepreneur,5,5,1,4,2,3,2,1,5,2,3,5,Software Engineer,0,1.0,2,Positive,4,High
+2,Employed,4,3,4,4,3,2,3,0,4,2,1,4,Entrepreneurship,1,0.0,3,Positive,4,High
+2,Employed,5,2,1,5,3,4,1,0,5,2,1,4,Software Engineer,1,1.0,3,Concerned,5,Medium
+2,Higher studies,3,1,4,3,2,5,3,1,4,1,2,3,Academia,1,0.0,2,Concerned,3,High
+2,Employed,3,3,3,3,4,4,1,0,2,1,0,2,Government Service,0,1.0,3,Neutral,5,Medium
+2,Employed,4,4,5,4,2,3,1,0,5,2,1,4,Software Engineer,1,1.0,3,Positive,4,High
+2,Employed,5,5,3,4,1,2,2,0,5,2,2,4,Web Developer,0,0.0,3,Concerned,5,High
+4,Employed,4,3,4,3,1,3,1,0,5,1,1,3,Data Science / ML / AI,1,0.0,3,Positive,4,High
+2,Employed,4,5,5,4,1,3,3,0,5,2,1,4,Academia,0,0.0,1,Positive,4,High
+2,Employed,3,3,4,3,2,4,3,1,5,2,2,4,Software Engineer,0,2.0,3,Positive,4,High
+2,Employed,4,1,5,1,5,4,2,0,5,1,1,3,Web Developer,0,0.0,3,Concerned,4,High
+1,Employed,1,3,1,1,4,1,3,1,5,1,0,4,Cybersecurity,0,1.0,3,Concerned,5,High
+4,Not currently seeking,2,1,4,3,4,3,1,0,5,2,3,4,Web Developer,0,2.0,3,Positive,3,High
+3,Currently seeking a job,2,2,1,3,4,3,2,0,2,0,1,4,Academia,0,0.0,3,Positive,5,Low
+5,Employed,4,2,5,4,1,1,1,0,5,1,2,3,Web Developer,0,0.0,3,Concerned,5,High
+4,Employed,4,2,4,1,3,5,1,0,5,1,0,4,Software Engineer,0,1.0,3,Concerned,5,High
+5,Currently seeking a job,4,1,2,5,1,1,2,1,2,1,1,4,Government Service,0,0.0,3,Neutral,3,High
+4,Employed,5,3,4,5,4,1,1,0,5,1,1,3,Software Engineer,0,1.0,3,Positive,4,High
+4,Founder / Entrepreneur,3,2,4,4,2,1,1,1,5,2,0,3,Web Developer,0,2.0,3,Positive,4,High
+2,Employed,0,1,4,5,1,1,3,1,2,0,0,3,Academia,0,0.0,3,Concerned,4,High
+1,Founder / Entrepreneur,1,5,4,2,2,3,2,1,5,1,0,3,Web Developer,0,0.0,3,Concerned,4,Medium
+3,Employed,4,5,2,5,5,1,2,0,5,1,3,3,Web Developer,0,2.0,3,Positive,5,High
+2,Employed,4,3,1,2,3,3,1,0,5,2,3,5,Academia,0,1.0,1,Positive,3,High
+1,Employed,4,3,5,4,3,1,2,1,4,2,1,3,Cybersecurity,0,2.0,3,Positive,3,High
+4,Higher studies,4,2,1,3,3,1,3,0,5,2,0,2,Academia,0,1.0,0,Concerned,1,High
+4,Employed,5,2,3,2,1,4,2,1,5,1,2,3,Data Science / ML / AI,0,0.0,3,Positive,3,High
+3,Currently seeking a job,4,1,1,3,2,5,1,0,5,2,0,4,Cybersecurity,0,1.0,3,Positive,4,High
+1,Employed,5,3,5,3,1,3,5,0,5,2,1,3,Entrepreneurship,1,0.0,3,Positive,4,High
+1,Employed,4,4,2,1,3,5,2,0,4,1,0,3,Software Engineer,0,0.0,3,Concerned,4,High
+4,Employed,3,2,1,1,4,2,1,1,5,1,2,2,Software Engineer,0,0.0,3,Neutral,4,High
+4,Employed,3,2,1,1,4,2,1,1,5,1,2,2,Software Engineer,0,0.0,3,Neutral,4,High
+4,Employed,0,4,4,3,2,3,5,0,5,2,0,3,Networking / DevOps / Cloud,1,0.0,3,Neutral,5,High
+3,Employed,4,4,4,5,1,5,2,0,2,2,1,2,Entrepreneurship,0,2.0,3,Positive,4,Medium
+4,Currently seeking a job,0,5,5,1,4,5,1,1,5,2,0,3,Software Engineer,0,0.0,3,Positive,3,High
+4,Employed,2,1,3,2,1,1,1,1,5,2,1,3,Web Developer,0,2.0,3,Positive,5,High
+6,Employed,4,3,5,4,4,2,2,1,4,2,0,3,Networking / DevOps / Cloud,1,0.0,3,Positive,4,High
+2,Founder / Entrepreneur,5,4,2,4,2,5,1,1,3,1,2,5,Web Developer,0,1.0,3,Positive,5,High
+1,Employed,4,4,2,3,3,3,1,1,5,2,1,2,Entrepreneurship,1,0.0,3,Neutral,4,High
+1,Employed,5,3,4,5,5,3,1,1,5,2,2,3,Academia,1,0.0,2,Positive,3,High
+6,Currently seeking a job,4,3,2,3,1,5,2,0,2,1,0,3,Networking / DevOps / Cloud,0,1.0,3,Neutral,4,High
+2,Employed,3,5,1,2,2,5,2,0,5,1,1,4,Cybersecurity,1,0.0,3,Concerned,3,High
+3,Currently seeking a job,0,2,2,3,1,2,1,0,5,2,2,4,Software Engineer,0,2.0,3,Positive,5,High
+1,Employed,5,3,2,1,1,2,2,1,4,0,2,4,Software Engineer,0,0.0,3,Positive,5,High
+2,Employed,5,5,5,1,3,5,2,1,5,1,2,3,Database Administration,0,1.0,3,Positive,4,Medium
+1,Employed,5,4,5,1,4,1,3,0,5,1,0,5,Entrepreneurship,1,0.0,3,Neutral,5,High
+3,Founder / Entrepreneur,3,4,1,1,5,2,1,0,5,2,1,5,Cybersecurity,1,0.0,3,Neutral,4,Medium
+2,Higher studies,3,5,5,2,1,3,1,0,4,2,1,5,Entrepreneurship,0,1.0,3,Positive,5,Medium
+6,Employed,3,4,1,3,4,4,2,1,4,1,1,2,Academia,1,1.0,3,Positive,5,Medium
+2,Currently seeking a job,4,5,4,1,3,5,4,1,5,0,2,4,Web Developer,0,2.0,3,Positive,4,High
+1,Higher studies,0,1,3,1,3,3,3,0,5,2,0,3,Software Engineer,0,2.0,3,Neutral,4,High
+3,Founder / Entrepreneur,3,3,5,2,1,4,3,1,5,0,0,4,Government Service,1,0.0,3,Neutral,5,High
+2,Higher studies,5,1,5,4,3,2,2,1,5,2,1,5,Data Science / ML / AI,0,0.0,3,Neutral,4,High
+4,Employed,4,4,2,2,2,5,3,0,3,1,1,5,Software Engineer,1,0.0,3,Positive,5,Medium
+6,Currently seeking a job,3,4,1,3,5,1,4,0,4,2,1,4,Software Engineer,0,0.0,3,Neutral,3,Medium
+3,Higher studies,3,3,4,1,2,1,2,0,5,2,3,3,Academia,0,1.0,2,Positive,3,Medium
+5,Employed,5,2,4,4,2,3,1,1,5,0,2,3,Government Service,1,0.0,3,Positive,5,Medium
+6,Currently seeking a job,4,5,2,5,2,2,3,1,4,1,1,1,Database Administration,0,2.0,3,Concerned,4,High
+2,Employed,4,4,5,1,1,4,4,1,5,2,2,2,Government Service,1,0.0,3,Neutral,4,Medium
+3,Employed,0,1,1,3,5,2,2,0,5,1,0,3,Web Developer,0,0.0,3,Concerned,4,High
+1,Founder / Entrepreneur,3,4,4,4,1,3,1,0,5,0,0,4,Software Engineer,0,2.0,3,Positive,4,High
+1,Founder / Entrepreneur,0,4,1,3,5,3,3,0,5,2,2,5,Software Engineer,0,0.0,3,Positive,4,High
+3,Higher studies,5,1,2,3,3,3,3,0,3,1,1,3,Web Developer,0,0.0,3,Positive,4,Medium
+4,Higher studies,4,1,2,2,5,1,2,0,5,1,2,3,Data Science / ML / AI,0,0.0,3,Neutral,4,High
+1,Higher studies,4,3,2,2,3,3,3,0,5,2,1,4,Software Engineer,0,0.0,3,Positive,5,Medium
+5,Higher studies,3,4,3,1,4,1,3,0,2,1,0,3,Academia,0,0.0,3,Concerned,5,High
+3,Employed,3,3,3,2,2,1,2,0,5,2,0,3,Government Service,0,0.0,3,Neutral,5,High
+5,Higher studies,4,1,4,4,3,3,1,0,5,2,2,3,Entrepreneurship,0,1.0,3,Positive,5,Medium
+5,Higher studies,4,5,4,5,2,1,4,0,3,2,0,4,Software Engineer,0,0.0,3,Neutral,4,High
+1,Employed,5,3,1,3,1,5,2,0,5,1,3,2,Software Engineer,0,0.0,3,Concerned,5,High
+1,Employed,2,2,5,1,4,5,3,0,5,0,1,5,Database Administration,1,1.0,3,Neutral,5,High
+5,Higher studies,5,2,2,2,5,2,4,0,5,1,3,4,Entrepreneurship,1,0.0,2,Neutral,4,High
+1,Employed,3,5,4,2,2,5,2,1,5,1,1,2,Web Developer,0,0.0,3,Positive,4,High
+6,Employed,3,3,1,4,1,4,2,0,5,2,1,3,Software Engineer,0,0.0,3,Positive,3,High
+1,Employed,4,3,2,2,5,5,5,0,4,2,1,3,Web Developer,0,1.0,3,Neutral,5,High
+1,Employed,3,5,4,2,1,5,3,0,5,1,3,4,Academia,0,1.0,3,Concerned,4,High
+4,Currently seeking a job,4,1,3,5,3,2,5,1,5,2,1,4,Government Service,0,0.0,3,Concerned,3,High
+6,Employed,4,2,3,3,1,3,1,0,5,0,0,2,Entrepreneurship,1,0.0,2,Positive,3,Medium
+3,Employed,4,3,3,4,5,4,1,1,5,2,0,3,Database Administration,0,1.0,3,Neutral,4,Low
+6,Employed,5,4,1,2,1,2,3,0,2,2,1,4,Software Engineer,0,0.0,3,Positive,4,High
+4,Employed,3,5,1,3,3,4,2,1,5,0,2,3,Entrepreneurship,0,0.0,3,Neutral,3,Low
+3,Employed,4,2,2,3,5,2,1,1,4,2,2,3,Web Developer,0,0.0,3,Concerned,4,Low
+3,Currently seeking a job,2,1,2,3,1,4,4,1,5,0,0,4,Software Engineer,0,0.0,3,Concerned,4,Low
+2,Employed,5,3,5,3,1,3,2,1,5,2,1,4,Academia,0,0.0,2,Neutral,2,Low
+4,Employed,4,5,3,2,5,4,1,0,5,2,3,4,Entrepreneurship,0,0.0,3,Positive,4,High
+1,Currently seeking a job,5,3,4,2,3,5,1,0,5,2,1,3,Software Engineer,0,2.0,3,Concerned,4,High
+2,Employed,1,4,4,3,4,1,2,1,5,0,1,3,Software Engineer,0,2.0,3,Neutral,3,Medium
+4,Employed,3,5,5,2,3,5,2,0,5,1,1,1,Web Developer,0,0.0,3,Concerned,4,Low
+3,Employed,4,1,2,3,4,5,4,0,3,2,3,3,Academia,0,2.0,3,Neutral,5,Medium
+1,Employed,3,3,1,5,4,3,1,1,5,1,1,4,Academia,1,0.0,3,Neutral,4,Medium
+1,Employed,3,5,4,1,2,5,2,1,1,1,1,2,Academia,0,2.0,2,Concerned,3,High
+3,Employed,1,3,3,2,4,3,2,0,2,1,1,3,Web Developer,0,1.0,3,Concerned,4,Low
+5,Higher studies,2,2,2,5,3,5,1,0,5,1,1,4,Academia,0,0.0,2,Positive,2,High
+3,Founder / Entrepreneur,3,2,3,3,3,1,2,1,5,1,0,3,Government Service,0,0.0,1,Positive,3,Medium
+5,Employed,3,1,3,3,4,5,5,0,2,1,2,3,Software Engineer,0,0.0,3,Positive,5,High
+2,Founder / Entrepreneur,0,4,5,3,1,4,1,0,5,2,1,3,Academia,1,2.0,2,Neutral,3,High
+1,Employed,0,3,1,3,3,5,1,0,5,2,0,4,Academia,0,0.0,2,Positive,3,High
+3,Employed,0,1,1,5,5,2,1,1,5,1,2,4,Web Developer,0,0.0,3,Positive,4,Low
+3,Higher studies,4,1,4,3,1,2,2,0,5,2,3,2,Networking / DevOps / Cloud,1,0.0,3,Positive,5,High
+6,Employed,0,4,4,1,5,2,3,0,1,2,1,1,Data Science / ML / AI,1,2.0,3,Positive,4,High
+2,Founder / Entrepreneur,2,1,4,5,1,2,2,0,5,2,0,2,Software Engineer,0,0.0,3,Neutral,5,High
+4,Currently seeking a job,4,5,3,2,3,2,5,0,5,2,3,2,Government Service,0,0.0,3,Neutral,3,High
+4,Employed,4,2,5,4,2,2,2,1,5,1,1,4,Academia,0,0.0,3,Positive,4,High
+2,Employed,5,1,1,2,5,5,2,0,3,2,3,3,Database Administration,1,2.0,3,Neutral,5,Medium
+4,Employed,3,3,3,3,3,5,2,0,4,1,0,3,Software Engineer,0,1.0,3,Positive,5,High
+1,Employed,4,5,2,4,5,3,1,1,5,1,0,4,Data Science / ML / AI,0,0.0,3,Positive,3,High
+4,Employed,2,1,1,4,2,2,2,1,5,1,1,4,Web Developer,0,0.0,3,Positive,5,High
+3,Employed,3,4,2,1,1,5,2,0,5,2,1,5,Entrepreneurship,1,1.0,2,Concerned,2,High
+1,Employed,3,1,2,1,4,4,3,1,3,2,2,3,Data Science / ML / AI,1,0.0,3,Positive,3,High
+2,Founder / Entrepreneur,4,2,5,2,4,1,2,0,5,1,1,2,Database Administration,1,2.0,3,Neutral,4,Medium
+1,Currently seeking a job,0,4,3,1,3,4,1,0,5,2,1,4,Software Engineer,0,0.0,3,Positive,4,Medium
+4,Employed,4,1,3,4,3,3,1,0,5,2,2,3,Software Engineer,0,2.0,3,Positive,4,High
+3,Employed,3,2,3,3,3,4,2,0,5,2,2,3,Software Engineer,0,2.0,3,Positive,4,High
+4,Employed,4,5,2,3,3,5,2,0,5,2,1,5,Entrepreneurship,1,0.0,2,Positive,4,High
+3,Higher studies,0,4,2,4,3,1,1,1,5,2,1,3,Academia,0,2.0,3,Concerned,3,High
+4,Currently seeking a job,5,1,1,2,3,2,2,0,0,1,1,5,Cybersecurity,0,0.0,3,Positive,4,High
+1,Employed,2,5,5,2,3,1,2,0,5,0,1,2,Software Engineer,0,0.0,3,Neutral,4,High
+1,Employed,2,1,1,3,1,2,1,0,5,2,2,4,Entrepreneurship,0,2.0,2,Concerned,3,High
+2,Currently seeking a job,2,1,5,1,5,2,3,0,5,2,0,4,Web Developer,0,2.0,3,Positive,3,High
+5,Higher studies,5,3,1,2,3,1,1,0,5,2,2,4,Academia,0,1.0,3,Positive,4,High
+5,Founder / Entrepreneur,3,2,4,5,5,4,2,1,5,1,2,3,Academia,1,0.0,3,Concerned,5,High
+3,Employed,3,3,5,1,4,5,2,1,5,1,0,3,Database Administration,0,1.0,3,Concerned,5,High
+5,Higher studies,3,5,2,2,2,1,1,0,5,1,1,4,Software Engineer,0,1.0,3,Positive,3,Medium
+5,Employed,0,2,2,3,2,4,2,0,5,1,1,3,Cybersecurity,1,0.0,3,Concerned,4,High
+5,Currently seeking a job,4,4,3,1,5,4,2,1,4,1,1,3,Academia,0,1.0,1,Neutral,2,High
+2,Founder / Entrepreneur,3,1,4,2,2,3,1,1,3,2,1,3,Web Developer,0,2.0,3,Neutral,4,High
+2,Employed,5,5,4,1,1,3,1,1,5,2,1,3,Data Science / ML / AI,0,1.0,3,Neutral,5,High
+2,Higher studies,5,2,4,3,2,2,2,1,5,2,3,3,Academia,1,0.0,3,Positive,4,Low
+4,Higher studies,2,3,2,5,5,5,2,1,5,2,3,2,Academia,0,2.0,0,Concerned,1,High
+1,Higher studies,2,1,1,5,1,1,1,0,2,0,1,3,Cybersecurity,1,0.0,3,Neutral,5,Medium
+3,Employed,2,5,3,4,5,1,2,1,5,1,1,3,Academia,0,0.0,2,Neutral,3,High

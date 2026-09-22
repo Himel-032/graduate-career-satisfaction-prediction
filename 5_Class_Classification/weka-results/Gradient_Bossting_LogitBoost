@@ -1,0 +1,628 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 0.08 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     career_satisfaction_5class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LogitBoost: Base classifiers and their weights: 
+
+Iteration 1
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.06944444444444432
+Professional_Status != Currently seeking a job : -1.1083333333333398
+Professional_Status is missing : -0.9970238095238227
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.9484557595993329
+Domain_Shift_Intent > 1.0814326910180327 : -0.317982456140353
+Domain_Shift_Intent is missing : -0.8084415584415591
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.8064516129032258
+AI_Reliance > -0.8641461841186405 : 0.0503731343283605
+AI_Reliance is missing : 0.21466121495327084
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.4637096774193543
+Help_Lab > -0.30025502730257936 : 1.2048736462093783
+Help_Lab is missing : 0.9071274298056019
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.768156424581003
+Domain_Shift_Intent > -0.15019898486361566 : -0.17804154302670505
+Domain_Shift_Intent is missing : 0.4033180778032027
+
+
+Iteration 2
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.06019536849374201
+Professional_Status != Currently seeking a job : -1.079777828759314
+Professional_Status is missing : -0.9662112360282242
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.9158888874384518
+Domain_Shift_Intent > 1.0814326910180327 : -0.30151556481825126
+Domain_Shift_Intent is missing : -0.776256730782612
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.749088519009495
+AI_Reliance > -0.8641461841186405 : 0.040807345453916094
+AI_Reliance is missing : 0.19582595399599376
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.41802031187901567
+Help_Lab > -0.30025502730257936 : 1.113986979529735
+Help_Lab is missing : 0.8344175675523098
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.7076857804147223
+Domain_Shift_Intent > -0.15019898486361566 : -0.17411369461860887
+Domain_Shift_Intent is missing : 0.3708817561518647
+
+
+Iteration 3
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.05131587428373723
+Professional_Status != Currently seeking a job : -1.0526457307891983
+Professional_Status is missing : -0.9366128730618379
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.8842902912816021
+Domain_Shift_Intent > 1.0814326910180327 : -0.2851786023565103
+Domain_Shift_Intent is missing : -0.7449284062338251
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.28333941451977435
+Help_Club > 1.3467751381570463 : -0.6197570212860097
+Help_Club is missing : 0.17974133373822915
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.3768730043703084
+Help_Lab > -0.30025502730257936 : 1.029168764270691
+Help_Lab is missing : 0.7671108404143883
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.6529781196038318
+Domain_Shift_Intent > -0.15019898486361566 : -0.16912514213409757
+Domain_Shift_Intent is missing : 0.3417361143614905
+
+
+Iteration 4
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.042899050196755086
+Professional_Status != Currently seeking a job : -1.0267454996670917
+Professional_Status is missing : -0.9080415775898407
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.8537545820327871
+Domain_Shift_Intent > 1.0814326910180327 : -0.2683025136988125
+Domain_Shift_Intent is missing : -0.7144053622332619
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+AI_Usage_Freq <= -1.3932414650814362 : 0.9583201964662524
+AI_Usage_Freq > -1.3932414650814362 : 0.07045993947244897
+AI_Usage_Freq is missing : 0.1660870305469408
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.33894042159101
+Help_Lab > -0.30025502730257936 : 0.9506438821309879
+Help_Lab is missing : 0.7047801759140897
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.6027114815890151
+Domain_Shift_Intent > -0.15019898486361566 : -0.1625496663128246
+Domain_Shift_Intent is missing : 0.3154845656892938
+
+
+Iteration 5
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.035434370001679684
+Professional_Status != Currently seeking a job : -1.001843778356773
+Professional_Status is missing : -0.8804033446808023
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.823875008670121
+Domain_Shift_Intent > 1.0814326910180327 : -0.2525527827780292
+Domain_Shift_Intent is missing : -0.6847237326119383
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.2506135387814774
+Help_Club > 1.3467751381570463 : -0.6037873201359534
+Help_Club is missing : 0.1543783182157694
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.30554214602579866
+Help_Lab > -0.30025502730257936 : 0.8773033801778828
+Help_Lab is missing : 0.6473982524246538
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.5576767776956038
+Domain_Shift_Intent > -0.15019898486361566 : -0.15611088186353692
+Domain_Shift_Intent is missing : 0.29179755581699524
+
+
+Iteration 6
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.028016738179212252
+Professional_Status != Currently seeking a job : -0.9778786414247475
+Professional_Status is missing : -0.8535614602656358
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.7949132832166959
+Domain_Shift_Intent > 1.0814326910180327 : -0.23659248420571205
+Domain_Shift_Intent is missing : -0.6558310374090207
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+Problem_Solving <= -0.9345321008543608 : 0.75908614529088
+Problem_Solving > -0.9345321008543608 : 0.027995095816086335
+Problem_Solving is missing : 0.14435977326986058
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.2746636285740205
+Help_Lab > -0.30025502730257936 : 0.8097148309541677
+Help_Lab is missing : 0.5943810072047775
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.5161027292350704
+Domain_Shift_Intent > -0.15019898486361566 : -0.1486070015467514
+Domain_Shift_Intent is missing : 0.27035816796966433
+
+
+Iteration 7
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.020242384665032073
+Professional_Status != Currently seeking a job : -0.9546696269892702
+Professional_Status is missing : -0.8274145463751311
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.7666108573473177
+Domain_Shift_Intent > 1.0814326910180327 : -0.22143912589788636
+Domain_Shift_Intent is missing : -0.6277556860391357
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.6343724228965276
+AI_Reliance > -0.8641461841186405 : -0.005251161809715678
+AI_Reliance is missing : 0.1357548783857818
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.24763319737516
+Help_Lab > -0.30025502730257936 : 0.7465718987159556
+Help_Lab is missing : 0.5455971963239256
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.1262703080042174
+Help_Club > 1.3467751381570463 : 1.0511680860638537
+Help_Club is missing : 0.25086706475118675
+
+
+Iteration 8
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.010815326613077424
+Professional_Status != Currently seeking a job : -0.9321144816105525
+Professional_Status is missing : -0.8017291849812926
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.7395819704935463
+Domain_Shift_Intent > 1.0814326910180327 : -0.20281767144265433
+Domain_Shift_Intent is missing : -0.6002321864425098
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.014345515369657051
+Domain_Shift_Intent > 1.0814326910180327 : 0.6306063065368278
+Domain_Shift_Intent is missing : 0.12778506278468202
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Lab <= -0.30025502730257936 : 0.22355729949883535
+Help_Lab > -0.30025502730257936 : 0.6875743270063829
+Help_Lab is missing : 0.5004891355075897
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= -0.15019898486361566 : 0.459206090224548
+Domain_Shift_Intent > -0.15019898486361566 : -0.1542998812295967
+Domain_Shift_Intent is missing : 0.23356980659529863
+
+
+Iteration 9
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : -0.0026118945847212627
+Professional_Status != Currently seeking a job : -0.9101533131811942
+Professional_Status is missing : -0.7766422932792995
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.7136049547991786
+Domain_Shift_Intent > 1.0814326910180327 : -0.18227900961342736
+Domain_Shift_Intent is missing : -0.5732320235539942
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.012597917422432733
+Domain_Shift_Intent > 1.0814326910180327 : 0.5904009533860471
+Domain_Shift_Intent is missing : 0.12131595936843227
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Club_Count <= -0.3055074337245099 : 0.2023127964714997
+Club_Count > -0.3055074337245099 : 0.649252714347847
+Club_Count is missing : 0.45913800780034025
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Help_Club <= 1.3467751381570463 : 0.10066070681349475
+Help_Club > 1.3467751381570463 : 0.9624469436678043
+Help_Club is missing : 0.21707261749734633
+
+
+Iteration 10
+	Class 1 (Career_Satisfaction=Very Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Professional_Status = Currently seeking a job : 0.008719640290148663
+Professional_Status != Currently seeking a job : -0.8887336742917361
+Professional_Status is missing : -0.7518091019524162
+
+
+	Class 2 (Career_Satisfaction=Dissatisfied)
+
+Decision Stump
+
+Classifications
+
+Domain_Shift_Intent <= 1.0814326910180327 : -0.6887541086748432
+Domain_Shift_Intent > 1.0814326910180327 : -0.1598845244561681
+Domain_Shift_Intent is missing : -0.5468891764079824
+
+
+	Class 3 (Career_Satisfaction=Neutral)
+
+Decision Stump
+
+Classifications
+
+AI_Reliance <= -0.8641461841186405 : 0.5869079224100326
+AI_Reliance > -0.8641461841186405 : -0.019142579209157313
+AI_Reliance is missing : 0.11493714046162
+
+
+	Class 4 (Career_Satisfaction=Satisfied)
+
+Decision Stump
+
+Classifications
+
+Current_Domain = Cybersecurity : -0.5677043825458266
+Current_Domain != Cybersecurity : 0.4689796572317038
+Current_Domain is missing : 0.4205465685480338
+
+
+	Class 5 (Career_Satisfaction=Very Satisfied)
+
+Decision Stump
+
+Classifications
+
+Projects_Built <= -2.8442181391319807 : 2.074621513661075
+Projects_Built > -2.8442181391319807 : 0.1559107528537791
+Projects_Built is missing : 0.202065623450762
+
+Number of performed iterations: 10
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         193               39.2276 %
+Incorrectly Classified Instances       299               60.7724 %
+Kappa statistic                          0.0504
+Mean absolute error                      0.299 
+Root mean squared error                  0.3803
+Relative absolute error                104.4566 %
+Root relative squared error            100.5896 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.748     0.172     Very Dissatisfied
+                 0.000    0.000    ?          0.000    ?          ?        0.584     0.109     Dissatisfied
+                 0.034    0.019    0.364      0.034    0.062      0.044    0.582     0.305     Neutral
+                 0.835    0.776    0.399      0.835    0.540      0.071    0.564     0.421     Satisfied
+                 0.235    0.157    0.364      0.235    0.286      0.091    0.607     0.350     Very Satisfied
+Weighted Avg.    0.392    0.345    ?          0.392    ?          ?        0.588     0.344     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   0   0  15   3 |   a = Very Dissatisfied
+   0   0   0  28   4 |   b = Dissatisfied
+   0   0   4  94  20 |   c = Neutral
+   0   0   2 157  29 |   d = Satisfied
+   0   0   5  99  32 |   e = Very Satisfied
+

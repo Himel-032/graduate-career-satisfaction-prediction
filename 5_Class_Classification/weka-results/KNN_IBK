@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 5 -W 0 -I -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     career_satisfaction_5class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 inverse-distance-weighted nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         197               40.0407 %
+Incorrectly Classified Instances       295               59.9593 %
+Kappa statistic                          0.1142
+Mean absolute error                      0.2585
+Root mean squared error                  0.3962
+Relative absolute error                 90.3098 %
+Root relative squared error            104.815  %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.167    0.008    0.429      0.167    0.240      0.251    0.754     0.222     Very Dissatisfied
+                 0.000    0.009    0.000      0.000    0.000      -0.024   0.536     0.069     Dissatisfied
+                 0.288    0.163    0.358      0.288    0.319      0.135    0.618     0.393     Neutral
+                 0.612    0.523    0.420      0.612    0.498      0.087    0.583     0.471     Satisfied
+                 0.331    0.188    0.402      0.331    0.363      0.152    0.580     0.397     Very Satisfied
+Weighted Avg.    0.400    0.292    0.373      0.400    0.376      0.115    0.594     0.397     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   3   0   4   7   4 |   a = Very Dissatisfied
+   0   0   8  13  11 |   b = Dissatisfied
+   1   2  34  66  15 |   c = Neutral
+   1   0  35 115  37 |   d = Satisfied
+   2   2  14  73  45 |   e = Very Satisfied
+

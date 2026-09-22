@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 150 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 5
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 150 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 5 -do-not-check-capabilities
+
+Time taken to build model: 0.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         330               67.0732 %
+Incorrectly Classified Instances       162               32.9268 %
+Kappa statistic                          0.1164
+Mean absolute error                      0.309 
+Root mean squared error                  0.3935
+Relative absolute error                 92.7503 %
+Root relative squared error             96.5288 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.060    0.005    0.600      0.060    0.109      0.167    0.620     0.205     Low
+                 0.127    0.040    0.500      0.127    0.203      0.155    0.659     0.393     Medium
+                 0.963    0.863    0.683      0.963    0.799      0.184    0.689     0.800     High
+Weighted Avg.    0.671    0.578    0.630      0.671    0.586      0.176    0.675     0.642     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   3   5  42 |   a = Low
+   0  15 103 |   b = Medium
+   2  10 312 |   c = High
+

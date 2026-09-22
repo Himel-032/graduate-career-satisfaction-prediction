@@ -1,0 +1,97 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 5
+Relation:     career_satisfaction_3class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Years_Since_Grad <= -1.654155
+|   Problem_Solving <= -0.401133: Medium (11.0/5.0)
+|   Problem_Solving > -0.401133: Low (6.0/2.0)
+Years_Since_Grad > -1.654155
+|   Domain_Shift_Intent <= 0.465617
+|   |   AI_Usage_Freq <= -2.037485
+|   |   |   Help_Club <= 0.232515
+|   |   |   |   AI_Concerns_Opinion = Concerned: Medium (14.0/6.0)
+|   |   |   |   AI_Concerns_Opinion = Neutral: Medium (15.0/6.0)
+|   |   |   |   AI_Concerns_Opinion = Positive: High (8.0/2.0)
+|   |   |   Help_Club > 0.232515: High (7.0)
+|   |   AI_Usage_Freq > -2.037485: High (335.0/86.0)
+|   Domain_Shift_Intent > 0.465617
+|   |   GitHub_Habit <= -0.485624
+|   |   |   AI_Reliance <= -0.43642
+|   |   |   |   Univ_Studies_Effect <= -0.112492: Medium (7.0/3.0)
+|   |   |   |   Univ_Studies_Effect > -0.112492: High (8.0/2.0)
+|   |   |   AI_Reliance > -0.43642
+|   |   |   |   Club_Count <= -0.760991: Low (17.0/7.0)
+|   |   |   |   Club_Count > -0.760991: High (10.0/4.0)
+|   |   GitHub_Habit > -0.485624
+|   |   |   Help_Alumni <= -0.640517: High (16.0/1.0)
+|   |   |   Help_Alumni > -0.640517
+|   |   |   |   Help_Club <= 0.232515: High (21.0/7.0)
+|   |   |   |   Help_Club > 0.232515: Medium (17.0/6.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	26
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          59               60.2041 %
+Incorrectly Classified Instances        39               39.7959 %
+Kappa statistic                         -0.0143
+Mean absolute error                      0.3454
+Root mean squared error                  0.4344
+Relative absolute error                101.046  %
+Root relative squared error            103.0901 %
+Total Number of Instances               98     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    ?          0.000    ?          ?        0.483     0.141     Low
+                 0.045    0.066    0.167      0.045    0.071      -0.035   0.475     0.217     Medium
+                 0.935    0.944    0.630      0.935    0.753      -0.018   0.501     0.633     High
+Weighted Avg.    0.602    0.612    ?          0.602    ?          ?        0.492     0.469     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+  0  1 13 |  a = Low
+  0  1 21 |  b = Medium
+  0  4 58 |  c = High
+
