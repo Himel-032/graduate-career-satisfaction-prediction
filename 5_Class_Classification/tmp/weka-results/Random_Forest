@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 150 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 5
+Relation:     career_satisfaction_5class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 150 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 5 -do-not-check-capabilities
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         208               42.2764 %
+Incorrectly Classified Instances       284               57.7236 %
+Kappa statistic                          0.1311
+Mean absolute error                      0.271 
+Root mean squared error                  0.37  
+Relative absolute error                 94.6648 %
+Root relative squared error             97.868  %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.111    0.000    1.000      0.111    0.200      0.328    0.721     0.274     Very Dissatisfied
+                 0.000    0.002    0.000      0.000    0.000      -0.012   0.563     0.076     Dissatisfied
+                 0.229    0.142    0.338      0.229    0.273      0.101    0.640     0.358     Neutral
+                 0.729    0.569    0.442      0.729    0.550      0.161    0.616     0.495     Satisfied
+                 0.309    0.160    0.424      0.309    0.357      0.166    0.656     0.438     Very Satisfied
+Weighted Avg.    0.423    0.296    0.404      0.423    0.382      0.143    0.633     0.411     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   2   0   5   7   4 |   a = Very Dissatisfied
+   0   0   8  22   2 |   b = Dissatisfied
+   0   0  27  65  26 |   c = Neutral
+   0   1  25 137  25 |   d = Satisfied
+   0   0  15  79  42 |   e = Very Satisfied
+

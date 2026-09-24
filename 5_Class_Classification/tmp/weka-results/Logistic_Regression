@@ -1,0 +1,148 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M 1000 -num-decimal-places 4
+Relation:     career_satisfaction_5class_classification-weka.filters.unsupervised.attribute.Standardize-unset-class-temporarily
+Instances:    492
+Attributes:   21
+              Years_Since_Grad
+              Professional_Status
+              Univ_Studies_Effect
+              Help_Lecture
+              Help_Lab
+              Help_Thesis
+              Help_Club
+              Help_Alumni
+              Club_Count
+              Internship_Exp
+              Projects_Built
+              GitHub_Habit
+              Contest_Involvement
+              Problem_Solving
+              Current_Domain
+              Domain_Switched
+              Domain_Shift_Intent
+              AI_Usage_Freq
+              AI_Concerns_Opinion
+              AI_Reliance
+              Career_Satisfaction
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                               Class
+Variable                                           Very Dissatisfied           Dissatisfied                Neutral              Satisfied
+=========================================================================================================================================
+Years_Since_Grad                                              0.4652                -0.1697                   0.08                 0.1532
+Professional_Status=Currently seeking a job                   6.9829                 1.5551                 0.3022                  0.086
+Professional_Status=Employed                                  2.9178                -0.5572                -0.6526                -0.4353
+Professional_Status=Founder / Entrepreneur                      2.56                -1.1939                 0.1193                -0.4157
+Professional_Status=Higher studies                           -13.407                -0.4544                  0.848                -0.1374
+Professional_Status=Not currently seeking                    20.4777                13.7183                 0.4451                13.8824
+Univ_Studies_Effect                                          -0.1033                 0.3722                  0.273                 0.2137
+Help_Lecture                                                   0.164                -0.4343                 0.1012                -0.0998
+Help_Lab                                                      0.1522                -0.1908                -0.1736                 0.2506
+Help_Thesis                                                  -0.6269                 0.1121                -0.1506                 0.1122
+Help_Club                                                    -0.0401                -0.2403                -0.2335                 -0.174
+Help_Alumni                                                  -0.6807                  -0.03                  0.048                 0.1907
+Club_Count                                                   -0.5219                -0.5348                -0.1493                 0.0329
+Internship_Exp                                                0.5252                 0.4533                 0.1064                 0.0363
+Projects_Built                                                0.1999                 0.2497                 0.0963                 0.1652
+GitHub_Habit                                                   -0.03                  -0.47                 -0.101                -0.0326
+Contest_Involvement                                           -0.096                 0.2806                 -0.089                -0.1823
+Problem_Solving                                                0.263                 0.1778                -0.2447                 0.0465
+Current_Domain=Academia                                       1.5341                 1.0089                -1.0174                -0.3834
+Current_Domain=Cybersecurity                                  0.5387               -15.7041                 0.1024                -1.3515
+Current_Domain=Data Science / ML / AI                       -14.3684                 0.5182                -0.5806                  0.067
+Current_Domain=Database Administration                         2.835               -14.1315                 1.1459                -0.3173
+Current_Domain=Entrepreneurship                               2.2671                 1.9591                -0.7342                -0.8716
+Current_Domain=Government Service                             0.2387                 1.2188                -0.3819                -0.4262
+Current_Domain=Networking / DevOps / Cloud                    3.9967                 2.0544                 1.0388                -0.2478
+Current_Domain=Not Applicable                                  3.998                23.3528                22.7914                22.1287
+Current_Domain=Software Engineer                              0.2941                 0.9517                -0.0069                -0.0458
+Current_Domain=Web Developer                                  2.2897                 1.1818                -0.0945                 0.2857
+Domain_Switched                                               0.2424                -0.1233                 0.0258                -0.0142
+Domain_Shift_Intent                                          -0.1437                 0.8707                 0.5882                 0.2898
+AI_Usage_Freq                                                 0.6422                -0.2844                -0.2956                 0.0193
+AI_Concerns_Opinion=Concerned                                 1.5579                -0.6284                -0.4671                -0.0701
+AI_Concerns_Opinion=Neutral                                  -0.3626                 0.5295                 0.1072                -0.1721
+AI_Concerns_Opinion=Positive                                 -0.7665                -0.0221                 0.2311                 0.1973
+AI_Reliance                                                   0.4626                 0.5679                 -0.066                -0.0169
+Intercept                                                    -8.1424                -2.6759                 0.2915                 0.9145
+
+
+Odds Ratios...
+                                                               Class
+Variable                                           Very Dissatisfied           Dissatisfied                Neutral              Satisfied
+=========================================================================================================================================
+Years_Since_Grad                                              1.5923                 0.8439                 1.0833                 1.1656
+Professional_Status=Currently seeking a job                1078.0369                 4.7358                 1.3528                 1.0898
+Professional_Status=Employed                                 18.4999                 0.5728                 0.5207                 0.6471
+Professional_Status=Founder / Entrepreneur                   12.9355                  0.303                 1.1267                 0.6599
+Professional_Status=Higher studies                                 0                 0.6348                 2.3349                 0.8716
+Professional_Status=Not currently seeking             782275175.4682            907409.4909                 1.5607           1069166.1798
+Univ_Studies_Effect                                           0.9019                 1.4509                 1.3138                 1.2383
+Help_Lecture                                                  1.1782                 0.6477                 1.1065                  0.905
+Help_Lab                                                      1.1644                 0.8263                 0.8406                 1.2848
+Help_Thesis                                                   0.5342                 1.1186                 0.8602                 1.1188
+Help_Club                                                     0.9607                 0.7864                 0.7917                 0.8403
+Help_Alumni                                                   0.5063                 0.9705                 1.0492                 1.2101
+Club_Count                                                    0.5934                 0.5858                 0.8614                 1.0335
+Internship_Exp                                                1.6907                 1.5735                 1.1122                 1.0369
+Projects_Built                                                1.2213                 1.2836                 1.1011                 1.1796
+GitHub_Habit                                                  0.9705                  0.625                  0.904                 0.9679
+Contest_Involvement                                           0.9084                 1.3239                 0.9148                 0.8334
+Problem_Solving                                               1.3008                 1.1946                 0.7829                 1.0476
+Current_Domain=Academia                                       4.6372                 2.7425                 0.3616                 0.6815
+Current_Domain=Cybersecurity                                  1.7137                      0                 1.1078                 0.2588
+Current_Domain=Data Science / ML / AI                              0                  1.679                 0.5595                 1.0693
+Current_Domain=Database Administration                       17.0297                      0                 3.1453                 0.7281
+Current_Domain=Entrepreneurship                               9.6515                 7.0929                 0.4799                 0.4183
+Current_Domain=Government Service                             1.2696                 3.3832                 0.6826                  0.653
+Current_Domain=Networking / DevOps / Cloud                   54.4204                 7.8025                 2.8258                 0.7805
+Current_Domain=Not Applicable                                54.4898  1.3867163307181187E10        7909774711.8622        4077109379.6056
+Current_Domain=Software Engineer                               1.342                 2.5902                 0.9931                 0.9552
+Current_Domain=Web Developer                                  9.8716                 3.2602                 0.9099                 1.3306
+Domain_Switched                                               1.2743                  0.884                 1.0262                 0.9859
+Domain_Shift_Intent                                           0.8661                 2.3885                 1.8008                 1.3362
+AI_Usage_Freq                                                 1.9006                 0.7524                 0.7441                 1.0195
+AI_Concerns_Opinion=Concerned                                  4.749                 0.5335                 0.6268                 0.9323
+AI_Concerns_Opinion=Neutral                                   0.6959                 1.6981                 1.1131                 0.8419
+AI_Concerns_Opinion=Positive                                  0.4646                 0.9782                   1.26                 1.2181
+AI_Reliance                                                   1.5883                 1.7646                 0.9361                 0.9832
+
+
+Time taken to build model: 0.2 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         182               36.9919 %
+Incorrectly Classified Instances       310               63.0081 %
+Kappa statistic                          0.0947
+Mean absolute error                      0.2731
+Root mean squared error                  0.3946
+Relative absolute error                 95.405  %
+Root relative squared error            104.3855 %
+Total Number of Instances              492     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.167    0.044    0.125      0.167    0.143      0.107    0.498     0.066     Very Dissatisfied
+                 0.063    0.035    0.111      0.063    0.080      0.036    0.540     0.087     Dissatisfied
+                 0.297    0.155    0.376      0.297    0.332      0.154    0.624     0.338     Neutral
+                 0.564    0.477    0.422      0.564    0.483      0.084    0.580     0.431     Satisfied
+                 0.265    0.197    0.340      0.265    0.298      0.074    0.576     0.311     Very Satisfied
+Weighted Avg.    0.370    0.278    0.357      0.370    0.357      0.096    0.584     0.340     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   3   3   2   7   3 |   a = Very Dissatisfied
+   3   2   8  12   7 |   b = Dissatisfied
+   8   0  35  56  19 |   c = Neutral
+   4  11  26 106  41 |   d = Satisfied
+   6   2  22  70  36 |   e = Very Satisfied
+
